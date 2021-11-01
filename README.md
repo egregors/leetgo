@@ -9,4 +9,5 @@ LeetCode in Go, just for fun obviously
 * [s0021_merge_two_sorted_lists](/solutions/s0021_merge_two_sorted_lists.go)
 * [s0075_sort_colors](/solutions/s0075_sort_colors.go)
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
+* [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
