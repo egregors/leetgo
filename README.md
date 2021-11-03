@@ -14,3 +14,4 @@ LeetCode in Go, just for fun obviously
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
 * [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
+* [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
