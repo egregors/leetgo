@@ -8,6 +8,7 @@ LeetCode in Go, just for fun obviously
 * [s0013_roman_to_integer](/solutions/s0013_roman_to_integer.go)
 * [s0020_valid_parentheses](/solutions/s0020_valid_parentheses.go)
 * [s0021_merge_two_sorted_lists](/solutions/s0021_merge_two_sorted_lists.go)
+* [s0036_valid_sudoku](/solutions/s0036_valid_sudoku.go)
 * [s0053_maximum_subarray.go](solutions/s0053_maximum_subarray.go)
 * [s0075_sort_colors](/solutions/s0075_sort_colors.go)
 * [s0088_merge_sorted_array](solutions/s0088_merge_sorted_array.go)
