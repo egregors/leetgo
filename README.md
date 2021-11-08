@@ -10,6 +10,7 @@ LeetCode in Go, just for fun obviously
 * [s0021_merge_two_sorted_lists](/solutions/s0021_merge_two_sorted_lists.go)
 * [s0036_valid_sudoku](/solutions/s0036_valid_sudoku.go)
 * [s0053_maximum_subarray.go](solutions/s0053_maximum_subarray.go)
+* [s0074_search_a_2d_matrix](solutions/s0074_search_a_2d_matrix.go)
 * [s0075_sort_colors](/solutions/s0075_sort_colors.go)
 * [s0088_merge_sorted_array](solutions/s0088_merge_sorted_array.go)
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
