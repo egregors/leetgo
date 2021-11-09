@@ -16,6 +16,7 @@ LeetCode in Go, just for fun obviously
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
 * [s0121_best_time_to_buy_and_sell_stock](/solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
+* [s0141_linked_list_cycle](/solutions/s0141_linked_list_cycle.go)
 * [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
