@@ -18,6 +18,7 @@ LeetCode in Go, just for fun obviously
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
 * [s0141_linked_list_cycle](/solutions/s0141_linked_list_cycle.go)
 * [s0203_remove_linked_list_elements](solutions/s0203_remove_linked_list_elements.go)
+* [s0206_reverse_linked_list](solutions/s0206_reverse_linked_list.go)
 * [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
