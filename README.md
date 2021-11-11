@@ -15,6 +15,7 @@ LeetCode in Go, just for fun obviously
 * [s0083_remove_duplicates_from_sorted_list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088_merge_sorted_array](solutions/s0088_merge_sorted_array.go)
 * [s0094_binary_tree_inorder_traversal](solutions/s0094_binary_tree_inorder_traversal.go)
+* [s0101_symmetric_tree](solutions/s0101_symmetric_tree.go)
 * [s0102_binary_tree_level_order_traversal](solutions/s0102_binary_tree_level_order_traversal.go)
 * [s0104_maximum_depth_of_binary_tree](solutions/s0104_maximum_depth_of_binary_tree.go)
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
