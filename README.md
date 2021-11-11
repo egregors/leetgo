@@ -14,6 +14,7 @@ LeetCode in Go, just for fun obviously
 * [s0075_sort_colors](/solutions/s0075_sort_colors.go)
 * [s0083_remove_duplicates_from_sorted_list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088_merge_sorted_array](solutions/s0088_merge_sorted_array.go)
+* [s0094_binary_tree_inorder_traversal](solutions/s0094_binary_tree_inorder_traversal.go)
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
 * [s0121_best_time_to_buy_and_sell_stock](/solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
