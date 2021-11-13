@@ -35,4 +35,5 @@ LeetCode in Go, just for fun obviously
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
 * [s0566_reshape_the_matrix](solutions/s0566_reshape_the_matrix.go)
+* [s0700_search_in_a_binary_search_tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
