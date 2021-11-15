@@ -31,6 +31,7 @@ LeetCode in Go, just for fun obviously
 * [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
 * [s0232_implement_queue_using_stacks](solutions/s0232_implement_queue_using_stacks.go)
+* [s0235_lowest_common_ancestor_of_a_binary_search_tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
 * [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
