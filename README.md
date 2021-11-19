@@ -2,7 +2,7 @@
 
 ![LeetCode user egregors](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fegregors&logo=leetcode&logoColor=yellow) ![progress](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=&query=solvedPercentage&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fegregors)
 
-[2021] LeetCode in Go, just for fun obviously
+LeetCode in Go, just for fun obviously
 
 * [s0001_two_sum](/solutions/s0001_two_sum.go)
 * [s0013_roman_to_integer](/solutions/s0013_roman_to_integer.go)
@@ -33,6 +33,7 @@
 * [s0232_implement_queue_using_stacks](solutions/s0232_implement_queue_using_stacks.go)
 * [s0235_lowest_common_ancestor_of_a_binary_search_tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
+* [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
 * [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
@@ -43,3 +44,4 @@
 * [s0701_insert_into_a_binary_search_tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704_binary_search](solutions/s0704_binary_search.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
+* [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
