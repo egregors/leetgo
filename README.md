@@ -34,6 +34,7 @@ LeetCode in Go, just for fun obviously
 * [s0235_lowest_common_ancestor_of_a_binary_search_tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
 * [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
+* [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
 * [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
@@ -44,4 +45,4 @@ LeetCode in Go, just for fun obviously
 * [s0701_insert_into_a_binary_search_tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704_binary_search](solutions/s0704_binary_search.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
-* [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
+* [s1481_least_number_of_unique_integers_after_k_removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
