@@ -15,44 +15,22 @@
 package solutions
 
 func bs(min, max int, pred func(int) bool) int {
-	mid := (min + max) >> 1
+	var mid int
 	for min <= max {
+		mid = (min + max) >> 1
 		if pred(mid) {
-			return mid
+			max = mid - 1
 		} else {
-			return bs(mid+1, max, pred)
+			min = mid + 1
 		}
 	}
-	return -1
+
+	if pred(mid) {
+		return mid
+	}
+	return mid + 1
 }
 
 func firstBadVersion(n int, isBadVersion func(int) bool) int {
-	// step I: find first bad version
-	// [. . . . . . . . . . . . . . x x x x x x ]
-	// 						^
-	// [ . . . . x x x x x x ]
-	//				 ^
-	// 					max will be first isBad
-	// step II: find first good version
-	// [ . . . . x x x ]
-	// 		   ^
-	// 			  min will be first isGood
-	// step III: just find first isBad
-	// [ . x x x ]
-	//     ^
-	// 		i is answer
-	if n < 10 {
-		for i := 1; i <= n; i++ {
-			if isBadVersion(i) {
-				return i - 1
-			}
-		}
-	}
-	bad := bs(1, n, isBadVersion)
-	for i := bad; i >= 1; i-- {
-		if !isBadVersion(i) {
-			return i + 1
-		}
-	}
-	return -1
+	return bs(1, n, isBadVersion)
 }
