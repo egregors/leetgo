@@ -38,6 +38,7 @@ LeetCode in Go, just for fun obviously
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
 * [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
 * [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
+* [s0283_move_zeroes](solutions/s0283_move_zeroes.go)
 * [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
