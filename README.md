@@ -51,6 +51,7 @@ LeetCode in Go, just for fun obviously
 * [s0700_search_in_a_binary_search_tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s0701_insert_into_a_binary_search_tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704_binary_search](solutions/s0704_binary_search.go)
+* [s0876_middle_of_the_linked_list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0977_squares_of_a_sorted_array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
 * [s1481_least_number_of_unique_integers_after_k_removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
