@@ -2,6 +2,8 @@
 
 ![LeetCode user egregors](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fegregors&logo=leetcode&logoColor=yellow) ![progress](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=&query=solvedPercentage&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fegregors)
 
+[meow](https://leetcode.com/egregors/)
+
 LeetCode in Go, just for fun obviously
 
 * [s0001_two_sum](/solutions/s0001_two_sum.go)
