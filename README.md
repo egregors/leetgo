@@ -50,6 +50,7 @@ LeetCode in Go, just for fun obviously
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
 * [s0557_reverse_words_in_a_string_iii](solutions/s0557_reverse_words_in_a_string_iii.go)
 * [s0566_reshape_the_matrix](solutions/s0566_reshape_the_matrix.go)
+* [s0567_permutation_in_string](solutions/s0567_permutation_in_string.go)
 * [s0653_two_sum_iv_-_input_is_a_bst](/solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
 * [s0668_kth_smallest_number_in_multiplication_table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
 * [s0700_search_in_a_binary_search_tree](solutions/s0700_search_in_a_binary_search_tree.go)
