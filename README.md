@@ -29,6 +29,7 @@ LeetCode in Go, just for fun obviously
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
 * [s0121_best_time_to_buy_and_sell_stock](/solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
+* [s0136_single_number](solutions/s0136_single_number.go)
 * [s0141_linked_list_cycle](/solutions/s0141_linked_list_cycle.go)
 * [s0144_binary_tree_preorder_traversal](solutions/s0144_binary_tree_preorder_traversal.go)
 * [s0145_binary_tree_postorder_traversal](solutions/s0145_binary_tree_postorder_traversal.go)
