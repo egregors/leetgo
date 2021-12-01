@@ -56,6 +56,7 @@ LeetCode in Go, just for fun obviously
 * [s0567_permutation_in_string](solutions/s0567_permutation_in_string.go)
 * [s0653_two_sum_iv_-_input_is_a_bst](/solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
 * [s0668_kth_smallest_number_in_multiplication_table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
+* [s0695_max_area_of_island](solutions/s0695_max_area_of_island.go)
 * [s0700_search_in_a_binary_search_tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s0701_insert_into_a_binary_search_tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704_binary_search](solutions/s0704_binary_search.go)
