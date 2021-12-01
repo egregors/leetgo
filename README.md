@@ -62,6 +62,7 @@ LeetCode in Go, just for fun obviously
 * [s0700_search_in_a_binary_search_tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s0701_insert_into_a_binary_search_tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704_binary_search](solutions/s0704_binary_search.go)
+* [s0706_design_hashmap](solutions/s0706_design_hashmap.go)
 * [s0733_flood_fill](solutions/s0733_flood_fill.go)
 * [s0876_middle_of_the_linked_list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0977_squares_of_a_sorted_array](solutions/s0977_squares_of_a_sorted_array.go)
