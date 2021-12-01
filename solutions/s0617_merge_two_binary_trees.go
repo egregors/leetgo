@@ -29,6 +29,6 @@ func mergeNodesDFS(n1, n2 *TreeNode) *TreeNode {
 	}
 }
 
-func mergeTrees(root1 *TreeNode, root2 *TreeNode) *TreeNode {
+func mergeTrees(root1, root2 *TreeNode) *TreeNode {
 	return mergeNodesDFS(root1, root2)
 }
