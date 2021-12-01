@@ -1,4 +1,4 @@
-module gitlab.com/egregors/leetgo
+module github.com/egregors/leetgo
 
 go 1.17
 
