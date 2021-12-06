@@ -53,6 +53,7 @@ LeetCode in Go, just for fun obviously
 * [s0350_intersection_of_two_arrays_ii](/solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383_ransom_note](/solutions/s0383_ransom_note.go)
 * [s0387_first_unique_character_in_a_string](/solutions/s0387_first_unique_character_in_a_string.go)
+* [s0409_longest_palindrome](solutions/s0409_longest_palindrome.go)
 * [s0415_add_strings](solutions/s0415_add_strings.go)
 * [s0557_reverse_words_in_a_string_iii](solutions/s0557_reverse_words_in_a_string_iii.go)
 * [s0566_reshape_the_matrix](solutions/s0566_reshape_the_matrix.go)
