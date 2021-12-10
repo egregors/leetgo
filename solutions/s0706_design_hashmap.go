@@ -16,41 +16,74 @@
 //nolint:revive //it's ok
 package solutions
 
-type pair struct {
-	fst, snd int
+const SPACE = 2069
+
+type Pair struct {
+	k, v int
 }
 
-type MyHashMap struct {
-	xs []pair
+type Bucket struct {
+	b []Pair
 }
 
-// NewMyHashMap is Constructor for MyHashMap (it must call Constructor for LeetCode)
-func NewMyHashMap() MyHashMap {
-	return MyHashMap{xs: []pair{}}
-}
-
-func (m *MyHashMap) Put(key, value int) {
-	if m.Get(key) != -1 {
-		m.Remove(key)
-	}
-	m.xs = append(m.xs, pair{key, value})
-}
-
-func (m MyHashMap) Get(key int) int {
-	for _, p := range m.xs {
-		if p.fst == key {
-			return p.snd
+func (b Bucket) Get(key int) int {
+	for _, p := range b.b {
+		if p.k == key {
+			return p.v
 		}
 	}
 	return -1
 }
 
-func (m *MyHashMap) Remove(key int) {
-	for i, p := range m.xs {
-		if p.fst == key {
-			m.xs = append(m.xs[:i], m.xs[i+1:]...)
+func (b *Bucket) Update(key, value int) {
+	found := false
+	for i, p := range b.b {
+		if key == p.k {
+			b.b[i] = Pair{key, value}
+			found = true
+			break
 		}
 	}
+
+	if !found {
+		b.b = append(b.b, Pair{key, value})
+	}
+}
+
+func (b *Bucket) Remove(key int) {
+	for i, p := range b.b {
+		if p.k == key {
+			b.b = append(b.b[:i], b.b[i+1:]...)
+		}
+	}
+}
+
+type MyHashMap struct {
+	keySpace  int
+	hashTable []Bucket
+}
+
+// NewMyHashMap is Constructor for MyHashMap (it must call Constructor for LeetCode)
+func NewMyHashMap() MyHashMap {
+	return MyHashMap{
+		keySpace:  SPACE,
+		hashTable: make([]Bucket, SPACE),
+	}
+}
+
+func (m *MyHashMap) Put(key, value int) {
+	hashKey := key % m.keySpace
+	m.hashTable[hashKey].Update(key, value)
+}
+
+func (m MyHashMap) Get(key int) int {
+	hashKey := key % m.keySpace
+	return m.hashTable[hashKey].Get(key)
+}
+
+func (m *MyHashMap) Remove(key int) {
+	hashKey := key % m.keySpace
+	m.hashTable[hashKey].Remove(key)
 }
 
 /**
