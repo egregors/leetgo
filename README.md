@@ -47,6 +47,7 @@ LeetCode in Go, just for fun obviously
 * [s0232_implement_queue_using_stacks](solutions/s0232_implement_queue_using_stacks.go)
 * [s0235_lowest_common_ancestor_of_a_binary_search_tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
+* [s0268_missing_number](solutions/s0268_missing_number.go)
 * [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
 * [s0278_first_bad_version](solutions/s0278_first_bad_version.go)
 * [s0283_move_zeroes](solutions/s0283_move_zeroes.go)
