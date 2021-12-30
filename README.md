@@ -38,6 +38,7 @@ LeetCode in Go, just for fun obviously
 * [s0141_linked_list_cycle](/solutions/s0141_linked_list_cycle.go)
 * [s0144_binary_tree_preorder_traversal](solutions/s0144_binary_tree_preorder_traversal.go)
 * [s0145_binary_tree_postorder_traversal](solutions/s0145_binary_tree_postorder_traversal.go)
+* [s0146_lru_cache](solutions/s0146_lru_cache.go)
 * [s0167_two_sum_ii_-_input_array_is_sorted](solutions/s0167_two_sum_ii_-_input_array_is_sorted.go)
 * [s0169_majority_element](solutions/s0169_majority_element.go)
 * [s0189_rotate_array](solutions/s0189_rotate_array.go)
