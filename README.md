@@ -17,6 +17,7 @@ LeetCode in Go, just for fun obviously
 * [s0035_search_insert_position](solutions/s0035_search_insert_position.go)
 * [s0036_valid_sudoku](/solutions/s0036_valid_sudoku.go)
 * [s0048_rotate_image](solutions/s0048_rotate_image.go)
+* [s0049_group_anagrams](solutions/s0049_group_anagrams.go)
 * [s0053_maximum_subarray.go](solutions/s0053_maximum_subarray.go)
 * [s0056_merge_intervals](solutions/s0056_merge_intervals.go)
 * [s0074_search_a_2d_matrix](solutions/s0074_search_a_2d_matrix.go)
