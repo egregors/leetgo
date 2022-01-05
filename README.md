@@ -16,6 +16,7 @@ LeetCode in Go, just for fun obviously
 * [s0026_remove_duplicates_from_sorted_array](/solutions/s0026_remove_duplicates_from_sorted_array.go)
 * [s0035_search_insert_position](solutions/s0035_search_insert_position.go)
 * [s0036_valid_sudoku](/solutions/s0036_valid_sudoku.go)
+* [s0046_permutations](solutions/s0046_permutations.go)
 * [s0048_rotate_image](solutions/s0048_rotate_image.go)
 * [s0049_group_anagrams](solutions/s0049_group_anagrams.go)
 * [s0053_maximum_subarray.go](solutions/s0053_maximum_subarray.go)
