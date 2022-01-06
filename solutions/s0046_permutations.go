@@ -6,7 +6,8 @@
 
 package solutions
 
-func backtrack(n int, nums []int, output *[][]int, first int) {
+func backtrack(output *[][]int, nums []int, first int) {
+	n := len(nums)
 	if first == n {
 		nextNums := make([]int, len(nums))
 		copy(nextNums, nums)
@@ -15,13 +16,13 @@ func backtrack(n int, nums []int, output *[][]int, first int) {
 	}
 	for i := first; i < n; i++ {
 		nums[first], nums[i] = nums[i], nums[first]
-		backtrack(n, nums, output, first+1)
+		backtrack(output, nums, first+1)
 		nums[first], nums[i] = nums[i], nums[first]
 	}
 }
 
 func permute(nums []int) [][]int {
 	var output [][]int
-	backtrack(len(nums), nums, &output, 0)
+	backtrack(&output, nums, 0)
 	return output
 }
