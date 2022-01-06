@@ -6,23 +6,29 @@
 
 package solutions
 
-func backtrack(output *[][]int, nums []int, first int) {
-	n := len(nums)
-	if first == n {
-		nextNums := make([]int, len(nums))
-		copy(nextNums, nums)
-		*output = append(*output, nextNums)
-		return
+func bt46(res *[][]int, buf []int, seen map[int]bool, nums []int) {
+	if len(buf) == len(nums) {
+		cp := make([]int, len(buf))
+		copy(cp, buf)
+		*res = append(*res, cp)
 	}
-	for i := first; i < n; i++ {
-		nums[first], nums[i] = nums[i], nums[first]
-		backtrack(output, nums, first+1)
-		nums[first], nums[i] = nums[i], nums[first]
+
+	// 1 2 3
+	for i := 0; i < len(nums); i++ {
+		if seen[i] {
+			continue
+		}
+
+		seen[i] = true
+		buf = append(buf, nums[i])
+		bt46(res, buf, seen, nums)
+		buf = buf[:len(buf)-1]
+		seen[i] = false
 	}
 }
 
 func permute(nums []int) [][]int {
-	var output [][]int
-	backtrack(&output, nums, 0)
-	return output
+	var res [][]int
+	bt46(&res, []int{}, make(map[int]bool), nums)
+	return res
 }
