@@ -76,6 +76,7 @@ LeetCode in Go, just for fun obviously
 * [s0704_binary_search](solutions/s0704_binary_search.go)
 * [s0706_design_hashmap](solutions/s0706_design_hashmap.go)
 * [s0733_flood_fill](solutions/s0733_flood_fill.go)
+* [s0784_letter_case_permutation](solutions/s0784_letter_case_permutation.go)
 * [s0876_middle_of_the_linked_list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0977_squares_of_a_sorted_array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s0994_rotting_oranges](solutions/s0994_rotting_oranges.go)
