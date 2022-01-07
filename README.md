@@ -21,6 +21,7 @@ LeetCode in Go, just for fun obviously
 * [s0049_group_anagrams](solutions/s0049_group_anagrams.go)
 * [s0053_maximum_subarray.go](solutions/s0053_maximum_subarray.go)
 * [s0056_merge_intervals](solutions/s0056_merge_intervals.go)
+* [s0070_climbing_stairs](solutions/s0070_climbing_stairs.go)
 * [s0074_search_a_2d_matrix](solutions/s0074_search_a_2d_matrix.go)
 * [s0075_sort_colors](/solutions/s0075_sort_colors.go)
 * [s0077_combinations](solutions/s0077_combinations.go)
