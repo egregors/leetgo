@@ -36,6 +36,7 @@ LeetCode in Go, just for fun obviously
 * [s0116_populating_next_right_pointers_in_each_node](solutions/s0116_populating_next_right_pointers_in_each_node.go)
 * [s0118_pascals_triangle](solutions/s0118_pascals_triangle.go)
 * [s0119_pascals_triangle_ii](solutions/s0119_pascals_triangle_ii.go)
+* [s0120_triangle](solutions/s0120_triangle.go)
 * [s0121_best_time_to_buy_and_sell_stock](/solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0130_surrounded_regions](/solutions/s0130_surrounded_regions.go)
 * [s0136_single_number](solutions/s0136_single_number.go)
