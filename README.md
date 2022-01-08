@@ -53,6 +53,7 @@ LeetCode in Go, just for fun obviously
 * [s0206_reverse_linked_list](solutions/s0206_reverse_linked_list.go)
 * [s0217_contains_duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](/solutions/s0226_invert_binary_tree.go)
+* [s0231_power_of_two](solutions/s0231_power_of_two.go)
 * [s0232_implement_queue_using_stacks](solutions/s0232_implement_queue_using_stacks.go)
 * [s0235_lowest_common_ancestor_of_a_binary_search_tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0242_valid_anagram](/solutions/s0242_valid_anagram.go)
