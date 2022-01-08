@@ -48,6 +48,7 @@ LeetCode in Go, just for fun obviously
 * [s0167_two_sum_ii_-_input_array_is_sorted](solutions/s0167_two_sum_ii_-_input_array_is_sorted.go)
 * [s0169_majority_element](solutions/s0169_majority_element.go)
 * [s0189_rotate_array](solutions/s0189_rotate_array.go)
+* [s0190_reverse_bits](solutions/s0190_reverse_bits.go)
 * [s0198_house_robber](solutions/s0198_house_robber.go)
 * [s0203_remove_linked_list_elements](solutions/s0203_remove_linked_list_elements.go)
 * [s0206_reverse_linked_list](solutions/s0206_reverse_linked_list.go)
