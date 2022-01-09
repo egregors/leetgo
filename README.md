@@ -89,3 +89,4 @@ LeetCode in Go, just for fun obviously
 * [s1046_last_stone_weight](solutions/s1046_last_stone_weight.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
 * [s1481_least_number_of_unique_integers_after_k_removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
+* [s2114_maximum_number_of_words_found_in_sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
