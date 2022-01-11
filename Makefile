@@ -5,13 +5,18 @@ GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 
 .PHONY: all lint test
 
-all: lint test
+all: lint test updateReadme
 
 lint:  ## Lint the files
+	@echo "Linting ..."
 	@golangci-lint run --config .golangci.yml ./...
 
 test:  ## Run unittests
+	@echo "Testing ..."
 	@go test -short ${PKG_LIST}
+
+updateReadme:  ## Update problems\solutions list in README.md
+	@go run ./main.go
 
 ## Help
 
