@@ -87,6 +87,7 @@ LeetCode in Go, just for fun obviously
 * [s0876_middle_of_the_linked_list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0977_squares_of_a_sorted_array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s0994_rotting_oranges](solutions/s0994_rotting_oranges.go)
+* [s1022_sum_of_root_to_leaf_binary_numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046_last_stone_weight](solutions/s1046_last_stone_weight.go)
 * [s1342_number_of_steps_to_reduce_a_number_to_zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
 * [s1481_least_number_of_unique_integers_after_k_removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
