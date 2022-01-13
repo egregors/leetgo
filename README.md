@@ -76,6 +76,7 @@ LeetCode in Go, just for fun obviously
 * [s0409 longest palindrome](solutions/s0409_longest_palindrome.go)
 * [s0415 add strings](solutions/s0415_add_strings.go)
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
+* [s0452 Minimum Number of Arrows to Burst Balloons](solutions/s0452_Minimum_Number_of_Arrows_to_Burst_Balloons.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
 * [s0557 reverse words in a string iii](solutions/s0557_reverse_words_in_a_string_iii.go)
 * [s0560 subarray sum equals k](solutions/s0560_subarray_sum_equals_k.go)
