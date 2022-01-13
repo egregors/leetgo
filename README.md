@@ -78,6 +78,7 @@ LeetCode in Go, just for fun obviously
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
 * [s0557 reverse words in a string iii](solutions/s0557_reverse_words_in_a_string_iii.go)
+* [s0560 subarray sum equals k](solutions/s0560_subarray_sum_equals_k.go)
 * [s0566 reshape the matrix](solutions/s0566_reshape_the_matrix.go)
 * [s0567 permutation in string](solutions/s0567_permutation_in_string.go)
 * [s0617 merge two binary trees](solutions/s0617_merge_two_binary_trees.go)
