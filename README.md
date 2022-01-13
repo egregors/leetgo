@@ -68,6 +68,7 @@ LeetCode in Go, just for fun obviously
 * [s0278 first bad version](solutions/s0278_first_bad_version.go)
 * [s0283 move zeroes](solutions/s0283_move_zeroes.go)
 * [s0290 word pattern](solutions/s0290_word_pattern.go)
+* [s0334 increasing triplet subsequence](solutions/s0334_increasing_triplet_subsequence.go)
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383 ransom note](solutions/s0383_ransom_note.go)
