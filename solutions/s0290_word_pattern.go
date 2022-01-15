@@ -20,20 +20,21 @@ func wordPattern(pattern, s string) bool {
 		return false
 	}
 
-	m := make(map[string]int, wordsLen)
+	seenPattern := make(map[string]int, wordsLen)
+	seenWords := make(map[string]int, wordsLen)
 
 	for i := 0; i < wordsLen; i++ {
 		ch := string(pattern[i])
 		w := words[i]
 
-		if _, ok := m[ch]; !ok {
-			m[ch] = i
+		if _, ok := seenPattern[ch]; !ok {
+			seenPattern[ch] = i
 		}
-		if _, ok := m[w]; !ok {
-			m[w] = i
+		if _, ok := seenWords[w]; !ok {
+			seenWords[w] = i
 		}
 
-		if m[ch] != m[w] {
+		if seenPattern[ch] != seenWords[w] {
 			return false
 		}
 	}
