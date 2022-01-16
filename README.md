@@ -94,6 +94,7 @@ LeetCode in Go, just for fun obviously
 * [s0704 binary search](solutions/s0704_binary_search.go)
 * [s0706 design hashmap](solutions/s0706_design_hashmap.go)
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
+* [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0977 squares of a sorted array](solutions/s0977_squares_of_a_sorted_array.go)
