@@ -19,6 +19,7 @@ LeetCode in Go, just for fun obviously
 * [s0026 remove duplicates from sorted array](solutions/s0026_remove_duplicates_from_sorted_array.go)
 * [s0035 search insert position](solutions/s0035_search_insert_position.go)
 * [s0036 valid sudoku](solutions/s0036_valid_sudoku.go)
+* [s0043 multiply strings](solutions/s0043_multiply_strings.go)
 * [s0046 permutations](solutions/s0046_permutations.go)
 * [s0048 rotate image](solutions/s0048_rotate_image.go)
 * [s0049 group anagrams](solutions/s0049_group_anagrams.go)
