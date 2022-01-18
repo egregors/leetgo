@@ -1,12 +1,14 @@
 package solutions
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_deleteDuplicates(t *testing.T) {
-	fmt.Println(deleteDuplicates(&ListNode{
+
+	assert.Equal(t, 2, LinkedListLen(deleteDuplicates(&ListNode{
 		Val: 1,
 		Next: &ListNode{
 			Val: 1,
@@ -15,9 +17,9 @@ func Test_deleteDuplicates(t *testing.T) {
 				Next: nil,
 			},
 		},
-	}))
+	})))
 
-	fmt.Println(deleteDuplicates(&ListNode{
+	assert.Equal(t, 3, LinkedListLen(deleteDuplicates(&ListNode{
 		Val: 1,
 		Next: &ListNode{
 			Val: 1,
@@ -32,6 +34,5 @@ func Test_deleteDuplicates(t *testing.T) {
 				},
 			},
 		},
-	}))
-
+	})))
 }
