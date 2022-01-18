@@ -20,14 +20,6 @@
 //nolint:revive // Das ist Ok
 package solutions
 
-// Node is just a node but with Next field
-type Node struct {
-	Val   int
-	Left  *Node
-	Right *Node
-	Next  *Node
-}
-
 type Queue struct {
 	xs []*Node
 }

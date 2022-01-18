@@ -36,11 +36,6 @@ func intSliceToList(xs []int) *ListNode {
 	return r
 }
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func (l ListNode) String() string {
 	next := "nil"
 	if l.Next != nil {
