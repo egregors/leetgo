@@ -49,6 +49,7 @@ LeetCode in Go, just for fun obviously
 * [s0130 surrounded regions](solutions/s0130_surrounded_regions.go)
 * [s0136 single number](solutions/s0136_single_number.go)
 * [s0141 linked list cycle](solutions/s0141_linked_list_cycle.go)
+* [s0142 linked list cycle ii](solutions/s0142_linked_list_cycle_ii.go)
 * [s0144 binary tree preorder traversal](solutions/s0144_binary_tree_preorder_traversal.go)
 * [s0145 binary tree postorder traversal](solutions/s0145_binary_tree_postorder_traversal.go)
 * [s0146 lru cache](solutions/s0146_lru_cache.go)
