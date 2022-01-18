@@ -6,15 +6,17 @@
 
 package solutions
 
-func rev(n, prev *ListNode) *ListNode {
-	if n == nil {
-		return prev
+func rev(n *ListNode) *ListNode {
+	var prev, curr, next *ListNode = nil, n, nil //nolint:ineffassign // meh
+	for curr != nil {
+		next = curr.Next
+		curr.Next = prev
+		prev = curr
+		curr = next
 	}
-	next := n.Next
-	n.Next = prev
-	return rev(next, n)
+	return prev
 }
 
 func reverseList(head *ListNode) *ListNode {
-	return rev(head, nil)
+	return rev(head)
 }
