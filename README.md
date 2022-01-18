@@ -9,6 +9,7 @@ LeetCode in Go, just for fun obviously
 ## Problems
 
 * [s0001 two sum](solutions/s0001_two_sum.go)
+* [s0002 add two numbers](solutions/s0002_add_two_numbers.go)
 * [s0003 longest substring without repeating characters](solutions/s0003_longest_substring_without_repeating_characters.go)
 * [s0005 longest palindromic substring](solutions/s0005_longest_palindromic_substring.go)
 * [s0008 string to integer (atoi)](solutions/s0008_string_to_integer_(atoi).go)
