@@ -33,6 +33,7 @@ LeetCode in Go, just for fun obviously
 * [s0074 search a 2d matrix](solutions/s0074_search_a_2d_matrix.go)
 * [s0075 sort colors](solutions/s0075_sort_colors.go)
 * [s0077 combinations](solutions/s0077_combinations.go)
+* [s0082 remove duplicates from sorted list ii](solutions/s0082_remove_duplicates_from_sorted_list_ii.go)
 * [s0083 remove duplicates from sorted list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088 merge sorted array](solutions/s0088_merge_sorted_array.go)
 * [s0094 binary tree inorder traversal](solutions/s0094_binary_tree_inorder_traversal.go)

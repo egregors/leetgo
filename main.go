@@ -46,7 +46,8 @@ func UpdateReadMe() {
 
 func getSolutionsList() (names []string, err error) {
 	err = filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, err error) error {
-		if !strings.Contains(path, "test") {
+		// todo: make some excluding mechanism to prevent adding non solutions files in README
+		if !strings.Contains(path, "test") && !strings.Contains(path, "utils") {
 			words := strings.Split(path, "/")
 			problemName := strings.Split(words[1], ".")[0]
 			problemName = "* [" + strings.Replace(problemName, "_", " ", -1) + "](" + path + ")"
