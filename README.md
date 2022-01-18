@@ -87,6 +87,7 @@ LeetCode in Go, just for fun obviously
 * [s0560 subarray sum equals k](solutions/s0560_subarray_sum_equals_k.go)
 * [s0566 reshape the matrix](solutions/s0566_reshape_the_matrix.go)
 * [s0567 permutation in string](solutions/s0567_permutation_in_string.go)
+* [s0605 can place flowers](solutions/s0605_can_place_flowers.go)
 * [s0617 merge two binary trees](solutions/s0617_merge_two_binary_trees.go)
 * [s0622 design circular queue](solutions/s0622_design_circular_queue.go)
 * [s0653 two sum iv - input is a bst](solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
