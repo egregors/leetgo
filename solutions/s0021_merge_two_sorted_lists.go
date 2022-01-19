@@ -9,10 +9,6 @@
 //nolint:revive // it's ok
 package solutions
 
-import (
-	"fmt"
-)
-
 func intSliceToList(xs []int) *ListNode {
 	if len(xs) == 0 {
 		return nil
@@ -34,14 +30,6 @@ func intSliceToList(xs []int) *ListNode {
 	}
 
 	return r
-}
-
-func (l ListNode) String() string {
-	next := "nil"
-	if l.Next != nil {
-		next = l.Next.String()
-	}
-	return fmt.Sprintf("%d -> %s", l.Val, next)
 }
 
 func mergeTwoLists(l1, l2 *ListNode) *ListNode {
