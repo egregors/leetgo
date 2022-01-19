@@ -101,6 +101,7 @@ LeetCode in Go, just for fun obviously
 * [s0701 insert into a binary search tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0704 binary search](solutions/s0704_binary_search.go)
 * [s0706 design hashmap](solutions/s0706_design_hashmap.go)
+* [s0707 design linked list](solutions/s0707_design_linked_list.go)
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
