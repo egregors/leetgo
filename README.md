@@ -19,6 +19,7 @@ LeetCode in Go, just for fun obviously
 * [s0020 valid parentheses](solutions/s0020_valid_parentheses.go)
 * [s0021 merge two sorted lists](solutions/s0021_merge_two_sorted_lists.go)
 * [s0024 swap nodes in pairs](solutions/s0024_swap_nodes_in_pairs.go)
+* [s0025 reverse nodes in k-group](solutions/s0025_reverse_nodes_in_k-group.go)
 * [s0026 remove duplicates from sorted array](solutions/s0026_remove_duplicates_from_sorted_array.go)
 * [s0035 search insert position](solutions/s0035_search_insert_position.go)
 * [s0036 valid sudoku](solutions/s0036_valid_sudoku.go)
