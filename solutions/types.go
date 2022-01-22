@@ -35,9 +35,13 @@ type Node struct {
 	Next  *Node
 }
 
-// TreeNode just a node
+// TreeNode just a node of binary tree
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
+}
+
+func (t TreeNode) String() string {
+	return fmt.Sprintf("%d %s %s", t.Val, t.Left, t.Right)
 }
