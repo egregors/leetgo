@@ -42,6 +42,7 @@ LeetCode in Go, just for fun obviously
 * [s0098 validate binary search tree](solutions/s0098_validate_binary_search_tree.go)
 * [s0101 symmetric tree](solutions/s0101_symmetric_tree.go)
 * [s0102 binary tree level order traversal](solutions/s0102_binary_tree_level_order_traversal.go)
+* [s0103 binary tree zigzag level order traversal](solutions/s0103_binary_tree_zigzag_level_order_traversal.go)
 * [s0104 maximum depth of binary tree](solutions/s0104_maximum_depth_of_binary_tree.go)
 * [s0108 convert sorted array to binary search tree](solutions/s0108_convert_sorted_array_to_binary_search_tree.go)
 * [s0112 path sum](solutions/s0112_path_sum.go)
