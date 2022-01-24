@@ -45,6 +45,7 @@ LeetCode in Go, just for fun obviously
 * [s0104 maximum depth of binary tree](solutions/s0104_maximum_depth_of_binary_tree.go)
 * [s0108 convert sorted array to binary search tree](solutions/s0108_convert_sorted_array_to_binary_search_tree.go)
 * [s0112 path sum](solutions/s0112_path_sum.go)
+* [s0113 path sum ii](solutions/s0113_path_sum_ii.go)
 * [s0116 populating next right pointers in each node](solutions/s0116_populating_next_right_pointers_in_each_node.go)
 * [s0118 pascals triangle](solutions/s0118_pascals_triangle.go)
 * [s0119 pascals triangle ii](solutions/s0119_pascals_triangle_ii.go)
