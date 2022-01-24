@@ -66,6 +66,7 @@ LeetCode in Go, just for fun obviously
 * [s0189 rotate array](solutions/s0189_rotate_array.go)
 * [s0190 reverse bits](solutions/s0190_reverse_bits.go)
 * [s0198 house robber](solutions/s0198_house_robber.go)
+* [s0199 binary tree right side view](solutions/s0199_binary_tree_right_side_view.go)
 * [s0203 remove linked list elements](solutions/s0203_remove_linked_list_elements.go)
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
 * [s0217 contains duplicate](solutions/s0217_contains_duplicate.go)
