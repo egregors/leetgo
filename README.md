@@ -72,6 +72,7 @@ LeetCode in Go, just for fun obviously
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
 * [s0217 contains duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](solutions/s0226_invert_binary_tree.go)
+* [s0230 kth smallest element in a bst](solutions/s0230_kth_smallest_element_in_a_bst.go)
 * [s0231 power of two](solutions/s0231_power_of_two.go)
 * [s0232 implement queue using stacks](solutions/s0232_implement_queue_using_stacks.go)
 * [s0235 lowest common ancestor of a binary search tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
