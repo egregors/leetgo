@@ -72,6 +72,7 @@ LeetCode in Go, just for fun obviously
 * [s0199 binary tree right side view](solutions/s0199_binary_tree_right_side_view.go)
 * [s0203 remove linked list elements](solutions/s0203_remove_linked_list_elements.go)
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
+* [s0215 kth largest element in an array](solutions/s0215_kth_largest_element_in_an_array.go)
 * [s0217 contains duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](solutions/s0226_invert_binary_tree.go)
 * [s0230 kth smallest element in a bst](solutions/s0230_kth_smallest_element_in_a_bst.go)
