@@ -137,3 +137,20 @@ func (t *TreeNode) serialize(q []*TreeNode) []string {
 	}
 	return append(level, leveDfs(nextQ)...)
 }
+
+// IntHeap Heap implementation for Ints
+type IntHeap []int
+
+func (h IntHeap) Len() int           { return len(h) }
+func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] }
+func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+
+// Push adds element into heap
+func (h *IntHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
+
+// Pop removes the most small element of the heap from the heap end returns this element
+func (h *IntHeap) Pop() interface{} {
+	x := (*h)[h.Len()-1]
+	*h = (*h)[:h.Len()-1]
+	return x
+}
