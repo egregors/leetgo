@@ -91,6 +91,7 @@ LeetCode in Go, just for fun obviously
 * [s0304 range sum query 2d - immutable](solutions/s0304_range_sum_query_2d_-_immutable.go)
 * [s0334 increasing triplet subsequence](solutions/s0334_increasing_triplet_subsequence.go)
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
+* [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383 ransom note](solutions/s0383_ransom_note.go)
 * [s0387 first unique character in a string](solutions/s0387_first_unique_character_in_a_string.go)
