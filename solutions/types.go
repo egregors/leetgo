@@ -2,9 +2,18 @@ package solutions
 
 import (
 	"fmt"
-	"strconv"
-	"strings"
+
+	tn "github.com/egregors/TreeNode"
 )
+
+// TreeNode is just tn.TreeNode to save back compatibility
+type TreeNode = tn.TreeNode
+
+// NewTreeNode creates a new TreeNode, ignores errors
+func NewTreeNode(data string) *TreeNode {
+	n, _ := tn.NewTreeNode(data)
+	return n
+}
 
 // ListNode is licked list
 type ListNode struct {
@@ -37,105 +46,6 @@ type Node struct {
 	Left  *Node
 	Right *Node
 	Next  *Node
-}
-
-// TreeNode just a node of binary tree
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
-// NewTreeNode builds a TreeNode tree from LeetCode-style string representation
-func NewTreeNode(data string) *TreeNode {
-	if len(data) < 3 {
-		return nil
-	}
-
-	data = strings.TrimSuffix(strings.TrimPrefix(data, "["), "]")
-	nodes := strings.Split(data, ",")
-
-	rootVal, _ := strconv.Atoi(nodes[0])
-	root := &TreeNode{rootVal, nil, nil}
-
-	buildTreeNode([]*TreeNode{root}, nodes[1:])
-	return root
-}
-
-func buildTreeNode(q []*TreeNode, all []string) {
-	if len(all) == 0 {
-		return
-	}
-	var nextQ []*TreeNode
-
-	for len(q) > 0 {
-		n := q[0]
-		q = q[1:]
-
-		if n == nil {
-			continue
-		}
-
-		l, r := all[0], all[1]
-		all = all[2:]
-		lVal, lErr := strconv.Atoi(l)
-		rVal, rErr := strconv.Atoi(r)
-
-		if lErr != nil {
-			nextQ = append(nextQ, nil)
-		} else {
-			left := &TreeNode{
-				lVal,
-				nil,
-				nil,
-			}
-			n.Left = left
-			nextQ = append(nextQ, left)
-		}
-
-		if rErr != nil {
-			nextQ = append(nextQ, nil)
-		} else {
-			right := &TreeNode{
-				rVal,
-				nil,
-				nil,
-			}
-			n.Right = right
-			nextQ = append(nextQ, right)
-		}
-	}
-
-	buildTreeNode(nextQ, all)
-}
-
-func (t TreeNode) String() string {
-	return fmt.Sprintf("[%s]", strings.Join(t.serialize([]*TreeNode{&t}), ","))
-}
-
-func (t *TreeNode) serialize(q []*TreeNode) []string {
-	if len(q) == 0 {
-		return []string{}
-	}
-	var nextQ []*TreeNode
-	var level []string
-	var isLevelValid bool
-
-	for len(q) > 0 {
-		n := q[0]
-		q = q[1:]
-		if n == nil {
-			level = append(level, "null")
-			continue
-		}
-		level = append(level, strconv.Itoa(n.Val))
-		isLevelValid = true
-		nextQ = append(nextQ, n.Left, n.Right)
-	}
-	if !isLevelValid {
-		level = []string{}
-	}
-	return append(level, leveDfs(nextQ)...)
 }
 
 // IntHeap Heap implementation for Ints
