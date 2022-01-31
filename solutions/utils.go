@@ -21,6 +21,17 @@ func Minimum(xs ...int) int {
 	return min
 }
 
+// Maximum returns maximum element of Int slice
+func Maximum(xs ...int) int {
+	max := -1 << 31
+	for _, x := range xs {
+		if x > max {
+			max = x
+		}
+	}
+	return max
+}
+
 // RemoveFromIntSlice removes k-th element of Int slice in-place
 // todo: wanna move to go2 with generics
 func RemoveFromIntSlice(xs *[]int, k int) {
