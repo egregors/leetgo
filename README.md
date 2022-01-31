@@ -132,5 +132,6 @@ LeetCode in Go, just for fun obviously
 * [s1342 number of steps to reduce a number to zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
+* [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
