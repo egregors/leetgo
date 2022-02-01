@@ -3,9 +3,9 @@ PKG := "github.com/egregors/$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 
-.PHONY: all lint test
+.PHONY: all lint test update-readme update-go-deps
 
-all: lint test updateReadme
+all: lint test update-readme
 
 lint:  ## Lint the files
 	@echo "Linting ..."
@@ -15,8 +15,20 @@ test:  ## Run unittests
 	@echo "Testing ..."
 	@go test -short ${PKG_LIST}
 
-updateReadme:  ## Update problems\solutions list in README.md
+update-readme:  ## Update problems\solutions list in README.md
 	@go run ./main.go
+
+## Deps
+
+update-go-deps:  ## Updating Go dependencies
+	@echo ">> updating Go dependencies"
+	@for m in $$(go list -mod=readonly -m -f '{{ if and (not .Indirect) (not .Main)}}{{.Path}}{{end}}' all); do \
+		go get $$m; \
+	done
+	go mod tidy
+ifneq (,$(wildcard vendor))
+	go mod vendor
+endif
 
 ## Help
 
