@@ -66,6 +66,7 @@ LeetCode in Go, just for fun obviously
 * [s0153 find minimum in rotated sorted array](solutions/s0153_find_minimum_in_rotated_sorted_array.go)
 * [s0155 Min Stack](solutions/s0155_Min_Stack.go)
 * [s0160 intersection of two linked lists](solutions/s0160_intersection_of_two_linked_lists.go)
+* [s0162 find peak element](solutions/s0162_find_peak_element.go)
 * [s0167 two sum ii - input array is sorted](solutions/s0167_two_sum_ii_-_input_array_is_sorted.go)
 * [s0169 majority element](solutions/s0169_majority_element.go)
 * [s0173 binary search tree iterator](solutions/s0173_binary_search_tree_iterator.go)
