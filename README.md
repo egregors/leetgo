@@ -131,6 +131,7 @@ LeetCode in Go, just for fun obviously
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
 * [s0977 squares of a sorted array](solutions/s0977_squares_of_a_sorted_array.go)
+* [s0986 interval list intersections](solutions/s0986_interval_list_intersections.go)
 * [s0994 rotting oranges](solutions/s0994_rotting_oranges.go)
 * [s0997 find the town judge](solutions/s0997_find_the_town_judge.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
