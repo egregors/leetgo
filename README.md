@@ -76,6 +76,7 @@ LeetCode in Go, just for fun obviously
 * [s0190 reverse bits](solutions/s0190_reverse_bits.go)
 * [s0198 house robber](solutions/s0198_house_robber.go)
 * [s0199 binary tree right side view](solutions/s0199_binary_tree_right_side_view.go)
+* [s0200 number of islands](solutions/s0200_number_of_islands.go)
 * [s0203 remove linked list elements](solutions/s0203_remove_linked_list_elements.go)
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
 * [s0209 minimum size subarray sum](solutions/s0209_minimum_size_subarray_sum.go)
