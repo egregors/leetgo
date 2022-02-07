@@ -132,6 +132,7 @@ LeetCode in Go, just for fun obviously
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
+* [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
