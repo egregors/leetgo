@@ -104,6 +104,7 @@ LeetCode in Go, just for fun obviously
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0383 ransom note](solutions/s0383_ransom_note.go)
 * [s0387 first unique character in a string](solutions/s0387_first_unique_character_in_a_string.go)
+* [s0389 find the difference](solutions/s0389_find_the_difference.go)
 * [s0409 longest palindrome](solutions/s0409_longest_palindrome.go)
 * [s0415 add strings](solutions/s0415_add_strings.go)
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
