@@ -52,6 +52,7 @@ LeetCode in Go, just for fun obviously
 * [s0112 path sum](solutions/s0112_path_sum.go)
 * [s0113 path sum ii](solutions/s0113_path_sum_ii.go)
 * [s0116 populating next right pointers in each node](solutions/s0116_populating_next_right_pointers_in_each_node.go)
+* [s0117 populating next right pointers in each node ii](solutions/s0117_populating_next_right_pointers_in_each_node_ii.go)
 * [s0118 pascals triangle](solutions/s0118_pascals_triangle.go)
 * [s0119 pascals triangle ii](solutions/s0119_pascals_triangle_ii.go)
 * [s0120 triangle](solutions/s0120_triangle.go)
