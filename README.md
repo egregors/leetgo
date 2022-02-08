@@ -92,6 +92,7 @@ LeetCode in Go, just for fun obviously
 * [s0238 product of array except self](solutions/s0238_product_of_array_except_self.go)
 * [s0240 search a 2d matrix ii](solutions/s0240_search_a_2d_matrix_ii.go)
 * [s0242 valid anagram](solutions/s0242_valid_anagram.go)
+* [s0258 add digits](solutions/s0258_add_digits.go)
 * [s0268 missing number](solutions/s0268_missing_number.go)
 * [s0278 first bad version](solutions/s0278_first_bad_version.go)
 * [s0283 move zeroes](solutions/s0283_move_zeroes.go)
