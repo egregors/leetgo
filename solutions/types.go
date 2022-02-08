@@ -15,6 +15,28 @@ func NewTreeNode(data string) *TreeNode {
 	return n
 }
 
+// TreeNodeQ is FIFO queue for TreeNode's
+type TreeNodeQ []*TreeNode
+
+// Len return amount of nodes in the queue
+func (q *TreeNodeQ) Len() int { return len(*q) }
+
+// IsEmpty return false if queue has no nodes
+func (q *TreeNodeQ) IsEmpty() bool { return q.Len() == 0 }
+
+// Push adds a node into the queue
+func (q *TreeNodeQ) Push(nodes ...*TreeNode) { *q = append(*q, nodes...) }
+
+// Pop dequeued a node from the queue
+func (q *TreeNodeQ) Pop() *TreeNode {
+	var n *TreeNode
+	if !q.IsEmpty() {
+		n = (*q)[0]
+		*q = (*q)[1:]
+	}
+	return n
+}
+
 // ListNode is licked list
 type ListNode struct {
 	Val  int

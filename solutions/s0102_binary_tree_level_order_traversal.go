@@ -8,28 +8,10 @@
 //nolint:revive // Das ist OK
 package solutions
 
-type Q struct {
-	xs []*TreeNode
-}
-
-func (q *Q) Push(n *TreeNode) {
-	q.xs = append(q.xs, n)
-}
-
-func (q *Q) Pop() *TreeNode {
-	el := q.xs[0]
-	q.xs = q.xs[1:]
-	return el
-}
-
-func (q Q) IsEmpty() bool {
-	return len(q.xs) == 0
-}
-
-func bfs(q *Q) [][]int {
+func bfs(q *TreeNodeQ) [][]int {
 	var lineRes []int
 	var res [][]int
-	var nextQ Q
+	var nextQ TreeNodeQ
 
 	if q == nil {
 		return [][]int{{}}
@@ -55,5 +37,5 @@ func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return nil
 	}
-	return bfs(&Q{xs: []*TreeNode{root}})
+	return bfs(&TreeNodeQ{root})
 }
