@@ -42,6 +42,7 @@ LeetCode in Go, just for fun obviously
 * [s0082 remove duplicates from sorted list ii](solutions/s0082_remove_duplicates_from_sorted_list_ii.go)
 * [s0083 remove duplicates from sorted list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088 merge sorted array](solutions/s0088_merge_sorted_array.go)
+* [s0090 subsets ii](solutions/s0090_subsets_ii.go)
 * [s0094 binary tree inorder traversal](solutions/s0094_binary_tree_inorder_traversal.go)
 * [s0098 validate binary search tree](solutions/s0098_validate_binary_search_tree.go)
 * [s0101 symmetric tree](solutions/s0101_symmetric_tree.go)
