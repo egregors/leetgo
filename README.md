@@ -42,6 +42,7 @@ LeetCode in Go, just for fun obviously
 * [s0075 sort colors](solutions/s0075_sort_colors.go)
 * [s0077 combinations](solutions/s0077_combinations.go)
 * [s0078 subsets](solutions/s0078_subsets.go)
+* [s0079 word search](solutions/s0079_word_search.go)
 * [s0082 remove duplicates from sorted list ii](solutions/s0082_remove_duplicates_from_sorted_list_ii.go)
 * [s0083 remove duplicates from sorted list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088 merge sorted array](solutions/s0088_merge_sorted_array.go)
