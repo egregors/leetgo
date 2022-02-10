@@ -28,6 +28,7 @@ LeetCode in Go, just for fun obviously
 * [s0035 search insert position](solutions/s0035_search_insert_position.go)
 * [s0036 valid sudoku](solutions/s0036_valid_sudoku.go)
 * [s0039 combination sum](solutions/s0039_combination_sum.go)
+* [s0040 combination sum ii](solutions/s0040_combination_sum_ii.go)
 * [s0043 multiply strings](solutions/s0043_multiply_strings.go)
 * [s0046 permutations](solutions/s0046_permutations.go)
 * [s0047 permutations ii](solutions/s0047_permutations_ii.go)
