@@ -16,6 +16,7 @@ LeetCode in Go, just for fun obviously
 * [s0011 container with most water](solutions/s0011_container_with_most_water.go)
 * [s0013 roman to integer](solutions/s0013_roman_to_integer.go)
 * [s0015 3sum](solutions/s0015_3sum.go)
+* [s0017 letter combinations of a phone number](solutions/s0017_letter_combinations_of_a_phone_number.go)
 * [s0019 remove nth node from end of list](solutions/s0019_remove_nth_node_from_end_of_list.go)
 * [s0020 valid parentheses](solutions/s0020_valid_parentheses.go)
 * [s0021 merge two sorted lists](solutions/s0021_merge_two_sorted_lists.go)
