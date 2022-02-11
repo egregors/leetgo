@@ -122,6 +122,7 @@ LeetCode in Go, just for fun obviously
 * [s0451 sort characters by frequency](solutions/s0451_sort_characters_by_frequency.go)
 * [s0452 Minimum Number of Arrows to Burst Balloons](solutions/s0452_Minimum_Number_of_Arrows_to_Burst_Balloons.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
+* [s0547 number of provinces](solutions/s0547_number_of_provinces.go)
 * [s0557 reverse words in a string iii](solutions/s0557_reverse_words_in_a_string_iii.go)
 * [s0560 subarray sum equals k](solutions/s0560_subarray_sum_equals_k.go)
 * [s0566 reshape the matrix](solutions/s0566_reshape_the_matrix.go)
