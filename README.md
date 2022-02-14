@@ -89,6 +89,7 @@ LeetCode in Go, just for fun obviously
 * [s0203 remove linked list elements](solutions/s0203_remove_linked_list_elements.go)
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
 * [s0209 minimum size subarray sum](solutions/s0209_minimum_size_subarray_sum.go)
+* [s0213 house robber ii](solutions/s0213_house_robber_ii.go)
 * [s0215 kth largest element in an array](solutions/s0215_kth_largest_element_in_an_array.go)
 * [s0217 contains duplicate](solutions/s0217_contains_duplicate.go)
 * [s0226 invert binary tree](solutions/s0226_invert_binary_tree.go)
