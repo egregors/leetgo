@@ -37,6 +37,7 @@ LeetCode in Go, just for fun obviously
 * [s0049 group anagrams](solutions/s0049_group_anagrams.go)
 * [s0053 maximum subarray](solutions/s0053_maximum_subarray.go)
 * [s0054 spiral matrix](solutions/s0054_spiral_matrix.go)
+* [s0055 jump game](solutions/s0055_jump_game.go)
 * [s0056 merge intervals](solutions/s0056_merge_intervals.go)
 * [s0059 spiral matrix ii](solutions/s0059_spiral_matrix_ii.go)
 * [s0070 climbing stairs](solutions/s0070_climbing_stairs.go)
