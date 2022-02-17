@@ -165,3 +165,4 @@ LeetCode in Go, just for fun obviously
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
+* [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
