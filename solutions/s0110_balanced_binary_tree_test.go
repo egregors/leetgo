@@ -23,7 +23,7 @@ func Test_isBalanced(t *testing.T) {
 		{
 			"Test 2",
 			// fixme: https://github.com/egregors/TreeNode/issues/1
-			args{root: NewTreeNode("[1,2,2,3,3,null,null,4,4,null,null,null,null,null,null]")},
+			args{root: NewTreeNode("[1,2,2,3,3,null,null,4,4]")},
 			false,
 		},
 		{

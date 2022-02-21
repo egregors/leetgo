@@ -39,7 +39,15 @@ func NewTreeNode(data string) (*TreeNode, error) {
 func (t TreeNode) String() string { return t.serialize() }
 
 func (t TreeNode) serialize() string {
-	return fmt.Sprintf("[%s]", strings.Join(bfs(&NodeQueue{&t}), Separator))
+	data := bfs(&NodeQueue{&t})
+
+	// remove redundant nulls
+	i := len(data) - 1
+	for data[i] == EmptyNodeMark {
+		i--
+	}
+
+	return fmt.Sprintf("[%s]", strings.Join(data[:i+1], Separator))
 }
 
 // EmptyNodeMark is used to mark empty node in serialized string
@@ -83,6 +91,12 @@ func bfsBuild(q *NodeQueue, data []string) error {
 	for !q.IsEmpty() {
 		n := q.Pop()
 		if n != nil {
+			// if the data tail of current level contains only nulls, they could be reduced.
+			// that means, if the data becomes empty earlier than level does, there is no more nodes
+			if len(data) == 0 {
+				return nil
+			}
+
 			l, r := data[0], data[1]
 			data = data[2:]
 
