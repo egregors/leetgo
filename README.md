@@ -81,6 +81,7 @@ LeetCode in Go, just for fun obviously
 * [s0162 find peak element](solutions/s0162_find_peak_element.go)
 * [s0167 two sum ii - input array is sorted](solutions/s0167_two_sum_ii_-_input_array_is_sorted.go)
 * [s0169 majority element](solutions/s0169_majority_element.go)
+* [s0171 excel sheet column number](solutions/s0171_excel_sheet_column_number.go)
 * [s0173 binary search tree iterator](solutions/s0173_binary_search_tree_iterator.go)
 * [s0187 repeated dna sequences](solutions/s0187_repeated_dna_sequences.go)
 * [s0189 rotate array](solutions/s0189_rotate_array.go)
