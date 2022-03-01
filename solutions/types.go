@@ -43,18 +43,47 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func (l ListNode) String() string {
-	next := "nil"
-	if l.Next != nil {
-		next = l.Next.String()
+// NewListNode builds linked list of Ints from Ints slice
+func NewListNode(xs []int) *ListNode {
+	if len(xs) == 0 {
+		return nil
 	}
-	return fmt.Sprintf("%d -> %s", l.Val, next)
+
+	head := &ListNode{xs[0], nil}
+	curr := head
+	for _, x := range xs[1:] {
+		n := &ListNode{
+			x,
+			nil,
+		}
+		curr.Next = n
+		curr = n
+	}
+	return head
+}
+
+func (n *ListNode) String() string {
+	next := "nil"
+	if n.Next != nil {
+		next = n.Next.String()
+	}
+	return fmt.Sprintf("%d -> %s", n.Val, next)
+}
+
+// GetMiddle returns a middle node of linked list
+func (n *ListNode) GetMiddle() *ListNode {
+	slow, fast := n, n
+	for fast.Next != nil && fast.Next.Next != nil {
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+	return slow
 }
 
 // ToSlice accumulate linked list values and append them into int slice
-func (l *ListNode) ToSlice() []int {
+func (n *ListNode) ToSlice() []int {
 	var vals []int
-	curr := l
+	curr := n
 	for curr != nil {
 		vals = append(vals, curr.Val)
 		curr = curr.Next
