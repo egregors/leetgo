@@ -75,6 +75,7 @@ LeetCode in Go, just for fun obviously
 * [s0144 binary tree preorder traversal](solutions/s0144_binary_tree_preorder_traversal.go)
 * [s0145 binary tree postorder traversal](solutions/s0145_binary_tree_postorder_traversal.go)
 * [s0146 lru cache](solutions/s0146_lru_cache.go)
+* [s0148 sort list](solutions/s0148_sort_list.go)
 * [s0153 find minimum in rotated sorted array](solutions/s0153_find_minimum_in_rotated_sorted_array.go)
 * [s0155 Min Stack](solutions/s0155_Min_Stack.go)
 * [s0160 intersection of two linked lists](solutions/s0160_intersection_of_two_linked_lists.go)
