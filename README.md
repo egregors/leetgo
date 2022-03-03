@@ -121,6 +121,7 @@ LeetCode in Go, just for fun obviously
 * [s0389 find the difference](solutions/s0389_find_the_difference.go)
 * [s0392 is subsequence](solutions/s0392_is_subsequence.go)
 * [s0409 longest palindrome](solutions/s0409_longest_palindrome.go)
+* [s0413 arithmetic slices](solutions/s0413_arithmetic_slices.go)
 * [s0414 third maximum number](solutions/s0414_third_maximum_number.go)
 * [s0415 add strings](solutions/s0415_add_strings.go)
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
