@@ -13,18 +13,20 @@
 
 package solutions
 
+func dp198(i int, nums []int, mem map[int]int) int {
+	switch i {
+	case 0:
+		return nums[0]
+	case 1:
+		return Maximum(nums[0], nums[1])
+	default:
+		if _, ok := mem[i]; !ok {
+			mem[i] = Maximum(dp198(i-1, nums, mem), dp198(i-2, nums, mem)+nums[i])
+		}
+		return mem[i]
+	}
+}
+
 func rob(nums []int) int {
-	n := len(nums)
-	if n == 0 {
-		return 0
-	}
-
-	dp := make([]int, n+1)
-	dp[n], dp[n-1] = 0, nums[n-1]
-
-	for i := n - 2; i >= 0; i-- {
-		dp[i] = max(dp[i+1], dp[i+2]+nums[i])
-	}
-
-	return dp[0]
+	return dp198(len(nums)-1, nums, make(map[int]int))
 }
