@@ -151,6 +151,7 @@ LeetCode in Go, just for fun obviously
 * [s0707 design linked list](solutions/s0707_design_linked_list.go)
 * [s0713 subarray product less than k](solutions/s0713_subarray_product_less_than_k.go)
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
+* [s0746 min cost climbing stairs](solutions/s0746_min_cost_climbing_stairs.go)
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
 * [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
