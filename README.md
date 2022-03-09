@@ -167,6 +167,7 @@ LeetCode in Go, just for fun obviously
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046 last stone weight](solutions/s1046_last_stone_weight.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
+* [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
 * [s1342 number of steps to reduce a number to zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
