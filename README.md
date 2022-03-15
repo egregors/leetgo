@@ -180,3 +180,4 @@ LeetCode in Go, just for fun obviously
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
+* [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
