@@ -146,6 +146,7 @@ LeetCode in Go, just for fun obviously
 * [s0695 max area of island](solutions/s0695_max_area_of_island.go)
 * [s0700 search in a binary search tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s0701 insert into a binary search tree](solutions/s0701_insert_into_a_binary_search_tree.go)
+* [s0703 kth largest element in a stream](solutions/s0703_kth_largest_element_in_a_stream.go)
 * [s0704 binary search](solutions/s0704_binary_search.go)
 * [s0706 design hashmap](solutions/s0706_design_hashmap.go)
 * [s0707 design linked list](solutions/s0707_design_linked_list.go)
