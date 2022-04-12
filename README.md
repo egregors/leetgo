@@ -143,6 +143,7 @@ LeetCode in Go, just for fun obviously
 * [s0622 design circular queue](solutions/s0622_design_circular_queue.go)
 * [s0653 two sum iv - input is a bst](solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
 * [s0668 kth smallest number in multiplication table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
+* [s0682 baseball game](solutions/s0682_baseball_game.go)
 * [s0695 max area of island](solutions/s0695_max_area_of_island.go)
 * [s0700 search in a binary search tree](solutions/s0700_search_in_a_binary_search_tree.go)
 * [s0701 insert into a binary search tree](solutions/s0701_insert_into_a_binary_search_tree.go)
