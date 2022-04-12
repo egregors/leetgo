@@ -30,6 +30,15 @@ func Abs(x int) int {
 	return x
 }
 
+// Sum returns the sum of Ints
+func Sum(xs ...int) int {
+	s := 0
+	for _, x := range xs {
+		s += x
+	}
+	return s
+}
+
 // LinkedListLen returns amount on nodes in linked list (ListNode)
 func LinkedListLen(n *ListNode) int {
 	curr, c := n, 0
