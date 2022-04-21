@@ -15,6 +15,7 @@ LeetCode in Go, just for fun obviously
 * [s0008 string to integer (atoi)](solutions/s0008_string_to_integer_(atoi).go)
 * [s0011 container with most water](solutions/s0011_container_with_most_water.go)
 * [s0013 roman to integer](solutions/s0013_roman_to_integer.go)
+* [s0014 longest common prefix](solutions/s0014_longest_common_prefix.go)
 * [s0015 3sum](solutions/s0015_3sum.go)
 * [s0017 letter combinations of a phone number](solutions/s0017_letter_combinations_of_a_phone_number.go)
 * [s0019 remove nth node from end of list](solutions/s0019_remove_nth_node_from_end_of_list.go)
