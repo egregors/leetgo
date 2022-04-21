@@ -150,6 +150,7 @@ LeetCode in Go, just for fun obviously
 * [s0701 insert into a binary search tree](solutions/s0701_insert_into_a_binary_search_tree.go)
 * [s0703 kth largest element in a stream](solutions/s0703_kth_largest_element_in_a_stream.go)
 * [s0704 binary search](solutions/s0704_binary_search.go)
+* [s0705 design hashset](solutions/s0705_design_hashset.go)
 * [s0706 design hashmap](solutions/s0706_design_hashmap.go)
 * [s0707 design linked list](solutions/s0707_design_linked_list.go)
 * [s0713 subarray product less than k](solutions/s0713_subarray_product_less_than_k.go)
