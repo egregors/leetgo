@@ -111,6 +111,7 @@ LeetCode in Go, just for fun obviously
 * [s0268 missing number](solutions/s0268_missing_number.go)
 * [s0278 first bad version](solutions/s0278_first_bad_version.go)
 * [s0283 move zeroes](solutions/s0283_move_zeroes.go)
+* [s0284 peeking iterator](solutions/s0284_peeking_iterator.go)
 * [s0290 word pattern](solutions/s0290_word_pattern.go)
 * [s0297 serialize and deserialize binary tree](solutions/s0297_serialize_and_deserialize_binary_tree.go)
 * [s0304 range sum query 2d - immutable](solutions/s0304_range_sum_query_2d_-_immutable.go)
