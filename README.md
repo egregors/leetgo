@@ -169,6 +169,7 @@ LeetCode in Go, just for fun obviously
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0897 increasing order search tree](solutions/s0897_increasing_order_search_tree.go)
+* [s0905 sort array by parity](solutions/s0905_sort_array_by_parity.go)
 * [s0912 sort an array](solutions/s0912_sort_an_array.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
