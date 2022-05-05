@@ -30,28 +30,29 @@ package solutions
  * param_4 := obj.Empty();
  */
 
-type MyQueue struct {
+type MyQueue232 struct {
 	xs []int
 }
 
-func Constructor() MyQueue {
-	return MyQueue{xs: []int{}}
+// NewMyQueue232 should call Constructor to pass LeetCode tests
+func NewMyQueue232() MyQueue232 {
+	return MyQueue232{xs: []int{}}
 }
 
-func (q *MyQueue) Push(x int) {
+func (q *MyQueue232) Push(x int) {
 	q.xs = append(q.xs, x)
 }
 
-func (q *MyQueue) Pop() int {
+func (q *MyQueue232) Pop() int {
 	el := q.xs[0]
 	q.xs = q.xs[1:]
 	return el
 }
 
-func (q *MyQueue) Peek() int {
+func (q *MyQueue232) Peek() int {
 	return q.xs[0]
 }
 
-func (q *MyQueue) Empty() bool {
+func (q *MyQueue232) Empty() bool {
 	return len(q.xs) == 0
 }
