@@ -120,6 +120,7 @@ LeetCode in Go, just for fun obviously
 * [s0297 serialize and deserialize binary tree](solutions/s0297_serialize_and_deserialize_binary_tree.go)
 * [s0304 range sum query 2d - immutable](solutions/s0304_range_sum_query_2d_-_immutable.go)
 * [s0334 increasing triplet subsequence](solutions/s0334_increasing_triplet_subsequence.go)
+* [s0341 flatten nested list iterator](solutions/s0341_flatten_nested_list_iterator.go)
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
