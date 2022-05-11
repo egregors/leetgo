@@ -10,29 +10,7 @@
 
 package solutions
 
-func backtrack1641(curr, vowels string, n int, acc *[]string) {
-	if len(curr) == n {
-		*acc = append(*acc, curr)
-		return
-	}
-
-	for i := 0; i < len(vowels); i++ {
-		if curr == "" || i == 0 {
-			curr += string(vowels[i])
-		} else {
-			if vowels[i] >= vowels[i-1] {
-				curr += string(vowels[i])
-			} else {
-				continue
-			}
-		}
-		backtrack1641(curr, vowels[i:], n, acc)
-		curr = curr[:len(curr)-1]
-	}
-}
-
 func countVowelStrings(n int) int {
-	var res []string
-	backtrack1641("", "aeiou", n, &res)
-	return len(res)
+	// https://en.wikipedia.org/wiki/Combination#Number_of_combinations_with_repetition
+	return (n + 4) * (n + 3) * (n + 2) * (n + 1) / 24
 }
