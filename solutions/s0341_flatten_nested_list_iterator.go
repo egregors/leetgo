@@ -104,7 +104,6 @@ func dfs341(ns *NestedInteger, vals *[]int) {
 	for _, n := range ns.GetList() {
 		dfs341(n, vals)
 	}
-	return
 }
 
 func (i *NestedIterator) Next() int {

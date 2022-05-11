@@ -42,7 +42,6 @@ func backtrack216(curr, nums []int, target, size int, acc *[][]int, seen map[str
 		backtrack216(curr, nums[i+1:], target, size, acc, seen)
 		curr = curr[:len(curr)-1]
 	}
-	return
 }
 
 func combinationSum3(k, n int) [][]int {

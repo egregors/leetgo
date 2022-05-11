@@ -16,7 +16,6 @@ func bfs897(n *TreeNode, acc *[]int) {
 	if n.Right != nil {
 		bfs897(n.Right, acc)
 	}
-	return
 }
 
 func increasingBST(root *TreeNode) *TreeNode {
