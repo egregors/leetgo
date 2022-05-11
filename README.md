@@ -194,6 +194,7 @@ LeetCode in Go, just for fun obviously
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
 * [s1598 crawler log folder](solutions/s1598_crawler_log_folder.go)
+* [s1641 count sorted vowel strings](solutions/s1641_count_sorted_vowel_strings.go)
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1679 max number of k-sum pairs](solutions/s1679_max_number_of_k-sum_pairs.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
