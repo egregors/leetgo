@@ -172,6 +172,7 @@ LeetCode in Go, just for fun obviously
 * [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
+* [s0867 transpose matrix](solutions/s0867_transpose_matrix.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0897 increasing order search tree](solutions/s0897_increasing_order_search_tree.go)
 * [s0901 online stock span](solutions/s0901_online_stock_span.go)
