@@ -191,6 +191,7 @@ LeetCode in Go, just for fun obviously
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
+* [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
 * [s1342 number of steps to reduce a number to zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
