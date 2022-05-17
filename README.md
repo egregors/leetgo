@@ -194,6 +194,7 @@ LeetCode in Go, just for fun obviously
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
 * [s1342 number of steps to reduce a number to zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
+* [s1379 find a corresponding node of a binary tree in a clone of that tree](solutions/s1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
