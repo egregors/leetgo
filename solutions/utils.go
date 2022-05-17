@@ -54,3 +54,24 @@ func LinkedListLen(n *ListNode) int {
 func RemoveFromIntSlice(xs *[]int, k int) {
 	*xs = append((*xs)[:k], (*xs)[k+1:]...)
 }
+
+// FindTreeNode returns TreeNode with value v if it exist, otherwise - nil
+func FindTreeNode(n *TreeNode, v int) *TreeNode {
+	if n.Val == v {
+		return n
+	}
+
+	if n.Left != nil {
+		if res := FindTreeNode(n.Left, v); res != nil {
+			return res
+		}
+	}
+
+	if n.Right != nil {
+		if res := FindTreeNode(n.Right, v); res != nil {
+			return res
+		}
+	}
+
+	return nil
+}
