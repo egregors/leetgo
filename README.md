@@ -121,6 +121,7 @@ LeetCode in Go, just for fun obviously
 * [s0284 peeking iterator](solutions/s0284_peeking_iterator.go)
 * [s0290 word pattern](solutions/s0290_word_pattern.go)
 * [s0297 serialize and deserialize binary tree](solutions/s0297_serialize_and_deserialize_binary_tree.go)
+* [s0300 longest increasing subsequence](solutions/s0300_longest_increasing_subsequence.go)
 * [s0304 range sum query 2d - immutable](solutions/s0304_range_sum_query_2d_-_immutable.go)
 * [s0322 coin change](solutions/s0322_coin_change.go)
 * [s0329 longest increasing path in a matrix](solutions/s0329_longest_increasing_path_in_a_matrix.go)
