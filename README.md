@@ -27,6 +27,7 @@ LeetCode in Go, just for fun obviously
 * [s0026 remove duplicates from sorted array](solutions/s0026_remove_duplicates_from_sorted_array.go)
 * [s0027 remove element](solutions/s0027_remove_element.go)
 * [s0028 implement strstr()](solutions/s0028_implement_strstr().go)
+* [s0029 divide two integers](solutions/s0029_divide_two_integers.go)
 * [s0032 longest valid parentheses](solutions/s0032_longest_valid_parentheses.go)
 * [s0033 search in rotated sorted array](solutions/s0033_search_in_rotated_sorted_array.go)
 * [s0034 find first and last position of element in sorted array](solutions/s0034_find_first_and_last_position_of_element_in_sorted_array.go)
