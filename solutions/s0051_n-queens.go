@@ -14,12 +14,6 @@
 //nolint:revive // it's ok
 package solutions
 
-type Set map[int]struct{}
-
-func (s Set) Contains(x int) bool { _, ok := s[x]; return ok }
-func (s Set) Add(x int)           { s[x] = struct{}{} }
-func (s Set) Remove(x int)        { delete(s, x) }
-
 func solveNQueens(n int) [][]string {
 	emptyBoard := make([][]rune, n)
 	for i := 0; i < n; i++ {
