@@ -41,6 +41,7 @@ LeetCode in Go, just for fun obviously
 * [s0048 rotate image](solutions/s0048_rotate_image.go)
 * [s0049 group anagrams](solutions/s0049_group_anagrams.go)
 * [s0051 n-queens](solutions/s0051_n-queens.go)
+* [s0052 n-queens ii](solutions/s0052_n-queens_ii.go)
 * [s0053 maximum subarray](solutions/s0053_maximum_subarray.go)
 * [s0054 spiral matrix](solutions/s0054_spiral_matrix.go)
 * [s0055 jump game](solutions/s0055_jump_game.go)
