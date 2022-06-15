@@ -200,6 +200,7 @@ LeetCode in Go, just for fun obviously
 * [s0997 find the town judge](solutions/s0997_find_the_town_judge.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046 last stone weight](solutions/s1046_last_stone_weight.go)
+* [s1048 longest string chain](solutions/s1048_longest_string_chain.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
