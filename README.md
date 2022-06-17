@@ -193,6 +193,7 @@ LeetCode in Go, just for fun obviously
 * [s0905 sort array by parity](solutions/s0905_sort_array_by_parity.go)
 * [s0912 sort an array](solutions/s0912_sort_an_array.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
+* [s0968 binary tree cameras](solutions/s0968_binary_tree_cameras.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
 * [s0977 squares of a sorted array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s0986 interval list intersections](solutions/s0986_interval_list_intersections.go)
