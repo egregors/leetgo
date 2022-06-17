@@ -25,10 +25,10 @@ func totalNQueens(n int) int {
 		}
 	}
 
-	return backtrack52(0, n, make(Set), make(Set), make(Set), emptyBoard)
+	return backtrack52(0, n, make(Set[int]), make(Set[int]), make(Set[int]), emptyBoard)
 }
 
-func backtrack52(row, n int, diagonals, antiDiagonals, cols Set, state [][]rune) int {
+func backtrack52(row, n int, diagonals, antiDiagonals, cols Set[int], state [][]rune) int {
 	if row == n {
 		return 1
 	}

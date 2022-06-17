@@ -24,8 +24,9 @@ linters-settings:
   gocritic:
     enabled-tags:
       - performance
-      - style
-      - experimental
+#      todo: for 1.18 it's broken for now: https://github.com/go-critic/go-critic/issues/1219
+#      - style
+#      - experimental
     disabled-checks:
       - wrapperFunc
       - hugeParam

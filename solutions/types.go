@@ -116,14 +116,14 @@ func (h *IntHeap) Pop() interface{} {
 	return x
 }
 
-// Set of Ints represents a set data structure above of hashmap
-type Set map[int]struct{}
-
-// Contains returns true if Set contains element x
-func (s Set) Contains(x int) bool { _, ok := s[x]; return ok }
+// Set represents a set data structure above of hashmap
+type Set[K comparable] map[K]struct{}
 
 // Add adds element into the Set
-func (s Set) Add(x int) { s[x] = struct{}{} }
+func (s Set[K]) Add(k K) { s[k] = struct{}{} }
 
 // Remove deletes element form the Set
-func (s Set) Remove(x int) { delete(s, x) }
+func (s Set[K]) Remove(k K) { delete(s, k) }
+
+// Contains returns true if Set contains element x
+func (s Set[K]) Contains(k K) bool { _, ok := s[k]; return ok }

@@ -14,7 +14,7 @@ package solutions
 
 func maximumUniqueSubarray(nums []int) int {
 	res, curr, start := 0, 0, 0
-	set := make(Set)
+	set := make(Set[int])
 	for end := 0; end < len(nums); end++ {
 		for set.Contains(nums[end]) {
 			set.Remove(nums[start])

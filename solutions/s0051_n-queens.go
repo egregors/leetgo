@@ -26,11 +26,11 @@ func solveNQueens(n int) [][]string {
 	}
 
 	var res [][]string
-	backtrack51(0, n, make(Set), make(Set), make(Set), emptyBoard, &res)
+	backtrack51(0, n, make(Set[int]), make(Set[int]), make(Set[int]), emptyBoard, &res)
 	return res
 }
 
-func backtrack51(row, n int, diagonals, antiDiagonals, cols Set, state [][]rune, acc *[][]string) {
+func backtrack51(row, n int, diagonals, antiDiagonals, cols Set[int], state [][]rune, acc *[][]string) {
 	if row == n {
 		var rs []string
 		for _, r := range state {
