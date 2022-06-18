@@ -180,6 +180,7 @@ LeetCode in Go, just for fun obviously
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
 * [s0740 delete and earn](solutions/s0740_delete_and_earn.go)
 * [s0743 network delay time](solutions/s0743_network_delay_time.go)
+* [s0745 prefix and suffix search](solutions/s0745_prefix_and_suffix_search.go)
 * [s0746 min cost climbing stairs](solutions/s0746_min_cost_climbing_stairs.go)
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
