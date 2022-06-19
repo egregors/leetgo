@@ -208,6 +208,7 @@ LeetCode in Go, just for fun obviously
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
+* [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
 * [s1332 remove palindromic subsequences](solutions/s1332_remove_palindromic_subsequences.go)
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
