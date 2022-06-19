@@ -15,20 +15,20 @@
 //nolint:revive // it's ok
 package solutions
 
-type TrieNode struct {
-	children []*TrieNode
+type TrieNode745 struct {
+	children []*TrieNode745
 	weight   int
 }
 
-func NewTrieNode() *TrieNode {
-	return &TrieNode{
-		children: make([]*TrieNode, 27),
+func NewTrieNode() *TrieNode745 {
+	return &TrieNode745{
+		children: make([]*TrieNode745, 27),
 		weight:   0,
 	}
 }
 
 type WordFilter struct {
-	trie *TrieNode
+	trie *TrieNode745
 }
 
 // NewWordFilter should call Constructor to pass LeetCode tests
