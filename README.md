@@ -219,6 +219,7 @@ LeetCode in Go, just for fun obviously
 * [s1354 construct target array with multiple sums](solutions/s1354_construct_target_array_with_multiple_sums.go)
 * [s1379 find a corresponding node of a binary tree in a clone of that tree](solutions/s1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
+* [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
