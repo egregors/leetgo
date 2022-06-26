@@ -167,6 +167,7 @@ LeetCode in Go, just for fun obviously
 * [s0630 course schedule iii](solutions/s0630_course_schedule_iii.go)
 * [s0647 palindromic substrings](solutions/s0647_palindromic_substrings.go)
 * [s0653 two sum iv - input is a bst](solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
+* [s0665 non decreasing array](solutions/s0665_non_decreasing_array.go)
 * [s0668 kth smallest number in multiplication table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
 * [s0682 baseball game](solutions/s0682_baseball_game.go)
 * [s0695 max area of island](solutions/s0695_max_area_of_island.go)
