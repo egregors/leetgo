@@ -227,6 +227,7 @@ LeetCode in Go, just for fun obviously
 * [s1598 crawler log folder](solutions/s1598_crawler_log_folder.go)
 * [s1641 count sorted vowel strings](solutions/s1641_count_sorted_vowel_strings.go)
 * [s1642 furthest building you can reach](solutions/s1642_furthest_building_you_can_reach.go)
+* [s1647 minimum deletions to make character frequencies unique](solutions/s1647_minimum_deletions_to_make_character_frequencies_unique.go)
 * [s1658 minimum operations to reduce x to zero](solutions/s1658_minimum_operations_to_reduce_x_to_zero.go)
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1679 max number of k-sum pairs](solutions/s1679_max_number_of_k-sum_pairs.go)
