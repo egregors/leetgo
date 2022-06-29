@@ -139,6 +139,7 @@ LeetCode in Go, just for fun obviously
 * [s0387 first unique character in a string](solutions/s0387_first_unique_character_in_a_string.go)
 * [s0389 find the difference](solutions/s0389_find_the_difference.go)
 * [s0392 is subsequence](solutions/s0392_is_subsequence.go)
+* [s0406 queue reconstruction by height](solutions/s0406_queue_reconstruction_by_height.go)
 * [s0409 longest palindrome](solutions/s0409_longest_palindrome.go)
 * [s0413 arithmetic slices](solutions/s0413_arithmetic_slices.go)
 * [s0414 third maximum number](solutions/s0414_third_maximum_number.go)
