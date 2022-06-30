@@ -150,6 +150,7 @@ LeetCode in Go, just for fun obviously
 * [s0451 sort characters by frequency](solutions/s0451_sort_characters_by_frequency.go)
 * [s0452 Minimum Number of Arrows to Burst Balloons](solutions/s0452_Minimum_Number_of_Arrows_to_Burst_Balloons.go)
 * [s0456 132 pattern](solutions/s0456_132_pattern.go)
+* [s0462 minimum moves to equal array elements ii](solutions/s0462_minimum_moves_to_equal_array_elements_ii.go)
 * [s0474 ones and zeroes](solutions/s0474_ones_and_zeroes.go)
 * [s0509 fibonacci number](solutions/s0509_fibonacci_number.go)
 * [s0521 longest uncommon subsequence i](solutions/s0521_longest_uncommon_subsequence_i.go)
