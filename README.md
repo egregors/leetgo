@@ -228,6 +228,7 @@ LeetCode in Go, just for fun obviously
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
+* [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
