@@ -80,6 +80,7 @@ LeetCode in Go, just for fun obviously
 * [s0121 best time to buy and sell stock](solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0128 longest consecutive sequence](solutions/s0128_longest_consecutive_sequence.go)
 * [s0130 surrounded regions](solutions/s0130_surrounded_regions.go)
+* [s0135 candy](solutions/s0135_candy.go)
 * [s0136 single number](solutions/s0136_single_number.go)
 * [s0141 linked list cycle](solutions/s0141_linked_list_cycle.go)
 * [s0142 linked list cycle ii](solutions/s0142_linked_list_cycle_ii.go)
