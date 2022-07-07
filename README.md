@@ -78,6 +78,7 @@ LeetCode in Go, just for fun obviously
 * [s0119 pascals triangle ii](solutions/s0119_pascals_triangle_ii.go)
 * [s0120 triangle](solutions/s0120_triangle.go)
 * [s0121 best time to buy and sell stock](solutions/s0121_best_time_to_buy_and_sell_stock.go)
+* [s0128 longest consecutive sequence](solutions/s0128_longest_consecutive_sequence.go)
 * [s0130 surrounded regions](solutions/s0130_surrounded_regions.go)
 * [s0136 single number](solutions/s0136_single_number.go)
 * [s0141 linked list cycle](solutions/s0141_linked_list_cycle.go)
