@@ -99,6 +99,37 @@ type Node struct {
 	Next  *Node
 }
 
+// Deque is double ended queue
+type Deque[T any] []T
+
+// IsEmpty return false if queue is empty
+func (dq *Deque[T]) IsEmpty() bool { return len(*dq) == 0 }
+
+// PushLast adds element from the right
+func (dq *Deque[T]) PushLast(x T) { *dq = append(*dq, x) }
+
+// PeekLast returns element from the right
+func (dq *Deque[T]) PeekLast() T {
+	return (*dq)[len(*dq)-1]
+}
+
+// PopLast returns and removes element from the right
+func (dq *Deque[T]) PopLast() T {
+	x := dq.PeekLast()
+	*dq = (*dq)[:len(*dq)-1]
+	return x
+}
+
+// PeekFirst returns first element
+func (dq *Deque[T]) PeekFirst() T { return (*dq)[0] }
+
+// PopFirst return and removes element from the left
+func (dq *Deque[T]) PopFirst() T {
+	x := dq.PeekFirst()
+	*dq = (*dq)[1:]
+	return x
+}
+
 // IntHeap Heap implementation for Ints
 type IntHeap []int
 
@@ -120,10 +151,13 @@ func (h *IntHeap) Pop() interface{} {
 type Set[K comparable] map[K]struct{}
 
 // Add adds element into the Set
+//nolint:revive // false-positive
 func (s Set[K]) Add(k K) { s[k] = struct{}{} }
 
 // Remove deletes element form the Set
+//nolint:revive // false-positive
 func (s Set[K]) Remove(k K) { delete(s, k) }
 
 // Contains returns true if Set contains element x
+//nolint:revive // false-positive
 func (s Set[K]) Contains(k K) bool { _, ok := s[k]; return ok }
