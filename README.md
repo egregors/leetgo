@@ -216,6 +216,7 @@ LeetCode in Go, just for fun obviously
 * [s1048 longest string chain](solutions/s1048_longest_string_chain.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
+* [s1182 shortest distance to target color](solutions/s1182_shortest_distance_to_target_color.go)
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
