@@ -167,6 +167,7 @@ LeetCode in Go, just for fun obviously
 * [s0566 reshape the matrix](solutions/s0566_reshape_the_matrix.go)
 * [s0567 permutation in string](solutions/s0567_permutation_in_string.go)
 * [s0572 subtree of another tree](solutions/s0572_subtree_of_another_tree.go)
+* [s0576 out of boundary paths](solutions/s0576_out_of_boundary_paths.go)
 * [s0581 shortest unsorted continuous subarray](solutions/s0581_shortest_unsorted_continuous_subarray.go)
 * [s0583 delete operation for two strings](solutions/s0583_delete_operation_for_two_strings.go)
 * [s0605 can place flowers](solutions/s0605_can_place_flowers.go)
