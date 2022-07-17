@@ -159,6 +159,7 @@ LeetCode in Go, just for fun obviously
 * [s0473 matchsticks to square](solutions/s0473_matchsticks_to_square.go)
 * [s0474 ones and zeroes](solutions/s0474_ones_and_zeroes.go)
 * [s0509 fibonacci number](solutions/s0509_fibonacci_number.go)
+* [s0510 inorder successor in bst ii](solutions/s0510_inorder_successor_in_bst_ii.go)
 * [s0521 longest uncommon subsequence i](solutions/s0521_longest_uncommon_subsequence_i.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
 * [s0547 number of provinces](solutions/s0547_number_of_provinces.go)

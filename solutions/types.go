@@ -93,10 +93,11 @@ func (n *ListNode) ToSlice() []int {
 
 // Node is just a node but with Next field
 type Node struct {
-	Val   int
-	Left  *Node
-	Right *Node
-	Next  *Node
+	Val    int
+	Left   *Node
+	Right  *Node
+	Next   *Node
+	Parent *Node
 }
 
 // Deque is double ended queue
