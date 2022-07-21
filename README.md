@@ -60,6 +60,7 @@ LeetCode in Go, just for fun obviously
 * [s0083 remove duplicates from sorted list](solutions/s0083_remove_duplicates_from_sorted_list.go)
 * [s0088 merge sorted array](solutions/s0088_merge_sorted_array.go)
 * [s0090 subsets ii](solutions/s0090_subsets_ii.go)
+* [s0092 reverse linked list ii](solutions/s0092_reverse_linked_list_ii.go)
 * [s0094 binary tree inorder traversal](solutions/s0094_binary_tree_inorder_traversal.go)
 * [s0097 interleaving string](solutions/s0097_interleaving_string.go)
 * [s0098 validate binary search tree](solutions/s0098_validate_binary_search_tree.go)
