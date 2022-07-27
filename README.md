@@ -74,6 +74,7 @@ LeetCode in Go, just for fun obviously
 * [s0110 balanced binary tree](solutions/s0110_balanced_binary_tree.go)
 * [s0112 path sum](solutions/s0112_path_sum.go)
 * [s0113 path sum ii](solutions/s0113_path_sum_ii.go)
+* [s0114 flatten binary tree to linked list](solutions/s0114_flatten_binary_tree_to_linked_list.go)
 * [s0116 populating next right pointers in each node](solutions/s0116_populating_next_right_pointers_in_each_node.go)
 * [s0117 populating next right pointers in each node ii](solutions/s0117_populating_next_right_pointers_in_each_node_ii.go)
 * [s0118 pascals triangle](solutions/s0118_pascals_triangle.go)
