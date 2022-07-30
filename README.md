@@ -212,6 +212,7 @@ LeetCode in Go, just for fun obviously
 * [s0901 online stock span](solutions/s0901_online_stock_span.go)
 * [s0905 sort array by parity](solutions/s0905_sort_array_by_parity.go)
 * [s0912 sort an array](solutions/s0912_sort_an_array.go)
+* [s0916](solutions/s0916.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
 * [s0968 binary tree cameras](solutions/s0968_binary_tree_cameras.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
