@@ -194,6 +194,7 @@ LeetCode in Go, just for fun obviously
 * [s0706 design hashmap](solutions/s0706_design_hashmap.go)
 * [s0707 design linked list](solutions/s0707_design_linked_list.go)
 * [s0713 subarray product less than k](solutions/s0713_subarray_product_less_than_k.go)
+* [s0729 my calendar i](solutions/s0729_my_calendar_i.go)
 * [s0733 flood fill](solutions/s0733_flood_fill.go)
 * [s0740 delete and earn](solutions/s0740_delete_and_earn.go)
 * [s0743 network delay time](solutions/s0743_network_delay_time.go)
