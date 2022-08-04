@@ -207,6 +207,7 @@ LeetCode in Go, just for fun obviously
 * [s0820 short encoding of words](solutions/s0820_short_encoding_of_words.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
+* [s0858 mirror reflection](solutions/s0858_mirror_reflection.go)
 * [s0867 transpose matrix](solutions/s0867_transpose_matrix.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0890 find and replace pattern](solutions/s0890_find_and_replace_pattern.go)
