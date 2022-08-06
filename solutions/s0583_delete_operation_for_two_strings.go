@@ -8,8 +8,6 @@
 
 package solutions
 
-import "log"
-
 func minDistance(word1, word2 string) int {
 	dp := make([]int, len(word2)+1)
 	for i := 0; i <= len(word1); i++ {
@@ -25,6 +23,5 @@ func minDistance(word1, word2 string) int {
 		}
 		dp = temp
 	}
-	log.Println(dp)
 	return dp[len(word2)]
 }

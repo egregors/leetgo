@@ -17,8 +17,6 @@
 //nolint:revive //it's ok
 package solutions
 
-import "fmt"
-
 type Orange struct {
 	r, c int
 }
@@ -55,8 +53,6 @@ func orangesRotting(grid [][]int) int {
 			}
 		}
 	}
-
-	fmt.Println(queue.xs)
 
 	queue.PushRight(Orange{-1, -1})
 

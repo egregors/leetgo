@@ -1,7 +1,6 @@
 package solutions
 
 import (
-	"fmt"
 	"reflect"
 	"testing"
 )
@@ -20,7 +19,7 @@ func Test_postorderTraversal(t *testing.T) {
 			Right: nil,
 		},
 	}
-	fmt.Println(postorderTraversal(l))
+	postorderTraversal(l)
 
 	type args struct {
 		root *TreeNode

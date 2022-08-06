@@ -1,7 +1,6 @@
 package solutions
 
 import (
-	"fmt"
 	"reflect"
 	"testing"
 )
@@ -20,8 +19,7 @@ func Test_preorderTraversal(t *testing.T) {
 			Right: nil,
 		},
 	}
-	r := preorderTraversal(tree)
-	fmt.Println(r)
+	preorderTraversal(tree)
 
 	type args struct {
 		root *TreeNode
