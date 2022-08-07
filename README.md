@@ -234,6 +234,7 @@ LeetCode in Go, just for fun obviously
 * [s1182 shortest distance to target color](solutions/s1182_shortest_distance_to_target_color.go)
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
+* [s1220 count vowels permutation](solutions/s1220_count_vowels_permutation.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
