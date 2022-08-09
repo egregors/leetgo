@@ -19,12 +19,12 @@ import "container/heap"
 
 type MinStack struct {
 	xs   []int
-	mins *IntHeap
+	mins *IntMinHeap
 }
 
 // NewMinStack should call Constructor to pass LeetCode tests
 func NewMinStack() MinStack {
-	return MinStack{xs: make([]int, 0), mins: &IntHeap{}}
+	return MinStack{xs: make([]int, 0), mins: &IntMinHeap{}}
 }
 
 func (s *MinStack) Push(val int) {
