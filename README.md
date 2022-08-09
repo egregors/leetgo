@@ -145,6 +145,7 @@ LeetCode in Go, just for fun obviously
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
 * [s0376 wiggle subsequence](solutions/s0376_wiggle_subsequence.go)
 * [s0377 combination sum iv](solutions/s0377_combination_sum_iv.go)
+* [s0378 kth smallest element in a sorted matrix](solutions/s0378_kth_smallest_element_in_a_sorted_matrix.go)
 * [s0383 ransom note](solutions/s0383_ransom_note.go)
 * [s0387 first unique character in a string](solutions/s0387_first_unique_character_in_a_string.go)
 * [s0389 find the difference](solutions/s0389_find_the_difference.go)
