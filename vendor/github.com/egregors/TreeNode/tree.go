@@ -97,8 +97,16 @@ func bfsBuild(q *NodeQueue, data []string) error {
 				return nil
 			}
 
-			l, r := data[0], data[1]
-			data = data[2:]
+			var (
+				l string
+				r = EmptyNodeMark
+			)
+
+			l, data = data[0], data[1:]
+
+			if len(data) > 0 {
+				r, data = data[0], data[1:]
+			}
 
 			if l != EmptyNodeMark {
 				if lVal, lErr := strconv.Atoi(l); lErr == nil {
