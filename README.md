@@ -140,6 +140,7 @@ LeetCode in Go, just for fun obviously
 * [s0329 longest increasing path in a matrix](solutions/s0329_longest_increasing_path_in_a_matrix.go)
 * [s0334 increasing triplet subsequence](solutions/s0334_increasing_triplet_subsequence.go)
 * [s0341 flatten nested list iterator](solutions/s0341_flatten_nested_list_iterator.go)
+* [s0342 power of four](solutions/s0342_power_of_four.go)
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
