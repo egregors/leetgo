@@ -1,3 +1,4 @@
+// main is main and linters are linters ¯\_(ツ)_/¯
 package main
 
 import (
