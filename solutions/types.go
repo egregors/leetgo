@@ -134,9 +134,9 @@ func (dq *Deque[T]) PopFirst() T {
 // IntMinHeap Heap implementation for Ints (root is minimum)
 type IntMinHeap []int
 
-func (h IntMinHeap) Len() int           { return len(h) }
-func (h IntMinHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h IntMinHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+func (h *IntMinHeap) Len() int           { return len(*h) }
+func (h *IntMinHeap) Less(i, j int) bool { return (*h)[i] < (*h)[j] }
+func (h *IntMinHeap) Swap(i, j int)      { (*h)[i], (*h)[j] = (*h)[j], (*h)[i] }
 
 // Push adds element into heap
 func (h *IntMinHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
@@ -151,9 +151,9 @@ func (h *IntMinHeap) Pop() interface{} {
 // IntMaxHeap Heap implementation for Ints (root is maximum: inverted Less)
 type IntMaxHeap []int
 
-func (h IntMaxHeap) Len() int           { return len(h) }
-func (h IntMaxHeap) Less(i, j int) bool { return h[i] > h[j] }
-func (h IntMaxHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+func (h *IntMaxHeap) Len() int           { return len(*h) }
+func (h *IntMaxHeap) Less(i, j int) bool { return (*h)[i] > (*h)[j] }
+func (h *IntMaxHeap) Swap(i, j int)      { (*h)[i], (*h)[j] = (*h)[j], (*h)[i] }
 
 // Push adds element into heap
 func (h *IntMaxHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
@@ -169,13 +169,16 @@ func (h *IntMaxHeap) Pop() interface{} {
 type Set[K comparable] map[K]struct{}
 
 // Add adds element into the Set
+//
 //nolint:revive // false-positive
 func (s Set[K]) Add(k K) { s[k] = struct{}{} }
 
 // Remove deletes element form the Set
+//
 //nolint:revive // false-positive
 func (s Set[K]) Remove(k K) { delete(s, k) }
 
 // Contains returns true if Set contains element x
+//
 //nolint:revive // false-positive
 func (s Set[K]) Contains(k K) bool { _, ok := s[k]; return ok }
