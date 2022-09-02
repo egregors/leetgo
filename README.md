@@ -187,6 +187,7 @@ LeetCode in Go, just for fun obviously
 * [s0622 design circular queue](solutions/s0622_design_circular_queue.go)
 * [s0629 k inverse pairs array](solutions/s0629_k_inverse_pairs_array.go)
 * [s0630 course schedule iii](solutions/s0630_course_schedule_iii.go)
+* [s0637 average of levels in binary tree](solutions/s0637_average_of_levels_in_binary_tree.go)
 * [s0647 palindromic substrings](solutions/s0647_palindromic_substrings.go)
 * [s0653 two sum iv - input is a bst](solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
 * [s0665 non decreasing array](solutions/s0665_non_decreasing_array.go)
