@@ -214,6 +214,7 @@ LeetCode in Go, just for fun obviously
 * [s0792 number of matching subsequences](solutions/s0792_number_of_matching_subsequences.go)
 * [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
 * [s0804 unique morse code words](solutions/s0804_unique_morse_code_words.go)
+* [s0814 binary tree pruning](solutions/s0814_binary_tree_pruning.go)
 * [s0820 short encoding of words](solutions/s0820_short_encoding_of_words.go)
 * [s0823 binary trees with factors](solutions/s0823_binary_trees_with_factors.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
