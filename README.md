@@ -50,6 +50,7 @@ LeetCode in Go, just for fun obviously
 * [s0059 spiral matrix ii](solutions/s0059_spiral_matrix_ii.go)
 * [s0061 rotate list](solutions/s0061_rotate_list.go)
 * [s0063 unique paths ii](solutions/s0063_unique_paths_ii.go)
+* [s0066 plus one](solutions/s0066_plus_one.go)
 * [s0070 climbing stairs](solutions/s0070_climbing_stairs.go)
 * [s0074 search a 2d matrix](solutions/s0074_search_a_2d_matrix.go)
 * [s0075 sort colors](solutions/s0075_sort_colors.go)
