@@ -17,6 +17,7 @@ LeetCode in Go, just for fun obviously
 * [s0013 roman to integer](solutions/s0013_roman_to_integer.go)
 * [s0014 longest common prefix](solutions/s0014_longest_common_prefix.go)
 * [s0015 3sum](solutions/s0015_3sum.go)
+* [s0016 3sum closest](solutions/s0016_3sum_closest.go)
 * [s0017 letter combinations of a phone number](solutions/s0017_letter_combinations_of_a_phone_number.go)
 * [s0019 remove nth node from end of list](solutions/s0019_remove_nth_node_from_end_of_list.go)
 * [s0020 valid parentheses](solutions/s0020_valid_parentheses.go)
