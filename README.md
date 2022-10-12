@@ -236,6 +236,7 @@ LeetCode in Go, just for fun obviously
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
 * [s0968 binary tree cameras](solutions/s0968_binary_tree_cameras.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
+* [s0976 largest perimeter triangle](solutions/s0976_largest_perimeter_triangle.go)
 * [s0977 squares of a sorted array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s0981 time based key-value store](solutions/s0981_time_based_key-value_store.go)
 * [s0986 interval list intersections](solutions/s0986_interval_list_intersections.go)
