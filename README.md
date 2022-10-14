@@ -285,6 +285,7 @@ LeetCode in Go, just for fun obviously
 * [s1710 maximum units on a truck](solutions/s1710_maximum_units_on_a_truck.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
+* [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
 * [s2124 check if all as appears before all bs](solutions/s2124_check_if_all_as_appears_before_all_bs.go)
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
