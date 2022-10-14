@@ -124,6 +124,7 @@ LeetCode in Go, just for fun obviously
 * [s0234 palindrome linked list](solutions/s0234_palindrome_linked_list.go)
 * [s0235 lowest common ancestor of a binary search tree](solutions/s0235_lowest_common_ancestor_of_a_binary_search_tree.go)
 * [s0236 lowest common ancestor of a binary tree](solutions/s0236_lowest_common_ancestor_of_a_binary_tree.go)
+* [s0237 delete node in a linked list](solutions/s0237_delete_node_in_a_linked_list.go)
 * [s0238 product of array except self](solutions/s0238_product_of_array_except_self.go)
 * [s0240 search a 2d matrix ii](solutions/s0240_search_a_2d_matrix_ii.go)
 * [s0242 valid anagram](solutions/s0242_valid_anagram.go)
