@@ -169,17 +169,31 @@ func (h *IntMaxHeap) Pop() interface{} {
 // Set represents a set data structure above of hashmap
 type Set[K comparable] map[K]struct{}
 
-// Add adds element into the Set
-//
-//nolint:revive // false-positive
+// NewSet creates a new Set from slice of comparable elements. All doubles will be removed
+func NewSet[K comparable](xs []K) Set[K] {
+	set := Set[K]{}
+	for _, x := range xs {
+		set.Add(x)
+	}
+	return set
+}
+
+// Add adds element k into the Set
 func (s Set[K]) Add(k K) { s[k] = struct{}{} }
 
-// Remove deletes element form the Set
-//
-//nolint:revive // false-positive
+// Remove removes element k form the Set
 func (s Set[K]) Remove(k K) { delete(s, k) }
 
-// Contains returns true if Set contains element x
-//
-//nolint:revive // false-positive
+// Contains returns true if Set contains element k
 func (s Set[K]) Contains(k K) bool { _, ok := s[k]; return ok }
+
+// ToSlice converts Set to slice
+func (s Set[K]) ToSlice() []K {
+	slice := make([]K, len(s))
+	i := 0
+	for k := range s {
+		slice[i] = k
+		i++
+	}
+	return slice
+}
