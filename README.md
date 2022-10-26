@@ -178,6 +178,7 @@ LeetCode in Go, just for fun obviously
 * [s0509 fibonacci number](solutions/s0509_fibonacci_number.go)
 * [s0510 inorder successor in bst ii](solutions/s0510_inorder_successor_in_bst_ii.go)
 * [s0521 longest uncommon subsequence i](solutions/s0521_longest_uncommon_subsequence_i.go)
+* [s0523 continuous subarray sum](solutions/s0523_continuous_subarray_sum.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
 * [s0547 number of provinces](solutions/s0547_number_of_provinces.go)
 * [s0557 reverse words in a string iii](solutions/s0557_reverse_words_in_a_string_iii.go)
