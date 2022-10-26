@@ -281,6 +281,7 @@ LeetCode in Go, just for fun obviously
 * [s1642 furthest building you can reach](solutions/s1642_furthest_building_you_can_reach.go)
 * [s1647 minimum deletions to make character frequencies unique](solutions/s1647_minimum_deletions_to_make_character_frequencies_unique.go)
 * [s1658 minimum operations to reduce x to zero](solutions/s1658_minimum_operations_to_reduce_x_to_zero.go)
+* [s1662 check if two string arrays are equivalent](solutions/s1662_check_if_two_string_arrays_are_equivalent.go)
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1679 max number of k-sum pairs](solutions/s1679_max_number_of_k-sum_pairs.go)
 * [s1689 partitioning into minimum number of deci-binary numbers](solutions/s1689_partitioning_into_minimum_number_of_deci-binary_numbers.go)
