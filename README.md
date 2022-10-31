@@ -219,6 +219,7 @@ LeetCode in Go, just for fun obviously
 * [s0745 prefix and suffix search](solutions/s0745_prefix_and_suffix_search.go)
 * [s0746 min cost climbing stairs](solutions/s0746_min_cost_climbing_stairs.go)
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
+* [s0766 toeplitz matrix](solutions/s0766_toeplitz_matrix.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
 * [s0792 number of matching subsequences](solutions/s0792_number_of_matching_subsequences.go)
 * [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
