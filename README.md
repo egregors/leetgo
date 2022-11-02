@@ -165,6 +165,7 @@ LeetCode in Go, just for fun obviously
 * [s0414 third maximum number](solutions/s0414_third_maximum_number.go)
 * [s0415 add strings](solutions/s0415_add_strings.go)
 * [s0429 n-ary tree level order traversal](solutions/s0429_n-ary_tree_level_order_traversal.go)
+* [s0433 minimum genetic mutation](solutions/s0433_minimum_genetic_mutation.go)
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
 * [s0438 find all anagrams in a string](solutions/s0438_find_all_anagrams_in_a_string.go)
 * [s0450 delete node in a bst](solutions/s0450_delete_node_in_a_bst.go)
