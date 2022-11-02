@@ -75,3 +75,13 @@ func FindTreeNode(n *TreeNode, v int) *TreeNode {
 
 	return nil
 }
+
+// Contains return true if some collection `xs` contains element `y`
+func Contains[T comparable](xs []T, y T) bool {
+	for _, x := range xs {
+		if x == y {
+			return true
+		}
+	}
+	return false
+}

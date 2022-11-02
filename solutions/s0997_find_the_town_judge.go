@@ -18,7 +18,7 @@
 
 package solutions
 
-func contains(xs []int, k int) bool {
+func contains997(xs []int, k int) bool {
 	for _, x := range xs {
 		if x == k {
 			return true
@@ -41,7 +41,7 @@ func findJudge(n int, trust [][]int) int {
 
 			i := 0
 			for _, v := range m {
-				if contains(v, k) {
+				if contains997(v, k) {
 					i++
 				}
 			}
