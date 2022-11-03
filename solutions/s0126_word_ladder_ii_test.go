@@ -40,7 +40,12 @@ func Test_findLadders(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			assert.Equalf(t, tt.want, findLadders(tt.args.beginWord, tt.args.endWord, tt.args.wordList), "findLadders(%v, %v, %v)", tt.args.beginWord, tt.args.endWord, tt.args.wordList)
+			assert.ElementsMatchf(
+				t,
+				tt.want,
+				findLadders(tt.args.beginWord, tt.args.endWord, tt.args.wordList),
+				"findLadders(%v, %v, %v)", tt.args.beginWord, tt.args.endWord, tt.args.wordList,
+			)
 		})
 	}
 }
