@@ -149,6 +149,7 @@ LeetCode in Go, just for fun obviously
 * [s0341 flatten nested list iterator](solutions/s0341_flatten_nested_list_iterator.go)
 * [s0342 power of four](solutions/s0342_power_of_four.go)
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
+* [s0345 reverse vowels of a string](solutions/s0345_reverse_vowels_of_a_string.go)
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
