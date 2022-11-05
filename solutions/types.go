@@ -197,3 +197,43 @@ func (s Set[K]) ToSlice() []K {
 	}
 	return slice
 }
+
+// Trie is prefix tree
+type Trie[V any] struct {
+	Val      V
+	isKey    bool
+	ch       int32
+	children [26]*Trie[V]
+}
+
+// NewTrie return Trie
+func NewTrie[V any]() *Trie[V] {
+	return &Trie[V]{}
+}
+
+// Insert adds val into Trie by key
+func (t *Trie[V]) Insert(key string, val V) {
+	n := t
+	for _, ch := range key {
+		ch -= 'a'
+		if n.children[ch] == nil {
+			n.children[ch] = &Trie[V]{ch: ch}
+		}
+		n = n.children[ch]
+	}
+	n.isKey = true
+	n.Val = val
+}
+
+// StartsWith returns true if Trie contains prefix
+func (t *Trie[V]) StartsWith(prefix string) (*Trie[V], bool) {
+	n := t
+	for _, ch := range prefix {
+		ch -= 'a'
+		if n.children[ch] == nil {
+			return nil, false
+		}
+		n = n.children[ch]
+	}
+	return n, n != nil
+}

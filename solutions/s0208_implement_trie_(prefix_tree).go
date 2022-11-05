@@ -18,33 +18,33 @@
 //nolint:revive // it's ok
 package solutions
 
-type Trie struct {
+type Trie208 struct {
 	ch       int32
 	key      bool
-	children [26]*Trie
+	children [26]*Trie208
 }
 
-func Constructor() Trie {
-	return *NewTrie(0)
+func Constructor() Trie208 {
+	return *NewTrie208(0)
 }
 
-func NewTrie(ch int32) *Trie {
-	return &Trie{ch: ch, children: [26]*Trie{}}
+func NewTrie208(ch int32) *Trie208 {
+	return &Trie208{ch: ch, children: [26]*Trie208{}}
 }
 
-func (t *Trie) Insert(word string) {
+func (t *Trie208) Insert(word string) {
 	node := t
 	for _, r := range word {
 		ch := r - 'a'
 		if node.children[ch] == nil {
-			node.children[ch] = NewTrie(ch)
+			node.children[ch] = NewTrie208(ch)
 		}
 		node = node.children[ch]
 	}
 	node.key = true
 }
 
-func (t *Trie) Search(word string) bool {
+func (t *Trie208) Search(word string) bool {
 	node := t
 	for _, r := range word {
 		ch := r - 'a'
@@ -56,7 +56,7 @@ func (t *Trie) Search(word string) bool {
 	return node.key
 }
 
-func (t *Trie) StartsWith(prefix string) bool {
+func (t *Trie208) StartsWith(prefix string) bool {
 	node := t
 	for _, r := range prefix {
 		ch := r - 'a'

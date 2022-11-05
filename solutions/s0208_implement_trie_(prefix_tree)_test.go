@@ -6,7 +6,7 @@ import (
 )
 
 func TestTrie(t *testing.T) {
-	trie := NewTrie(0)
+	trie := NewTrie208(0)
 	trie.Insert("apple")
 	assert.True(t, trie.Search("apple"))
 	assert.False(t, trie.Search("app"))
