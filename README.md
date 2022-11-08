@@ -283,6 +283,7 @@ LeetCode in Go, just for fun obviously
 * [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
+* [s1544 make the string great](solutions/s1544_make_the_string_great.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
 * [s1598 crawler log folder](solutions/s1598_crawler_log_folder.go)
 * [s1641 count sorted vowel strings](solutions/s1641_count_sorted_vowel_strings.go)
