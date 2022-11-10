@@ -255,6 +255,7 @@ LeetCode in Go, just for fun obviously
 * [s0997 find the town judge](solutions/s0997_find_the_town_judge.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046 last stone weight](solutions/s1046_last_stone_weight.go)
+* [s1047 remove all adjacent duplicates in string](solutions/s1047_remove_all_adjacent_duplicates_in_string.go)
 * [s1048 longest string chain](solutions/s1048_longest_string_chain.go)
 * [s1074 number of submatrices that sum to target](solutions/s1074_number_of_submatrices_that_sum_to_target.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
