@@ -139,6 +139,7 @@ LeetCode in Go, just for fun obviously
 * [s0283 move zeroes](solutions/s0283_move_zeroes.go)
 * [s0284 peeking iterator](solutions/s0284_peeking_iterator.go)
 * [s0290 word pattern](solutions/s0290_word_pattern.go)
+* [s0295 find median from data stream](solutions/s0295_find_median_from_data_stream.go)
 * [s0297 serialize and deserialize binary tree](solutions/s0297_serialize_and_deserialize_binary_tree.go)
 * [s0300 longest increasing subsequence](solutions/s0300_longest_increasing_subsequence.go)
 * [s0304 range sum query 2d - immutable](solutions/s0304_range_sum_query_2d_-_immutable.go)
