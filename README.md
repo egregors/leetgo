@@ -158,6 +158,7 @@ LeetCode in Go, just for fun obviously
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
+* [s0374 guess number higher or lower](solutions/s0374_guess_number_higher_or_lower.go)
 * [s0376 wiggle subsequence](solutions/s0376_wiggle_subsequence.go)
 * [s0377 combination sum iv](solutions/s0377_combination_sum_iv.go)
 * [s0378 kth smallest element in a sorted matrix](solutions/s0378_kth_smallest_element_in_a_sorted_matrix.go)
