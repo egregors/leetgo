@@ -121,6 +121,7 @@ LeetCode in Go, just for fun obviously
 * [s0217 contains duplicate](solutions/s0217_contains_duplicate.go)
 * [s0219 contains duplicate ii](solutions/s0219_contains_duplicate_ii.go)
 * [s0222 count complete tree nodes](solutions/s0222_count_complete_tree_nodes.go)
+* [s0223 rectangle area](solutions/s0223_rectangle_area.go)
 * [s0225 implement stack using queues](solutions/s0225_implement_stack_using_queues.go)
 * [s0226 invert binary tree](solutions/s0226_invert_binary_tree.go)
 * [s0230 kth smallest element in a bst](solutions/s0230_kth_smallest_element_in_a_bst.go)
