@@ -282,6 +282,7 @@ LeetCode in Go, just for fun obviously
 * [s1323 maximum 69 number](solutions/s1323_maximum_69_number.go)
 * [s1328 break a palindrome](solutions/s1328_break_a_palindrome.go)
 * [s1329 sort the matrix diagonally](solutions/s1329_sort_the_matrix_diagonally.go)
+* [s1331 rank transform of an array](solutions/s1331_rank_transform_of_an_array.go)
 * [s1332 remove palindromic subsequences](solutions/s1332_remove_palindromic_subsequences.go)
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
 * [s1338 reduce array size to the half](solutions/s1338_reduce_array_size_to_the_half.go)
