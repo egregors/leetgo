@@ -269,6 +269,7 @@ LeetCode in Go, just for fun obviously
 * [s1048 longest string chain](solutions/s1048_longest_string_chain.go)
 * [s1074 number of submatrices that sum to target](solutions/s1074_number_of_submatrices_that_sum_to_target.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
+* [s1108 defanging an ip address](solutions/s1108_defanging_an_ip_address.go)
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1182 shortest distance to target color](solutions/s1182_shortest_distance_to_target_color.go)
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
