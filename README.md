@@ -254,6 +254,7 @@ LeetCode in Go, just for fun obviously
 * [s0916](solutions/s0916.go)
 * [s0942 di string match](solutions/s0942_di_string_match.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
+* [s0961 n-repeated element in size 2n array](solutions/s0961_n-repeated_element_in_size_2n_array.go)
 * [s0968 binary tree cameras](solutions/s0968_binary_tree_cameras.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
 * [s0976 largest perimeter triangle](solutions/s0976_largest_perimeter_triangle.go)
