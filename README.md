@@ -139,6 +139,7 @@ LeetCode in Go, just for fun obviously
 * [s0263 ugly number](solutions/s0263_ugly_number.go)
 * [s0268 missing number](solutions/s0268_missing_number.go)
 * [s0278 first bad version](solutions/s0278_first_bad_version.go)
+* [s0279 perfect squares](solutions/s0279_perfect_squares.go)
 * [s0283 move zeroes](solutions/s0283_move_zeroes.go)
 * [s0284 peeking iterator](solutions/s0284_peeking_iterator.go)
 * [s0290 word pattern](solutions/s0290_word_pattern.go)
