@@ -274,6 +274,7 @@ LeetCode in Go, just for fun obviously
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1182 shortest distance to target color](solutions/s1182_shortest_distance_to_target_color.go)
 * [s1192 critical connections in a network](solutions/s1192_critical_connections_in_a_network.go)
+* [s1207 unique number of occurrences](solutions/s1207_unique_number_of_occurrences.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
 * [s1220 count vowels permutation](solutions/s1220_count_vowels_permutation.go)
 * [s1239 maximum length of a concatenated string with unique characters](solutions/s1239_maximum_length_of_a_concatenated_string_with_unique_characters.go)
