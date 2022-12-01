@@ -312,6 +312,7 @@ LeetCode in Go, just for fun obviously
 * [s1689 partitioning into minimum number of deci-binary numbers](solutions/s1689_partitioning_into_minimum_number_of_deci-binary_numbers.go)
 * [s1695 maximum erasure value](solutions/s1695_maximum_erasure_value.go)
 * [s1696 jump game vi](solutions/s1696_jump_game_vi.go)
+* [s1704 determine if string halves are alike](solutions/s1704_determine_if_string_halves_are_alike.go)
 * [s1706 where will the ball fall](solutions/s1706_where_will_the_ball_fall.go)
 * [s1710 maximum units on a truck](solutions/s1710_maximum_units_on_a_truck.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
