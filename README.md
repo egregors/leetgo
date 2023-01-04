@@ -330,6 +330,7 @@ LeetCode in Go, just for fun obviously
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
 * [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
 * [s2225 find players with zero or one losses](solutions/s2225_find_players_with_zero_or_one_losses.go)
+* [s2244 minimum rounds to complete all tasks](solutions/s2244_minimum_rounds_to_complete_all_tasks.go)
 * [s2256 minimum average difference](solutions/s2256_minimum_average_difference.go)
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)
 * [s2293 min max game](solutions/s2293_min_max_game.go)
