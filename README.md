@@ -67,6 +67,7 @@ LeetCode in Go, just for fun obviously
 * [s0094 binary tree inorder traversal](solutions/s0094_binary_tree_inorder_traversal.go)
 * [s0097 interleaving string](solutions/s0097_interleaving_string.go)
 * [s0098 validate binary search tree](solutions/s0098_validate_binary_search_tree.go)
+* [s0100 same tree](solutions/s0100_same_tree.go)
 * [s0101 symmetric tree](solutions/s0101_symmetric_tree.go)
 * [s0102 binary tree level order traversal](solutions/s0102_binary_tree_level_order_traversal.go)
 * [s0103 binary tree zigzag level order traversal](solutions/s0103_binary_tree_zigzag_level_order_traversal.go)
