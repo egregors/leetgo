@@ -300,6 +300,7 @@ LeetCode in Go, just for fun obviously
 * [s1394 find lucky integer in an array](solutions/s1394_find_lucky_integer_in_an_array.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
+* [s1443 minimum time to collect all apples in a tree](solutions/s1443_minimum_time_to_collect_all_apples_in_a_tree.go)
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
 * [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
