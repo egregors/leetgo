@@ -47,6 +47,7 @@ LeetCode in Go, just for fun obviously
 * [s0054 spiral matrix](solutions/s0054_spiral_matrix.go)
 * [s0055 jump game](solutions/s0055_jump_game.go)
 * [s0056 merge intervals](solutions/s0056_merge_intervals.go)
+* [s0057 insert interval](solutions/s0057_insert_interval.go)
 * [s0058 length of last word](solutions/s0058_length_of_last_word.go)
 * [s0059 spiral matrix ii](solutions/s0059_spiral_matrix_ii.go)
 * [s0061 rotate list](solutions/s0061_rotate_list.go)
