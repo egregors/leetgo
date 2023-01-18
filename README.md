@@ -259,6 +259,7 @@ LeetCode in Go, just for fun obviously
 * [s0907 sum of subarray minimums](solutions/s0907_sum_of_subarray_minimums.go)
 * [s0912 sort an array](solutions/s0912_sort_an_array.go)
 * [s0916](solutions/s0916.go)
+* [s0918 maximum sum circular subarray](solutions/s0918_maximum_sum_circular_subarray.go)
 * [s0926 flip string to monotone increasing](solutions/s0926_flip_string_to_monotone_increasing.go)
 * [s0942 di string match](solutions/s0942_di_string_match.go)
 * [s0944 delete columns to make sorted](solutions/s0944_delete_columns_to_make_sorted.go)
