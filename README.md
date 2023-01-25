@@ -260,6 +260,7 @@ LeetCode in Go, just for fun obviously
 * [s0901 online stock span](solutions/s0901_online_stock_span.go)
 * [s0905 sort array by parity](solutions/s0905_sort_array_by_parity.go)
 * [s0907 sum of subarray minimums](solutions/s0907_sum_of_subarray_minimums.go)
+* [s0909 snakes and ladders](solutions/s0909_snakes_and_ladders.go)
 * [s0912 sort an array](solutions/s0912_sort_an_array.go)
 * [s0916](solutions/s0916.go)
 * [s0918 maximum sum circular subarray](solutions/s0918_maximum_sum_circular_subarray.go)
