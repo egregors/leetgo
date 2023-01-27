@@ -242,6 +242,7 @@ LeetCode in Go, just for fun obviously
 * [s0766 toeplitz matrix](solutions/s0766_toeplitz_matrix.go)
 * [s0767 reorganize string](solutions/s0767_reorganize_string.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
+* [s0787 cheapest flights within k stops](solutions/s0787_cheapest_flights_within_k_stops.go)
 * [s0792 number of matching subsequences](solutions/s0792_number_of_matching_subsequences.go)
 * [s0797 all paths from source to target](solutions/s0797_all_paths_from_source_to_target.go)
 * [s0804 unique morse code words](solutions/s0804_unique_morse_code_words.go)
