@@ -191,6 +191,7 @@ LeetCode in Go, just for fun obviously
 * [s0456 132 pattern](solutions/s0456_132_pattern.go)
 * [s0458 poor pigs](solutions/s0458_poor_pigs.go)
 * [s0462 minimum moves to equal array elements ii](solutions/s0462_minimum_moves_to_equal_array_elements_ii.go)
+* [s0472 concatenated words](solutions/s0472_concatenated_words.go)
 * [s0473 matchsticks to square](solutions/s0473_matchsticks_to_square.go)
 * [s0474 ones and zeroes](solutions/s0474_ones_and_zeroes.go)
 * [s0491 non decreasing subsequences](solutions/s0491_non_decreasing_subsequences.go)
