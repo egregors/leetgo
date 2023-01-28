@@ -167,6 +167,7 @@ LeetCode in Go, just for fun obviously
 * [s0345 reverse vowels of a string](solutions/s0345_reverse_vowels_of_a_string.go)
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
+* [s0352 data stream as disjoint intervals](solutions/s0352_data_stream_as_disjoint_intervals.go)
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
 * [s0374 guess number higher or lower](solutions/s0374_guess_number_higher_or_lower.go)
 * [s0376 wiggle subsequence](solutions/s0376_wiggle_subsequence.go)
