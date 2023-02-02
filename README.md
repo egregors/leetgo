@@ -272,6 +272,7 @@ LeetCode in Go, just for fun obviously
 * [s0942 di string match](solutions/s0942_di_string_match.go)
 * [s0944 delete columns to make sorted](solutions/s0944_delete_columns_to_make_sorted.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
+* [s0953 verifying an alien dictionary](solutions/s0953_verifying_an_alien_dictionary.go)
 * [s0961 n-repeated element in size 2n array](solutions/s0961_n-repeated_element_in_size_2n_array.go)
 * [s0968 binary tree cameras](solutions/s0968_binary_tree_cameras.go)
 * [s0973 k closest points to origin](solutions/s0973_k_closest_points_to_origin.go)
