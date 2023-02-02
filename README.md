@@ -288,6 +288,7 @@ LeetCode in Go, just for fun obviously
 * [s1047 remove all adjacent duplicates in string](solutions/s1047_remove_all_adjacent_duplicates_in_string.go)
 * [s1048 longest string chain](solutions/s1048_longest_string_chain.go)
 * [s1061 lexicographically smallest equivalent string](solutions/s1061_lexicographically_smallest_equivalent_string.go)
+* [s1071 greatest common divisor of strings](solutions/s1071_greatest_common_divisor_of_strings.go)
 * [s1074 number of submatrices that sum to target](solutions/s1074_number_of_submatrices_that_sum_to_target.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1108 defanging an ip address](solutions/s1108_defanging_an_ip_address.go)
