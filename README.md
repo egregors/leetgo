@@ -263,6 +263,7 @@ LeetCode in Go, just for fun obviously
 * [s0897 increasing order search tree](solutions/s0897_increasing_order_search_tree.go)
 * [s0899 orderly queue](solutions/s0899_orderly_queue.go)
 * [s0901 online stock span](solutions/s0901_online_stock_span.go)
+* [s0904 fruit into baskets](solutions/s0904_fruit_into_baskets.go)
 * [s0905 sort array by parity](solutions/s0905_sort_array_by_parity.go)
 * [s0907 sum of subarray minimums](solutions/s0907_sum_of_subarray_minimums.go)
 * [s0909 snakes and ladders](solutions/s0909_snakes_and_ladders.go)
