@@ -38,6 +38,7 @@ LeetCode in Go, just for fun obviously
 * [s0039 combination sum](solutions/s0039_combination_sum.go)
 * [s0040 combination sum ii](solutions/s0040_combination_sum_ii.go)
 * [s0043 multiply strings](solutions/s0043_multiply_strings.go)
+* [s0045 jump game ii](solutions/s0045_jump_game_ii.go)
 * [s0046 permutations](solutions/s0046_permutations.go)
 * [s0047 permutations ii](solutions/s0047_permutations_ii.go)
 * [s0048 rotate image](solutions/s0048_rotate_image.go)
