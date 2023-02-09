@@ -361,6 +361,7 @@ LeetCode in Go, just for fun obviously
 * [s2256 minimum average difference](solutions/s2256_minimum_average_difference.go)
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)
 * [s2293 min max game](solutions/s2293_min_max_game.go)
+* [s2306 naming a company](solutions/s2306_naming_a_company.go)
 * [s2359 find closest node to given two nodes](solutions/s2359_find_closest_node_to_given_two_nodes.go)
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
