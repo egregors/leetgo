@@ -295,6 +295,7 @@ LeetCode in Go, just for fun obviously
 * [s1074 number of submatrices that sum to target](solutions/s1074_number_of_submatrices_that_sum_to_target.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1108 defanging an ip address](solutions/s1108_defanging_an_ip_address.go)
+* [s1129 shortest path with alternating colors](solutions/s1129_shortest_path_with_alternating_colors.go)
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1162 as far from land as possible](solutions/s1162_as_far_from_land_as_possible.go)
 * [s1182 shortest distance to target color](solutions/s1182_shortest_distance_to_target_color.go)
