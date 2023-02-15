@@ -284,6 +284,7 @@ LeetCode in Go, just for fun obviously
 * [s0977 squares of a sorted array](solutions/s0977_squares_of_a_sorted_array.go)
 * [s0981 time based key-value store](solutions/s0981_time_based_key-value_store.go)
 * [s0986 interval list intersections](solutions/s0986_interval_list_intersections.go)
+* [s0989 add to array-form of integer](solutions/s0989_add_to_array-form_of_integer.go)
 * [s0994 rotting oranges](solutions/s0994_rotting_oranges.go)
 * [s0997 find the town judge](solutions/s0997_find_the_town_judge.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
