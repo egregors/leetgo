@@ -247,6 +247,7 @@ LeetCode in Go, just for fun obviously
 * [s0763 partition labels](solutions/s0763_partition_labels.go)
 * [s0766 toeplitz matrix](solutions/s0766_toeplitz_matrix.go)
 * [s0767 reorganize string](solutions/s0767_reorganize_string.go)
+* [s0783 minimum distance between bst nodes](solutions/s0783_minimum_distance_between_bst_nodes.go)
 * [s0784 letter case permutation](solutions/s0784_letter_case_permutation.go)
 * [s0787 cheapest flights within k stops](solutions/s0787_cheapest_flights_within_k_stops.go)
 * [s0792 number of matching subsequences](solutions/s0792_number_of_matching_subsequences.go)
