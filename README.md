@@ -205,6 +205,7 @@ LeetCode in Go, just for fun obviously
 * [s0520 detect capital](solutions/s0520_detect_capital.go)
 * [s0521 longest uncommon subsequence i](solutions/s0521_longest_uncommon_subsequence_i.go)
 * [s0523 continuous subarray sum](solutions/s0523_continuous_subarray_sum.go)
+* [s0540 single element in a sorted array](solutions/s0540_single_element_in_a_sorted_array.go)
 * [s0542 01 matrix](solutions/s0542_01_matrix.go)
 * [s0547 number of provinces](solutions/s0547_number_of_provinces.go)
 * [s0557 reverse words in a string iii](solutions/s0557_reverse_words_in_a_string_iii.go)
