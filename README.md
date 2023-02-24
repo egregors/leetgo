@@ -346,6 +346,7 @@ LeetCode in Go, just for fun obviously
 * [s1658 minimum operations to reduce x to zero](solutions/s1658_minimum_operations_to_reduce_x_to_zero.go)
 * [s1662 check if two string arrays are equivalent](solutions/s1662_check_if_two_string_arrays_are_equivalent.go)
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
+* [s1675 minimize deviation in array](solutions/s1675_minimize_deviation_in_array.go)
 * [s1679 max number of k-sum pairs](solutions/s1679_max_number_of_k-sum_pairs.go)
 * [s1689 partitioning into minimum number of deci-binary numbers](solutions/s1689_partitioning_into_minimum_number_of_deci-binary_numbers.go)
 * [s1695 maximum erasure value](solutions/s1695_maximum_erasure_value.go)
