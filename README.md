@@ -322,6 +322,7 @@ LeetCode in Go, just for fun obviously
 * [s1337 the k weakest rows in a matrix](solutions/s1337_the_k_weakest_rows_in_a_matrix.go)
 * [s1338 reduce array size to the half](solutions/s1338_reduce_array_size_to_the_half.go)
 * [s1342 number of steps to reduce a number to zero](solutions/s1342_number_of_steps_to_reduce_a_number_to_zero.go)
+* [s1345 jump game iv](solutions/s1345_jump_game_iv.go)
 * [s1354 construct target array with multiple sums](solutions/s1354_construct_target_array_with_multiple_sums.go)
 * [s1379 find a corresponding node of a binary tree in a clone of that tree](solutions/s1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.go)
 * [s1394 find lucky integer in an array](solutions/s1394_find_lucky_integer_in_an_array.go)
