@@ -371,6 +371,7 @@ LeetCode in Go, just for fun obviously
 * [s2131 longest palindrome by concatenating two letter words](solutions/s2131_longest_palindrome_by_concatenating_two_letter_words.go)
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
 * [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
+* [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
 * [s2225 find players with zero or one losses](solutions/s2225_find_players_with_zero_or_one_losses.go)
 * [s2244 minimum rounds to complete all tasks](solutions/s2244_minimum_rounds_to_complete_all_tasks.go)
 * [s2246 longest path with different adjacent characters](solutions/s2246_longest_path_with_different_adjacent_characters.go)
