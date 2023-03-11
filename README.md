@@ -80,6 +80,7 @@ LeetCode in Go, just for fun obviously
 * [s0104 maximum depth of binary tree](solutions/s0104_maximum_depth_of_binary_tree.go)
 * [s0105 construct binary tree from preorder and inorder traversal](solutions/s0105_construct_binary_tree_from_preorder_and_inorder_traversal.go)
 * [s0108 convert sorted array to binary search tree](solutions/s0108_convert_sorted_array_to_binary_search_tree.go)
+* [s0109 convert sorted list to binary search tree](solutions/s0109_convert_sorted_list_to_binary_search_tree.go)
 * [s0110 balanced binary tree](solutions/s0110_balanced_binary_tree.go)
 * [s0112 path sum](solutions/s0112_path_sum.go)
 * [s0113 path sum ii](solutions/s0113_path_sum_ii.go)
