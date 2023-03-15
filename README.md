@@ -94,6 +94,7 @@ LeetCode in Go, just for fun obviously
 * [s0121 best time to buy and sell stock](solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0126 word ladder ii](solutions/s0126_word_ladder_ii.go)
 * [s0128 longest consecutive sequence](solutions/s0128_longest_consecutive_sequence.go)
+* [s0129 sum root to leaf numbers](solutions/s0129_sum_root_to_leaf_numbers.go)
 * [s0130 surrounded regions](solutions/s0130_surrounded_regions.go)
 * [s0131 palindrome partitioning](solutions/s0131_palindrome_partitioning.go)
 * [s0134 gas station](solutions/s0134_gas_station.go)
