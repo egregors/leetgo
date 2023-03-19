@@ -127,6 +127,7 @@ LeetCode in Go, just for fun obviously
 * [s0206 reverse linked list](solutions/s0206_reverse_linked_list.go)
 * [s0208 implement trie (prefix tree)](solutions/s0208_implement_trie_(prefix_tree).go)
 * [s0209 minimum size subarray sum](solutions/s0209_minimum_size_subarray_sum.go)
+* [s0211 design add and search words data structure](solutions/s0211_design_add_and_search_words_data_structure.go)
 * [s0212 word search ii](solutions/s0212_word_search_ii.go)
 * [s0213 house robber ii](solutions/s0213_house_robber_ii.go)
 * [s0215 kth largest element in an array](solutions/s0215_kth_largest_element_in_an_array.go)
