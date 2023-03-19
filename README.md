@@ -342,6 +342,7 @@ LeetCode in Go, just for fun obviously
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
 * [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
 * [s1470 shuffle the array](solutions/s1470_shuffle_the_array.go)
+* [s1472 design browser history](solutions/s1472_design_browser_history.go)
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1519 number of nodes in the sub-tree with the same label](solutions/s1519_number_of_nodes_in_the_sub-tree_with_the_same_label.go)
