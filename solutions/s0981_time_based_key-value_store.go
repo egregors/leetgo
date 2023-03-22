@@ -88,7 +88,7 @@ func NewTimeMap() TimeMap {
 	}
 }
 
-func (tm *TimeMap) Set(key string, value string, timestamp int) {
+func (tm *TimeMap) Set(key, value string, timestamp int) {
 	if _, ok := tm.xs[key]; !ok {
 		tm.xs[key] = &Coll{}
 	}

@@ -15,7 +15,7 @@
 //nolint:revive // it's ok
 package solutions
 
-func mirrorReflection(p int, q int) int {
+func mirrorReflection(p, q int) int {
 	lcm := LCM(p, q)
 	h := lcm / p
 	w := lcm / q

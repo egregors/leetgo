@@ -31,13 +31,13 @@ func NewNumArray(nums []int) NumArray {
 	return NumArray{xs: nums, prefSum: pref}
 }
 
-func (a *NumArray) Update(index int, val int) {
+func (a *NumArray) Update(index, val int) {
 	a.xs[index] = val
 	for i := index; i < len(a.xs); i++ {
 		a.prefSum[i+1] = a.prefSum[i] + a.xs[i]
 	}
 }
 
-func (a *NumArray) SumRange(left int, right int) int {
+func (a *NumArray) SumRange(left, right int) int {
 	return a.prefSum[right+1] - a.prefSum[left]
 }

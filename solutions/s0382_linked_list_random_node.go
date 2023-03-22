@@ -35,6 +35,6 @@ func NewSolution(head *ListNode) Solution383 {
 }
 
 func (s *Solution383) GetRandom() int {
-	n := rand.Intn(100) + 1 //nolint:gosec
+	n := rand.Intn(100) + 1 //nolint:gosec // meh
 	return s.nodes[n%len(s.nodes)].Val
 }

@@ -23,7 +23,7 @@ import (
 func restoreIpAddresses(s string) []string {
 	var bt func(string, []string, *[]string)
 	bt = func(s string, temp []string, result *[]string) {
-		if len(temp) == 4 && len(s) == 0 {
+		if len(temp) == 4 && s == "" {
 			*result = append(*result, strings.Join(temp, "."))
 			return
 		}

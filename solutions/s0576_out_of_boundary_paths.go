@@ -15,7 +15,7 @@ package solutions
 
 import "fmt"
 
-func findPaths(m int, n int, maxMove int, startRow int, startColumn int) int {
+func findPaths(m, n, maxMove, startRow, startColumn int) int {
 	seen := make(map[string]int)
 	var bt func(r, c, steps int) int
 	bt = func(r, c, steps int) int {

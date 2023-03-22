@@ -29,7 +29,7 @@ func NewTrieNode211() *TrieNode211 {
 }
 
 func (tn *TrieNode211) AddWord(word string) {
-	if len(word) == 0 {
+	if word == "" {
 		tn.IsWord = true
 		return
 	}
@@ -40,7 +40,7 @@ func (tn *TrieNode211) AddWord(word string) {
 }
 
 func (tn *TrieNode211) Search(word string) bool {
-	if len(word) == 0 {
+	if word == "" {
 		return tn.IsWord
 	}
 	if word[0] == '.' {

@@ -41,7 +41,7 @@ func (bs *Bags) Pop() interface{} {
 	return x
 }
 
-func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
+func maximumBags(capacity, rocks []int, additionalRocks int) int {
 	bags := Bags{}
 	for i := range rocks {
 		heap.Push(&bags, Bag{len: rocks[i], cap: capacity[i]})

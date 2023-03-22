@@ -13,7 +13,7 @@
 
 package solutions
 
-func computeArea(ax1 int, ay1 int, ax2 int, ay2 int, bx1 int, by1 int, bx2 int, by2 int) int {
+func computeArea(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2 int) int {
 	areaOfA := (ay2 - ay1) * (ax2 - ax1)
 	areaOfB := (by2 - by1) * (bx2 - bx1)
 

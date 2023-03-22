@@ -14,7 +14,7 @@
 
 package solutions
 
-func wordSubsets(words1 []string, words2 []string) []string {
+func wordSubsets(words1, words2 []string) []string {
 	commonSub := make([]int, 26)
 	for _, w := range words2 {
 		arr := make([]int, 26)

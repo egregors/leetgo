@@ -77,7 +77,7 @@ func (lfc *LFUCache) Get(key int) int {
 	}
 }
 
-func (lfc *LFUCache) Put(key int, value int) {
+func (lfc *LFUCache) Put(key, value int) {
 	e, ok := lfc.cache[key]
 	if ok {
 		lfuCacheElement := e.Value.(*LFUCacheElement)

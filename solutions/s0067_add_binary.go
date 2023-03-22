@@ -6,7 +6,7 @@
 
 package solutions
 
-func addBinary(a string, b string) string {
+func addBinary(a, b string) string {
 	var (
 		result string
 		carry  byte

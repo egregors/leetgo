@@ -14,7 +14,7 @@
 package solutions
 
 // minDistance72 should call minDistance to pass LeetCode tests
-func minDistance72(word1 string, word2 string) int {
+func minDistance72(word1, word2 string) int {
 	dp := make([][]int, len(word1)+1)
 	for i := 0; i < len(dp); i++ {
 		dp[i] = make([]int, len(word2)+1)

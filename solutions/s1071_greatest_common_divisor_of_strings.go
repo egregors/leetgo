@@ -9,7 +9,7 @@
 
 package solutions
 
-func gcdOfStrings(str1 string, str2 string) string {
+func gcdOfStrings(str1, str2 string) string {
 	var gcd func(x, y int) int
 	gcd = func(x, y int) int {
 		if y == 0 {

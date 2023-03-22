@@ -34,7 +34,7 @@ func (q *Queue433) Pop() string {
 	return ""
 }
 
-func minMutation(start string, end string, bank []string) int {
+func minMutation(start, end string, bank []string) int {
 	q := Queue433{}
 	seen := make(map[string]struct{})
 

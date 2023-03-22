@@ -15,7 +15,7 @@
 
 package solutions
 
-func canCompleteCircuit(gas []int, cost []int) int {
+func canCompleteCircuit(gas, cost []int) int {
 	n := len(gas)
 	total, curr := 0, 0
 	start := 0

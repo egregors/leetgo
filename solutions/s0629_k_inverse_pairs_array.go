@@ -12,7 +12,7 @@
 package solutions
 
 //nolint:revive // wtf?
-func kInversePairs(n int, k int) int {
+func kInversePairs(n, k int) int {
 	dp := make([]int, k+1)
 	M := 1000000007
 	for i := 1; i <= n; i++ {

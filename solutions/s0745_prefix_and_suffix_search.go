@@ -52,7 +52,7 @@ func NewWordFilter(words []string) WordFilter {
 	return wf
 }
 
-func (wf *WordFilter) F(prefix string, suffix string) int {
+func (wf *WordFilter) F(prefix, suffix string) int {
 	cur := wf.trie
 	for _, letter := range suffix + "{" + prefix {
 		if cur.children[letter-'a'] == nil {

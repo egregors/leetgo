@@ -16,7 +16,7 @@ package solutions
 
 import "sort"
 
-func answerQueries(nums []int, queries []int) []int {
+func answerQueries(nums, queries []int) []int {
 	sort.Ints(nums)
 	res := make([]int, len(queries))
 	for i, target := range queries {

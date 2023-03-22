@@ -9,7 +9,7 @@
 package solutions
 
 // buildTree106 should call buildTree to pass LeetCode tests
-func buildTree106(inorder []int, postorder []int) *TreeNode {
+func buildTree106(inorder, postorder []int) *TreeNode {
 	if len(inorder) == 0 || len(inorder) != len(postorder) {
 		return nil
 	}
@@ -19,9 +19,12 @@ func buildTree106(inorder []int, postorder []int) *TreeNode {
 		Left:  nil,
 		Right: nil,
 	}
+
 	var i int
-	for ; inorder[i] != root.Val; i++ {
+	for inorder[i] != root.Val {
+		i++
 	}
+
 	root.Left = buildTree106(inorder[:i], postorder[:i])
 	root.Right = buildTree106(inorder[i+1:], postorder[i:length-1])
 	return root

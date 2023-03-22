@@ -32,7 +32,7 @@ func (q *Queue623) Pop() *TreeNode {
 	return nil
 }
 
-func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
+func addOneRow(root *TreeNode, val, depth int) *TreeNode {
 	if depth == 1 {
 		return &TreeNode{Val: val, Left: root}
 	}

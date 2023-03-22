@@ -64,20 +64,16 @@ func isValid(s string) bool {
 	stack := &S{}
 
 	for _, r := range s {
-		if isL(r) {
-			stack.push(r)
-			continue
-		} else {
+		if !isL(r) {
 			if l, ok := stack.pop(); ok {
-				if isPaar(l, r) {
-					continue
-				} else {
+				if !isPaar(l, r) {
 					return false
 				}
 			} else {
 				return false
 			}
-
+		} else {
+			stack.push(r)
 		}
 	}
 

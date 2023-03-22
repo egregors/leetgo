@@ -15,7 +15,7 @@
 
 package solutions
 
-func countSubarrays(nums []int, minK int, maxK int) int64 {
+func countSubarrays(nums []int, minK, maxK int) int64 {
 	ans := 0
 	minP, maxP, leftB := -1, -1, -1
 

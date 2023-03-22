@@ -16,7 +16,7 @@
 
 package solutions
 
-func isInterleave(s1 string, s2 string, s3 string) bool {
+func isInterleave(s1, s2, s3 string) bool {
 	if len(s1)+len(s2) != len(s3) {
 		return false
 	}

@@ -25,7 +25,7 @@
 
 package solutions
 
-func smallestEquivalentString(s1 string, s2 string, baseStr string) string {
+func smallestEquivalentString(s1, s2, baseStr string) string {
 	repr := make([]int, 26)
 	var find func(x int) int
 	find = func(x int) int {

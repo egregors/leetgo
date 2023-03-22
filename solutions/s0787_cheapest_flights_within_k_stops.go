@@ -9,7 +9,7 @@
 	dst with at most k stops. If there is no such route, return -1.
 */
 
-//nolint:revive	// it's ok
+//nolint:revive // meh
 package solutions
 
 import (
@@ -30,7 +30,7 @@ func (h *Heap787) Pop() any {
 	return x
 }
 
-func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
+func findCheapestPrice(n int, flights [][]int, src, dst, k int) int {
 	adj := make(map[int][][]int)
 	for _, e := range flights {
 		adj[e[0]] = append(adj[e[0]], []int{e[1], e[2]})

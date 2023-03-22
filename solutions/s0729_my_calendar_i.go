@@ -27,7 +27,7 @@ func NewMyCalendar() MyCalendar {
 	return MyCalendar{}
 }
 
-func (c *MyCalendar) Book(start int, end int) bool {
+func (c *MyCalendar) Book(start, end int) bool {
 	// todo: this is a poor solution.
 	//  it could be a BST
 	for _, v := range c.intervals {

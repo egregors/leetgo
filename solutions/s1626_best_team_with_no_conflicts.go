@@ -23,7 +23,7 @@ type pair1626 struct {
 	age   int
 }
 
-func bestTeamScore(scores []int, ages []int) int {
+func bestTeamScore(scores, ages []int) int {
 
 	sa := make([]pair1626, 0, len(scores))
 

@@ -5,7 +5,7 @@
 
 package solutions
 
-func reverseBetween(head *ListNode, m int, n int) *ListNode {
+func reverseBetween(head *ListNode, m, n int) *ListNode {
 	dummy := new(ListNode)
 	head, dummy.Next = dummy, head
 	for i := 0; i < m-1; i++ {

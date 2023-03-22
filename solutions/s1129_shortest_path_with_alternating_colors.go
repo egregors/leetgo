@@ -24,7 +24,7 @@ type nodeWithColor struct {
 	color  byte
 }
 
-func shortestAlternatingPaths(n int, redEdges [][]int, blueEdges [][]int) []int {
+func shortestAlternatingPaths(n int, redEdges, blueEdges [][]int) []int {
 	var adj [2][][]int
 	adj[0], adj[1] = buildAdj(n, redEdges), buildAdj(n, blueEdges)
 

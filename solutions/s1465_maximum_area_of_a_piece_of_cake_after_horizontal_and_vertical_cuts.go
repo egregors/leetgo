@@ -19,7 +19,7 @@ package solutions
 import "sort"
 
 // maxArea1465 should call maxArea to pass LeetCode tests
-func maxArea1465(h int, w int, horizontalCuts []int, verticalCuts []int) int {
+func maxArea1465(h, w int, horizontalCuts, verticalCuts []int) int {
 
 	sort.Ints(horizontalCuts)
 	sort.Ints(verticalCuts)

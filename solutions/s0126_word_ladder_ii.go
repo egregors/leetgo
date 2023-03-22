@@ -18,7 +18,7 @@
 
 package solutions
 
-func findLadders(beginWord string, endWord string, wordList []string) [][]string {
+func findLadders(beginWord, endWord string, wordList []string) [][]string {
 	dict := make(map[string]struct{})
 	current, trace := make(map[string]struct{}), make(map[string][]string)
 	for _, s := range wordList {

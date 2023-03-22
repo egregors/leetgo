@@ -39,7 +39,6 @@ func (h *BrowserHistory) Visit(url string) {
 	oldCurr.Forward = curr
 
 	h.curr = curr
-	// fmt.Println(h.curr)
 }
 
 func (h *BrowserHistory) Back(steps int) string {

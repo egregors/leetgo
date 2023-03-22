@@ -22,7 +22,7 @@ package solutions
 
 import "math"
 
-func closestMeetingNode(edges []int, node1 int, node2 int) int {
+func closestMeetingNode(edges []int, node1, node2 int) int {
 	bfs := func(startNode int, edges, dist []int) {
 		n := len(edges)
 		queue := []int{startNode}

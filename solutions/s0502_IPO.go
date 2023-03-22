@@ -31,7 +31,7 @@ type Project struct {
 	profit, capital int
 }
 
-func findMaximizedCapital(k int, w int, profits []int, capital []int) int {
+func findMaximizedCapital(k, w int, profits, capital []int) int {
 	n := len(profits)
 	projects := make([]Project, n)
 	for i := range profits {

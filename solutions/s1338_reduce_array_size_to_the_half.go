@@ -17,7 +17,7 @@ func minSetSize(arr []int) int {
 		m[n]++
 	}
 
-	var xs [][]int //nolint:prealloc
+	var xs [][]int //nolint:prealloc // meh
 	for k, v := range m {
 		xs = append(xs, []int{k, v})
 	}

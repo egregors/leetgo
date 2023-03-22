@@ -36,7 +36,7 @@ func (h *RevIntHeap) Pop() interface{} {
 	return x
 }
 
-func furthestBuilding(heights []int, bricks int, ladders int) int {
+func furthestBuilding(heights []int, bricks, ladders int) int {
 
 	ih := &RevIntHeap{}
 	for i := 0; i < len(heights)-1; i++ {
