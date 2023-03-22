@@ -394,3 +394,4 @@ LeetCode in Go, just for fun obviously
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
 * [s2477 minimum fuel cost to report to the capital](solutions/s2477_minimum_fuel_cost_to_report_to_the_capital.go)
+* [s2492 minimum score of a path between two cities](solutions/s2492_minimum_score_of_a_path_between_two_cities.go)
