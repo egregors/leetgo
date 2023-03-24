@@ -343,6 +343,7 @@ LeetCode in Go, just for fun obviously
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
 * [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
+* [s1466 reorder routes to make all paths lead to the city zero](solutions/s1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero.go)
 * [s1470 shuffle the array](solutions/s1470_shuffle_the_array.go)
 * [s1472 design browser history](solutions/s1472_design_browser_history.go)
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
