@@ -325,6 +325,7 @@ LeetCode in Go, just for fun obviously
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
+* [s1319 number of operations to make network connected](solutions/s1319_number_of_operations_to_make_network_connected.go)
 * [s1323 maximum 69 number](solutions/s1323_maximum_69_number.go)
 * [s1328 break a palindrome](solutions/s1328_break_a_palindrome.go)
 * [s1329 sort the matrix diagonally](solutions/s1329_sort_the_matrix_diagonally.go)
