@@ -340,6 +340,7 @@ LeetCode in Go, just for fun obviously
 * [s1379 find a corresponding node of a binary tree in a clone of that tree](solutions/s1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.go)
 * [s1394 find lucky integer in an array](solutions/s1394_find_lucky_integer_in_an_array.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
+* [s1402 reducing dishes](solutions/s1402_reducing_dishes.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1443 minimum time to collect all apples in a tree](solutions/s1443_minimum_time_to_collect_all_apples_in_a_tree.go)
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
