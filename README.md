@@ -393,6 +393,7 @@ LeetCode in Go, just for fun obviously
 * [s2316 count unreachable pairs of nodes in an undirected graph](solutions/s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph.go)
 * [s2348 number of zero-filled subarrays](solutions/s2348_number_of_zero-filled_subarrays.go)
 * [s2359 find closest node to given two nodes](solutions/s2359_find_closest_node_to_given_two_nodes.go)
+* [s2360 longest cycle in a graph](solutions/s2360_longest_cycle_in_a_graph.go)
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
