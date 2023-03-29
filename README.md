@@ -55,6 +55,7 @@ LeetCode in Go, just for fun obviously
 * [s0059 spiral matrix ii](solutions/s0059_spiral_matrix_ii.go)
 * [s0061 rotate list](solutions/s0061_rotate_list.go)
 * [s0063 unique paths ii](solutions/s0063_unique_paths_ii.go)
+* [s0064 minimum path sum](solutions/s0064_minimum_path_sum.go)
 * [s0066 plus one](solutions/s0066_plus_one.go)
 * [s0067 add binary](solutions/s0067_add_binary.go)
 * [s0070 climbing stairs](solutions/s0070_climbing_stairs.go)
