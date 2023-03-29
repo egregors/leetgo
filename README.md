@@ -390,6 +390,7 @@ LeetCode in Go, just for fun obviously
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)
 * [s2293 min max game](solutions/s2293_min_max_game.go)
 * [s2306 naming a company](solutions/s2306_naming_a_company.go)
+* [s2316 count unreachable pairs of nodes in an undirected graph](solutions/s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph.go)
 * [s2348 number of zero-filled subarrays](solutions/s2348_number_of_zero-filled_subarrays.go)
 * [s2359 find closest node to given two nodes](solutions/s2359_find_closest_node_to_given_two_nodes.go)
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
