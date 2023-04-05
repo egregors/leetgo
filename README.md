@@ -400,6 +400,7 @@ LeetCode in Go, just for fun obviously
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
 * [s2405 optimal partition of string](solutions/s2405_optimal_partition_of_string.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
+* [s2439 minimize maximum of array](solutions/s2439_minimize_maximum_of_array.go)
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
 * [s2477 minimum fuel cost to report to the capital](solutions/s2477_minimum_fuel_cost_to_report_to_the_capital.go)
 * [s2492 minimum score of a path between two cities](solutions/s2492_minimum_score_of_a_path_between_two_cities.go)
