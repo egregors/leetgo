@@ -12,70 +12,26 @@
 
 package solutions
 
-// S just a dummy stack
-type S struct {
-	stack []rune
-}
-
-func (s S) isEmpty() bool {
-	return len(s.stack) == 0
-}
-
-func (s *S) push(r rune) {
-	s.stack = append(s.stack, r)
-}
-
-func (s *S) pop() (rune, bool) {
-	if len(s.stack) == 0 {
-		return 0, false
-	}
-	l := s.stack[len(s.stack)-1]
-	s.stack = s.stack[:len(s.stack)-1]
-	return l, true
-}
-
-func isPaar(a, b rune) bool {
-	switch a {
-	case '(':
-		return b == ')'
-	case '{':
-		return b == '}'
-	case '[':
-		return b == ']'
-	default:
-		return false
-	}
-}
-
-func isL(r rune) bool {
-	m := map[rune]bool{
-		'{': true,
-		'[': true,
-		'(': true,
-	}
-	return m[r]
-}
-
 func isValid(s string) bool {
-	if len(s)%2 != 0 {
-		return false
+	m := map[rune]rune{
+		')': '(',
+		'}': '{',
+		']': '[',
 	}
 
-	stack := &S{}
-
-	for _, r := range s {
-		if !isL(r) {
-			if l, ok := stack.pop(); ok {
-				if !isPaar(l, r) {
-					return false
-				}
-			} else {
+	var xs []rune
+	for _, c := range s {
+		if b, ok := m[c]; ok {
+			if len(xs) == 0 {
 				return false
 			}
+			if xs[len(xs)-1] != b {
+				return false
+			}
+			xs = xs[:len(xs)-1]
 		} else {
-			stack.push(r)
+			xs = append(xs, c)
 		}
 	}
-
-	return stack.isEmpty()
+	return len(xs) == 0
 }
