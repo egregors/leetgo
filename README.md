@@ -374,6 +374,7 @@ LeetCode in Go, just for fun obviously
 * [s1704 determine if string halves are alike](solutions/s1704_determine_if_string_halves_are_alike.go)
 * [s1706 where will the ball fall](solutions/s1706_where_will_the_ball_fall.go)
 * [s1710 maximum units on a truck](solutions/s1710_maximum_units_on_a_truck.go)
+* [s1768 merge strings alternately](solutions/s1768_merge_strings_alternately.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s1832 check if the sentence is pangram](solutions/s1832_check_if_the_sentence_is_pangram.go)
 * [s1833 maximum ice cream](solutions/s1833_maximum_ice_cream.go)
