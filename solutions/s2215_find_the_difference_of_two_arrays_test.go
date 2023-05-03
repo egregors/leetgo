@@ -30,7 +30,13 @@ func Test_findDifference(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			assert.Equalf(t, tt.want, findDifference(tt.args.nums1, tt.args.nums2), "findDifference(%v, %v)", tt.args.nums1, tt.args.nums2)
+			assert.Truef(
+				t,
+				IsEqualAnyOrderIntsSlices(tt.want, findDifference(tt.args.nums1, tt.args.nums2)),
+				"findDifference(%v, %v)",
+				tt.args.nums1,
+				tt.args.nums2,
+			)
 		})
 	}
 }
