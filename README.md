@@ -102,6 +102,7 @@ LeetCode in Go, just for fun obviously
 * [s0134 gas station](solutions/s0134_gas_station.go)
 * [s0135 candy](solutions/s0135_candy.go)
 * [s0136 single number](solutions/s0136_single_number.go)
+* [s0139 word break](solutions/s0139_word_break.go)
 * [s0141 linked list cycle](solutions/s0141_linked_list_cycle.go)
 * [s0142 linked list cycle ii](solutions/s0142_linked_list_cycle_ii.go)
 * [s0143 reorder list](solutions/s0143_reorder_list.go)
