@@ -212,6 +212,7 @@ LeetCode in Go, just for fun obviously
 * [s0473 matchsticks to square](solutions/s0473_matchsticks_to_square.go)
 * [s0474 ones and zeroes](solutions/s0474_ones_and_zeroes.go)
 * [s0491 non decreasing subsequences](solutions/s0491_non_decreasing_subsequences.go)
+* [s0501 find mode in binary search tree](solutions/s0501_find_mode_in_binary_search_tree.go)
 * [s0502 IPO](solutions/s0502_IPO.go)
 * [s0509 fibonacci number](solutions/s0509_fibonacci_number.go)
 * [s0510 inorder successor in bst ii](solutions/s0510_inorder_successor_in_bst_ii.go)
