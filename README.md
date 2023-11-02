@@ -397,6 +397,7 @@ LeetCode in Go, just for fun obviously
 * [s2244 minimum rounds to complete all tasks](solutions/s2244_minimum_rounds_to_complete_all_tasks.go)
 * [s2246 longest path with different adjacent characters](solutions/s2246_longest_path_with_different_adjacent_characters.go)
 * [s2256 minimum average difference](solutions/s2256_minimum_average_difference.go)
+* [s2265 count nodes equal to average of subtree](solutions/s2265_count_nodes_equal_to_average_of_subtree.go)
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)
 * [s2293 min max game](solutions/s2293_min_max_game.go)
 * [s2306 naming a company](solutions/s2306_naming_a_company.go)
