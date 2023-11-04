@@ -11,13 +11,6 @@
 
 package solutions
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func maxProfit(prices []int) int {
 	buyPrice, maxProf := prices[0], 0
 	for i := 1; i < len(prices); i++ {
