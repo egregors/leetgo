@@ -1,6 +1,6 @@
 module github.com/egregors/leetgo
 
-go 1.20
+go 1.21
 
 require (
 	github.com/egregors/TreeNode v1.0.4
