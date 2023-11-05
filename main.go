@@ -9,6 +9,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 )
 
@@ -18,9 +19,63 @@ const (
 )
 
 func main() {
-	fmt.Printf("README  ... ")
+	fmt.Printf("⛳️ SOLUTIONS ... \n")
+	NormalizeNames(false)
+	fmt.Printf("👌 formated \n")
+
+	fmt.Printf("📚 README  ... \n")
 	UpdateReadMe()
-	fmt.Printf("updated 👌\n")
+	fmt.Printf("👌 updated \n")
+}
+
+// NormalizeNames renames solutions files to match the pattern s0001_problem_name.go
+func NormalizeNames(dry bool) {
+	err := filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, err error) error {
+		skip := map[string]bool{
+			"main_test.go": true,
+			"types.go":     true,
+			"utils.go":     true,
+		}
+
+		if !d.IsDir() && !skip[d.Name()] && !matchSolutionName(d.Name()) {
+			problemName := d.Name()
+			problemName = strings.ToLower(problemName)
+			problemName = strings.ReplaceAll(problemName, " ", "_")
+			problemName = strings.Replace(problemName, ".", "", 1)
+			xs := strings.Split(problemName, "_")
+			for len(xs[0]) < 4 {
+				xs[0] = "0" + xs[0]
+			}
+			newName := "s" + xs[0] + "_" + strings.Join(xs[1:], "_")
+			newPath := "./solutions/" + newName
+			if path != newPath {
+				fmt.Printf("  %-60s -> %s\n", path, newPath)
+				if !dry {
+					renameFile(path, newPath)
+				}
+			}
+
+		}
+
+		return nil
+	})
+	if err != nil {
+		log.Fatalf("format failed: %s", err)
+	}
+}
+
+func renameFile(oldPath, newPath string) {
+	err := os.Rename(oldPath, newPath)
+	if err != nil {
+		log.Fatalf("can't rename file: %s", err)
+	}
+}
+
+func matchSolutionName(name string) bool {
+	pattern := `^s\d{4}_[\w()]+(\s*-\s*\w+)*\.go$`
+	re := regexp.MustCompile(pattern)
+
+	return re.MatchString(name)
 }
 
 // UpdateReadMe syncs solutions list in repo README.md file
@@ -69,8 +124,10 @@ func getSolutionsList() (names []string, err error) {
 			problemName = "* [" + strings.Replace(problemName, "_", " ", -1) + "](" + path + ")"
 			names = append(names, problemName)
 		}
+
 		return nil
 	})
+
 	return names, err
 }
 
@@ -79,5 +136,6 @@ func getOffsetOf(f io.ReadSeeker, search []byte) (int64, error) {
 	if err != nil {
 		return 0, err
 	}
+
 	return int64(bytes.Index(data, search)), nil
 }
