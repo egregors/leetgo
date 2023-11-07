@@ -388,6 +388,7 @@ LeetCode in Go, just for fun obviously
 * [s1833 maximum ice cream](solutions/s1833_maximum_ice_cream.go)
 * [s1845 seat reservation manager](solutions/s1845_seat_reservation_manager.go)
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
+* [s1921 eliminate maximum number of monsters](solutions/s1921_eliminate_maximum_number_of_monsters.go)
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
