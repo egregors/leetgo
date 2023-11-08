@@ -420,3 +420,4 @@ LeetCode in Go, just for fun obviously
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
 * [s2477 minimum fuel cost to report to the capital](solutions/s2477_minimum_fuel_cost_to_report_to_the_capital.go)
 * [s2492 minimum score of a path between two cities](solutions/s2492_minimum_score_of_a_path_between_two_cities.go)
+* [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
