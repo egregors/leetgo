@@ -381,6 +381,7 @@ LeetCode in Go, just for fun obviously
 * [s1704 determine if string halves are alike](solutions/s1704_determine_if_string_halves_are_alike.go)
 * [s1706 where will the ball fall](solutions/s1706_where_will_the_ball_fall.go)
 * [s1710 maximum units on a truck](solutions/s1710_maximum_units_on_a_truck.go)
+* [s1759 count number of homogenous substrings](solutions/s1759_count_number_of_homogenous_substrings.go)
 * [s1768 merge strings alternately](solutions/s1768_merge_strings_alternately.go)
 * [s1822 sign of the product of an array](solutions/s1822_sign_of_the_product_of_an_array.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
