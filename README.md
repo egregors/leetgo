@@ -392,6 +392,7 @@ LeetCode in Go, just for fun obviously
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
 * [s1921 eliminate maximum number of monsters](solutions/s1921_eliminate_maximum_number_of_monsters.go)
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
+* [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
 * [s2124 check if all as appears before all bs](solutions/s2124_check_if_all_as_appears_before_all_bs.go)
