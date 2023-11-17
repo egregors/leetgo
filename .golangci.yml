@@ -1,4 +1,5 @@
 run:
+  go: "1.21"
   timeout: 5m
   output:
     format: tab
