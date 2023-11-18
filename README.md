@@ -388,6 +388,7 @@ LeetCode in Go, just for fun obviously
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s1832 check if the sentence is pangram](solutions/s1832_check_if_the_sentence_is_pangram.go)
 * [s1833 maximum ice cream](solutions/s1833_maximum_ice_cream.go)
+* [s1838 frequency of the most frequent element](solutions/s1838_frequency_of_the_most_frequent_element.go)
 * [s1845 seat reservation manager](solutions/s1845_seat_reservation_manager.go)
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
 * [s1877 minimize maximum pair sum in array](solutions/s1877_minimize_maximum_pair_sum_in_array.go)
