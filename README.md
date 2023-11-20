@@ -418,6 +418,7 @@ LeetCode in Go, just for fun obviously
 * [s2360 longest cycle in a graph](solutions/s2360_longest_cycle_in_a_graph.go)
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
 * [s2390 removing stars from a string](solutions/s2390_removing_stars_from_a_string.go)
+* [s2391 minimum amount of time to collect garbage](solutions/s2391_minimum_amount_of_time_to_collect_garbage.go)
 * [s2405 optimal partition of string](solutions/s2405_optimal_partition_of_string.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
 * [s2433 find the original array of prefix xor](solutions/s2433_find_the_original_array_of_prefix_xor.go)
