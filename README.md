@@ -384,6 +384,7 @@ LeetCode in Go, just for fun obviously
 * [s1743 restore the array from adjacent pairs](solutions/s1743_restore_the_array_from_adjacent_pairs.go)
 * [s1759 count number of homogenous substrings](solutions/s1759_count_number_of_homogenous_substrings.go)
 * [s1768 merge strings alternately](solutions/s1768_merge_strings_alternately.go)
+* [s1814 count nice pairs in an array](solutions/s1814_count_nice_pairs_in_an_array.go)
 * [s1822 sign of the product of an array](solutions/s1822_sign_of_the_product_of_an_array.go)
 * [s1823 find the winner of the circular game](solutions/s1823_find_the_winner_of_the_circular_game.go)
 * [s1832 check if the sentence is pangram](solutions/s1832_check_if_the_sentence_is_pangram.go)
