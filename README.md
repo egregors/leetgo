@@ -346,6 +346,7 @@ LeetCode in Go, just for fun obviously
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1402 reducing dishes](solutions/s1402_reducing_dishes.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
+* [s1424 diagonal traverse ii](solutions/s1424_diagonal_traverse_ii.go)
 * [s1441 build an array with stack operations](solutions/s1441_build_an_array_with_stack_operations.go)
 * [s1443 minimum time to collect all apples in a tree](solutions/s1443_minimum_time_to_collect_all_apples_in_a_tree.go)
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
