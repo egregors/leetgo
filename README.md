@@ -378,6 +378,7 @@ LeetCode in Go, just for fun obviously
 * [s1672 richest customer wealth](solutions/s1672_richest_customer_wealth.go)
 * [s1675 minimize deviation in array](solutions/s1675_minimize_deviation_in_array.go)
 * [s1679 max number of k-sum pairs](solutions/s1679_max_number_of_k-sum_pairs.go)
+* [s1685 sum of absolute differences in a sorted array](solutions/s1685_sum_of_absolute_differences_in_a_sorted_array.go)
 * [s1689 partitioning into minimum number of deci-binary numbers](solutions/s1689_partitioning_into_minimum_number_of_deci-binary_numbers.go)
 * [s1695 maximum erasure value](solutions/s1695_maximum_erasure_value.go)
 * [s1696 jump game vi](solutions/s1696_jump_game_vi.go)
