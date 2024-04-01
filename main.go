@@ -30,7 +30,7 @@ func main() {
 
 // NormalizeNames renames solutions files to match the pattern s0001_problem_name.go
 func NormalizeNames(dry bool) {
-	err := filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, err error) error {
+	err := filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, _ error) error {
 		skip := map[string]bool{
 			"main_test.go": true,
 			"types.go":     true,
@@ -117,7 +117,7 @@ func isValid(path string) bool {
 }
 
 func getSolutionsList() (names []string, err error) {
-	err = filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, err error) error {
+	err = filepath.WalkDir("./solutions", func(path string, _ fs.DirEntry, _ error) error {
 		if isValid(path) {
 			words := strings.Split(path, "/")
 			problemName := strings.Split(words[1], ".")[0]

@@ -10,17 +10,13 @@
 package solutions
 
 func lengthOfLastWord(s string) int {
-	i := len(s) - 1
-	for i >= 0 {
-		if s[i] != ' ' {
-			j := i
-			for j >= 0 && s[j] != ' ' {
-				j--
-			}
-			return i - j
+	res := 0
+	for i := len(s)-1; i >= 0; i-- {
+		if s[i] != ' ' { res++ } else {
+			if res == 0 { continue }
+			return res
 		}
-		i--
 	}
 
-	return 0
+	return res
 }
