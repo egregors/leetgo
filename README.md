@@ -367,6 +367,7 @@ LeetCode in Go, just for fun obviously
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
 * [s1561 maximum number of coins you can get](solutions/s1561_maximum_number_of_coins_you_can_get.go)
 * [s1598 crawler log folder](solutions/s1598_crawler_log_folder.go)
+* [s1614 maximum nesting depth of the parentheses](solutions/s1614_maximum_nesting_depth_of_the_parentheses.go)
 * [s1626 best team with no conflicts](solutions/s1626_best_team_with_no_conflicts.go)
 * [s1630 arithmetic subarrays](solutions/s1630_arithmetic_subarrays.go)
 * [s1641 count sorted vowel strings](solutions/s1641_count_sorted_vowel_strings.go)
