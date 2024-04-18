@@ -209,6 +209,7 @@ LeetCode in Go, just for fun obviously
 * [s0459 repeated substring pattern](solutions/s0459_repeated_substring_pattern.go)
 * [s0460 lfu cache](solutions/s0460_lfu_cache.go)
 * [s0462 minimum moves to equal array elements ii](solutions/s0462_minimum_moves_to_equal_array_elements_ii.go)
+* [s0463 island perimeter](solutions/s0463_island_perimeter.go)
 * [s0472 concatenated words](solutions/s0472_concatenated_words.go)
 * [s0473 matchsticks to square](solutions/s0473_matchsticks_to_square.go)
 * [s0474 ones and zeroes](solutions/s0474_ones_and_zeroes.go)
