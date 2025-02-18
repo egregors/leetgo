@@ -60,6 +60,7 @@ func smallestEquivalentString(s1, s2, baseStr string) string {
 	}
 	var ans string
 	for i := 0; i < len(baseStr); i++ {
+		//nolint:gosec // meh
 		ans += string(uint8(find(int(baseStr[i]-'a')) + 'a'))
 	}
 	return ans

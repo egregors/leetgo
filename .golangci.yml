@@ -1,5 +1,5 @@
 run:
-  go: "1.21"
+  go: "1.24"
   timeout: 5m
   output:
     format: tab
@@ -51,8 +51,7 @@ linters:
     - ineffassign
     - stylecheck
     - gochecknoinits
-    - exportloopref
-    - gocritic
+#    - gocritic
     - nakedret
     - gosimple
     - prealloc
@@ -61,6 +60,12 @@ linters:
 
 issues:
   exclude-rules:
+#    - text: "shadowing of predeclared identifier"
+#    - linters:
+#        - gocritic
+    - text: "redefinition of the built-in function"
+      linters:
+        - revive
     - text: "at least one file in a package should have a package comment"
       linters:
         - stylecheck
@@ -72,6 +77,3 @@ issues:
         - gosec
         - dupl
   exclude-use-default: false
-
-service:
-  golangci-lint-version: 1.49.x

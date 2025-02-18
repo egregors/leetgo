@@ -424,6 +424,7 @@ LeetCode in Go, just for fun obviously
 * [s2348 number of zero-filled subarrays](solutions/s2348_number_of_zero-filled_subarrays.go)
 * [s2359 find closest node to given two nodes](solutions/s2359_find_closest_node_to_given_two_nodes.go)
 * [s2360 longest cycle in a graph](solutions/s2360_longest_cycle_in_a_graph.go)
+* [s2375 construct smallest number from di string](solutions/s2375_construct_smallest_number_from_di_string.go)
 * [s2389 longest subsequence with limited sum](solutions/s2389_longest_subsequence_with_limited_sum.go)
 * [s2390 removing stars from a string](solutions/s2390_removing_stars_from_a_string.go)
 * [s2391 minimum amount of time to collect garbage](solutions/s2391_minimum_amount_of_time_to_collect_garbage.go)
