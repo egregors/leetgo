@@ -347,6 +347,7 @@ LeetCode in Go, just for fun obviously
 * [s1394 find lucky integer in an array](solutions/s1394_find_lucky_integer_in_an_array.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1402 reducing dishes](solutions/s1402_reducing_dishes.go)
+* [s1415 the k-th lexicographical string of all happy strings of length n](solutions/s1415_the_k-th_lexicographical_string_of_all_happy_strings_of_length_n.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1424 diagonal traverse ii](solutions/s1424_diagonal_traverse_ii.go)
 * [s1441 build an array with stack operations](solutions/s1441_build_an_array_with_stack_operations.go)
