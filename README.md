@@ -330,6 +330,7 @@ LeetCode in Go, just for fun obviously
 * [s1220 count vowels permutation](solutions/s1220_count_vowels_permutation.go)
 * [s1239 maximum length of a concatenated string with unique characters](solutions/s1239_maximum_length_of_a_concatenated_string_with_unique_characters.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
+* [s1261 find elements in a contaminated binary tree](solutions/s1261_find_elements_in_a_contaminated_binary_tree.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
 * [s1319 number of operations to make network connected](solutions/s1319_number_of_operations_to_make_network_connected.go)

@@ -63,6 +63,9 @@ issues:
 #    - text: "shadowing of predeclared identifier"
 #    - linters:
 #        - gocritic
+    - text: "should have comment or be unexported"
+      linters:
+        - revive
     - text: "redefinition of the built-in function"
       linters:
         - revive
