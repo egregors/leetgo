@@ -442,3 +442,4 @@ LeetCode in Go, just for fun obviously
 * [s2523 closest prime numbers in range](solutions/s2523_closest_prime_numbers_in_range.go)
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
+* [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
