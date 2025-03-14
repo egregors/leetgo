@@ -416,6 +416,7 @@ LeetCode in Go, just for fun obviously
 * [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
 * [s2215 find the difference of two arrays](solutions/s2215_find_the_difference_of_two_arrays.go)
 * [s2225 find players with zero or one losses](solutions/s2225_find_players_with_zero_or_one_losses.go)
+* [s2226 maximum candies allocated to k children](solutions/s2226_maximum_candies_allocated_to_k_children.go)
 * [s2244 minimum rounds to complete all tasks](solutions/s2244_minimum_rounds_to_complete_all_tasks.go)
 * [s2246 longest path with different adjacent characters](solutions/s2246_longest_path_with_different_adjacent_characters.go)
 * [s2256 minimum average difference](solutions/s2256_minimum_average_difference.go)
