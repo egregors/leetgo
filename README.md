@@ -409,6 +409,7 @@ LeetCode in Go, just for fun obviously
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
+* [s2115 find all possible recipes from given supplies](solutions/s2115_find_all_possible_recipes_from_given_supplies.go)
 * [s2124 check if all as appears before all bs](solutions/s2124_check_if_all_as_appears_before_all_bs.go)
 * [s2131 longest palindrome by concatenating two letter words](solutions/s2131_longest_palindrome_by_concatenating_two_letter_words.go)
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
