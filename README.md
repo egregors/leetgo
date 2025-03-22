@@ -448,6 +448,7 @@ LeetCode in Go, just for fun obviously
 * [s2529 maximum count of positive integer and negative integer](solutions/s2529_maximum_count_of_positive_integer_and_negative_integer.go)
 * [s2560 house robber iv](solutions/s2560_house_robber_iv.go)
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
+* [s2685 count the number of complete components](solutions/s2685_count_the_number_of_complete_components.go)
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
