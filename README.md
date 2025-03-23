@@ -406,6 +406,7 @@ LeetCode in Go, just for fun obviously
 * [s1877 minimize maximum pair sum in array](solutions/s1877_minimize_maximum_pair_sum_in_array.go)
 * [s1921 eliminate maximum number of monsters](solutions/s1921_eliminate_maximum_number_of_monsters.go)
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
+* [s1976 number of ways to arrive at destination](solutions/s1976_number_of_ways_to_arrive_at_destination.go)
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
