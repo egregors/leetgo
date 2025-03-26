@@ -121,7 +121,7 @@ func getSolutionsList() (names []string, err error) {
 		if isValid(path) {
 			words := strings.Split(path, "/")
 			problemName := strings.Split(words[1], ".")[0]
-			problemName = "* [" + strings.Replace(problemName, "_", " ", -1) + "](" + path + ")"
+			problemName = "* [" + strings.ReplaceAll(problemName, "_", " ") + "](" + path + ")"
 			names = append(names, problemName)
 		}
 

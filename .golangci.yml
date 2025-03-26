@@ -1,82 +1,66 @@
+version: "2"
 run:
   go: "1.24"
-  timeout: 5m
-  output:
-    format: tab
-  skip-dirs:
-    - vendor
-
-linters-settings:
-  govet:
-    check-shadowing: true
-    disable:
-      - composites
-  golint:
-    min-confidence: 0.1
-  maligned:
-    suggest-new: true
-  goconst:
-    min-len: 2
-    min-occurrences: 2
-  misspell:
-    locale: US
-  lll:
-    line-length: 140
-  gocritic:
-    enabled-tags:
-      - performance
-      - style
-      - experimental
-    disabled-checks:
-      - wrapperFunc
-      - hugeParam
-      - rangeValCopy
-      - singleCaseSwitch
-      - ifElseChain
-
 linters:
+  default: none
   enable:
-    - megacheck
-    - revive
-    - govet
-    - unconvert
-    - megacheck
-    - gas
-    - gocyclo
     - dupl
+    - gochecknoinits
+    - gocyclo
+    - gosec
+    - govet
+    - ineffassign
     - misspell
+    - nakedret
+    - prealloc
+    - revive
+    - staticcheck
+    - unconvert
     - unparam
     - unused
-    - typecheck
-    - ineffassign
-    - stylecheck
-    - gochecknoinits
-#    - gocritic
-    - nakedret
-    - gosimple
-    - prealloc
-  fast: false
-  disable-all: true
-
-issues:
-  exclude-rules:
-#    - text: "shadowing of predeclared identifier"
-#    - linters:
-#        - gocritic
-    - text: "should have comment or be unexported"
-      linters:
-        - revive
-    - text: "redefinition of the built-in function"
-      linters:
-        - revive
-    - text: "at least one file in a package should have a package comment"
-      linters:
-        - stylecheck
-    - text: "should have a package comment, unless it's in another file for this package"
-      linters:
-        - golint
-    - path: _test\.go
-      linters:
-        - gosec
-        - dupl
-  exclude-use-default: false
+  settings:
+    goconst:
+      min-len: 2
+      min-occurrences: 2
+    gocritic:
+      disabled-checks:
+        - wrapperFunc
+        - hugeParam
+        - rangeValCopy
+        - singleCaseSwitch
+        - ifElseChain
+      enabled-tags:
+        - performance
+        - style
+        - experimental
+    govet:
+      disable:
+        - composites
+    lll:
+      line-length: 140
+    misspell:
+      locale: US
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - legacy
+    rules:
+      - linters:
+          - dupl
+          - gosec
+        path: _test\.go
+      - text: redefines-builtin-id
+        linters:
+          - revive
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$

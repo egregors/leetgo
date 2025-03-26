@@ -23,9 +23,10 @@ func minRemoveToMakeValid(s string) string {
 	xs, open, i := []byte(s), 0, 0
 
 	for i < len(xs) {
-		if xs[i] == '(' {
+		switch xs[i] {
+		case '(':
 			open++
-		} else if xs[i] == ')' {
+		case ')':
 			if open == 0 {
 				del(&xs, i)
 				i--

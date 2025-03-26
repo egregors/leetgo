@@ -74,7 +74,7 @@ func construct(grid [][]int) *Node427 {
 		n >>= 1
 		quads := [4]*Node427{dfs(i, j, n), dfs(i, j+n, n), dfs(i+n, j, n), dfs(i+n, j+n, n)}
 		for i := 0; i < len(quads); i++ {
-			if !(quads[i].IsLeaf && quads[i].Val == quads[0].Val) {
+			if !quads[i].IsLeaf || quads[i].Val != quads[0].Val {
 				return &Node427{
 					Val:         true, // any value
 					IsLeaf:      false,

@@ -49,9 +49,10 @@ func solve(board [][]byte) {
 	// whole board
 	for r := 0; r < n; r++ {
 		for c := 0; c < m; c++ {
-			if board[r][c] == o {
+			switch board[r][c] {
+			case o:
 				board[r][c] = x
-			} else if board[r][c] == borderline {
+			case borderline:
 				board[r][c] = o
 			}
 		}

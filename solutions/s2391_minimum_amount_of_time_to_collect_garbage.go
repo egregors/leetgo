@@ -27,11 +27,12 @@ func garbageCollection(garbage []string, travel []int) int {
 			sum += travel[i-1]
 		}
 		for _, r := range garbage[i] {
-			if r == 'M' {
+			switch r {
+			case 'M':
 				mt = sum
-			} else if r == 'P' {
+			case 'P':
 				pt = sum
-			} else {
+			default:
 				gt = sum
 			}
 		}
