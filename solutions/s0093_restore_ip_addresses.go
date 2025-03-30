@@ -19,7 +19,7 @@ import (
 	"strings"
 )
 
-//nolint:revive,stylecheck // it's leetcode signature
+//nolint:revive // it's leetcode signature
 func restoreIpAddresses(s string) []string {
 	var bt func(string, []string, *[]string)
 	bt = func(s string, temp []string, result *[]string) {

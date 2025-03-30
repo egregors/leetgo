@@ -22,7 +22,6 @@
 	You must solve the problem without using the built-in queue data structure in your programming language.
 */
 
-// nolint:revive,stylecheck // das ist ok
 package solutions
 
 import (
