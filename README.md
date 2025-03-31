@@ -373,6 +373,7 @@ LeetCode in Go, just for fun obviously
 * [s1544 make the string great](solutions/s1544_make_the_string_great.go)
 * [s1557 minimum number of vertices to reach all nodes](solutions/s1557_minimum_number_of_vertices_to_reach_all_nodes.go)
 * [s1561 maximum number of coins you can get](solutions/s1561_maximum_number_of_coins_you_can_get.go)
+* [s1570 dot product of two sparse vectors](solutions/s1570_dot_product_of_two_sparse_vectors.go)
 * [s1598 crawler log folder](solutions/s1598_crawler_log_folder.go)
 * [s1614 maximum nesting depth of the parentheses](solutions/s1614_maximum_nesting_depth_of_the_parentheses.go)
 * [s1626 best team with no conflicts](solutions/s1626_best_team_with_no_conflicts.go)
