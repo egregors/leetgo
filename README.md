@@ -451,6 +451,7 @@ LeetCode in Go, just for fun obviously
 * [s2503 maximum number of points from grid queries](solutions/s2503_maximum_number_of_points_from_grid_queries.go)
 * [s2523 closest prime numbers in range](solutions/s2523_closest_prime_numbers_in_range.go)
 * [s2529 maximum count of positive integer and negative integer](solutions/s2529_maximum_count_of_positive_integer_and_negative_integer.go)
+* [s2551 put marbles in bags](solutions/s2551_put_marbles_in_bags.go)
 * [s2560 house robber iv](solutions/s2560_house_robber_iv.go)
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
 * [s2685 count the number of complete components](solutions/s2685_count_the_number_of_complete_components.go)
