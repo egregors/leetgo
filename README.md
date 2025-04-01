@@ -417,6 +417,7 @@ LeetCode in Go, just for fun obviously
 * [s2124 check if all as appears before all bs](solutions/s2124_check_if_all_as_appears_before_all_bs.go)
 * [s2131 longest palindrome by concatenating two letter words](solutions/s2131_longest_palindrome_by_concatenating_two_letter_words.go)
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
+* [s2140 solving questions with brainpower](solutions/s2140_solving_questions_with_brainpower.go)
 * [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
 * [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
 * [s2206 divide array into equal pairs](solutions/s2206_divide_array_into_equal_pairs.go)
