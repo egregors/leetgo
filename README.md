@@ -462,6 +462,7 @@ LeetCode in Go, just for fun obviously
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2873 maximum value of an ordered triplet i](solutions/s2873_maximum_value_of_an_ordered_triplet_i.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
+* [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
