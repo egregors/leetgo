@@ -295,6 +295,7 @@ LeetCode in Go, just for fun obviously
 * [s0916 word subsets](solutions/s0916_word_subsets.go)
 * [s0918 maximum sum circular subarray](solutions/s0918_maximum_sum_circular_subarray.go)
 * [s0926 flip string to monotone increasing](solutions/s0926_flip_string_to_monotone_increasing.go)
+* [s0938 range sum of bst](solutions/s0938_range_sum_of_bst.go)
 * [s0942 di string match](solutions/s0942_di_string_match.go)
 * [s0944 delete columns to make sorted](solutions/s0944_delete_columns_to_make_sorted.go)
 * [s0946 validate stack sequences](solutions/s0946_validate_stack_sequences.go)
