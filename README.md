@@ -198,6 +198,7 @@ LeetCode in Go, just for fun obviously
 * [s0413 arithmetic slices](solutions/s0413_arithmetic_slices.go)
 * [s0414 third maximum number](solutions/s0414_third_maximum_number.go)
 * [s0415 add strings](solutions/s0415_add_strings.go)
+* [s0416 partition equal subset sum](solutions/s0416_partition_equal_subset_sum.go)
 * [s0427 construct quad tree](solutions/s0427_construct_quad_tree.go)
 * [s0429 n-ary tree level order traversal](solutions/s0429_n-ary_tree_level_order_traversal.go)
 * [s0433 minimum genetic mutation](solutions/s0433_minimum_genetic_mutation.go)
