@@ -323,6 +323,7 @@ LeetCode in Go, just for fun obviously
 * [s1061 lexicographically smallest equivalent string](solutions/s1061_lexicographically_smallest_equivalent_string.go)
 * [s1071 greatest common divisor of strings](solutions/s1071_greatest_common_divisor_of_strings.go)
 * [s1074 number of submatrices that sum to target](solutions/s1074_number_of_submatrices_that_sum_to_target.go)
+* [s1089 duplicate zeros](solutions/s1089_duplicate_zeros.go)
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1108 defanging an ip address](solutions/s1108_defanging_an_ip_address.go)
 * [s1123 lowest common ancestor of deepest leaves](solutions/s1123_lowest_common_ancestor_of_deepest_leaves.go)
