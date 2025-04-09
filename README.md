@@ -474,4 +474,5 @@ LeetCode in Go, just for fun obviously
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
 * [s3356 zero array transformation ii](solutions/s3356_zero_array_transformation_ii.go)
+* [s3375 minimum operations to make array values equal to k](solutions/s3375_minimum_operations_to_make_array_values_equal_to_k.go)
 * [s3394 check if grid can be cut into sections](solutions/s3394_check_if_grid_can_be_cut_into_sections.go)
