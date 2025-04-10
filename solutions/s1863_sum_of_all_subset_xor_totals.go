@@ -15,7 +15,6 @@
 package solutions
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -33,10 +32,6 @@ func subsetXORSum(nums []int) int {
 	}
 
 	bt(0, []int{})
-
-	for _, r := range subs {
-		fmt.Println(r)
-	}
 
 	sum := 0
 	for _, sub := range subs {
