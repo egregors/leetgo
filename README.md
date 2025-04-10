@@ -208,6 +208,7 @@ LeetCode in Go, just for fun obviously
 * [s0450 delete node in a bst](solutions/s0450_delete_node_in_a_bst.go)
 * [s0451 sort characters by frequency](solutions/s0451_sort_characters_by_frequency.go)
 * [s0452 Minimum Number of Arrows to Burst Balloons](solutions/s0452_Minimum_Number_of_Arrows_to_Burst_Balloons.go)
+* [s0455 assign cookies](solutions/s0455_assign_cookies.go)
 * [s0456 132 pattern](solutions/s0456_132_pattern.go)
 * [s0458 poor pigs](solutions/s0458_poor_pigs.go)
 * [s0459 repeated substring pattern](solutions/s0459_repeated_substring_pattern.go)
