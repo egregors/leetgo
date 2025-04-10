@@ -469,6 +469,7 @@ LeetCode in Go, just for fun obviously
 * [s2874 maximum value of an ordered triplet ii](solutions/s2874_maximum_value_of_an_ordered_triplet_ii.go)
 * [s2942 find words containing character](solutions/s2942_find_words_containing_character.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
+* [s2999 count the number of powerful integers](solutions/s2999_count_the_number_of_powerful_integers.go)
 * [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
