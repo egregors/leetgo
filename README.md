@@ -465,6 +465,7 @@ LeetCode in Go, just for fun obviously
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
 * [s2685 count the number of complete components](solutions/s2685_count_the_number_of_complete_components.go)
 * [s2780 minimum index of a valid split](solutions/s2780_minimum_index_of_a_valid_split.go)
+* [s2843 count symmetric integers](solutions/s2843_count_symmetric_integers.go)
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2873 maximum value of an ordered triplet i](solutions/s2873_maximum_value_of_an_ordered_triplet_i.go)
 * [s2874 maximum value of an ordered triplet ii](solutions/s2874_maximum_value_of_an_ordered_triplet_ii.go)
