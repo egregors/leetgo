@@ -13,6 +13,7 @@ LeetCode in Go, just for fun obviously
 * [s0003 longest substring without repeating characters](solutions/s0003_longest_substring_without_repeating_characters.go)
 * [s0005 longest palindromic substring](solutions/s0005_longest_palindromic_substring.go)
 * [s0006 zigzag conversion](solutions/s0006_zigzag_conversion.go)
+* [s0007 reverse integer](solutions/s0007_reverse_integer.go)
 * [s0008 string to integer (atoi)](solutions/s0008_string_to_integer_(atoi).go)
 * [s0011 container with most water](solutions/s0011_container_with_most_water.go)
 * [s0013 roman to integer](solutions/s0013_roman_to_integer.go)
