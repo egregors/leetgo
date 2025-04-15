@@ -98,6 +98,7 @@ LeetCode in Go, just for fun obviously
 * [s0120 triangle](solutions/s0120_triangle.go)
 * [s0121 best time to buy and sell stock](solutions/s0121_best_time_to_buy_and_sell_stock.go)
 * [s0122 best time to buy and sell stock ii](solutions/s0122_best_time_to_buy_and_sell_stock_ii.go)
+* [s0125 valid palindrome](solutions/s0125_valid_palindrome.go)
 * [s0126 word ladder ii](solutions/s0126_word_ladder_ii.go)
 * [s0128 longest consecutive sequence](solutions/s0128_longest_consecutive_sequence.go)
 * [s0129 sum root to leaf numbers](solutions/s0129_sum_root_to_leaf_numbers.go)
