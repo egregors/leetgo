@@ -183,6 +183,7 @@ LeetCode in Go, just for fun obviously
 * [s0344 reverse string](solutions/s0344_reverse_string.go)
 * [s0345 reverse vowels of a string](solutions/s0345_reverse_vowels_of_a_string.go)
 * [s0347 top k frequent elements](solutions/s0347_top_k_frequent_elements.go)
+* [s0349 intersection of two arrays](solutions/s0349_intersection_of_two_arrays.go)
 * [s0350 intersection of two arrays ii](solutions/s0350_intersection_of_two_arrays_ii.go)
 * [s0352 data stream as disjoint intervals](solutions/s0352_data_stream_as_disjoint_intervals.go)
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
