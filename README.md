@@ -434,6 +434,7 @@ LeetCode in Go, just for fun obviously
 * [s2133 check if every row and column contains all numbers](solutions/s2133_check_if_every_row_and_column_contains_all_numbers.go)
 * [s2140 solving questions with brainpower](solutions/s2140_solving_questions_with_brainpower.go)
 * [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
+* [s2176 count equal and divisible pairs in an array](solutions/s2176_count_equal_and_divisible_pairs_in_an_array.go)
 * [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
 * [s2206 divide array into equal pairs](solutions/s2206_divide_array_into_equal_pairs.go)
 * [s2215 find the difference of two arrays](solutions/s2215_find_the_difference_of_two_arrays.go)
