@@ -148,6 +148,7 @@ LeetCode in Go, just for fun obviously
 * [s0223 rectangle area](solutions/s0223_rectangle_area.go)
 * [s0225 implement stack using queues](solutions/s0225_implement_stack_using_queues.go)
 * [s0226 invert binary tree](solutions/s0226_invert_binary_tree.go)
+* [s0227 basic calculator ii](solutions/s0227_basic_calculator_ii.go)
 * [s0228 summary ranges](solutions/s0228_summary_ranges.go)
 * [s0230 kth smallest element in a bst](solutions/s0230_kth_smallest_element_in_a_bst.go)
 * [s0231 power of two](solutions/s0231_power_of_two.go)
