@@ -369,6 +369,7 @@ LeetCode in Go, just for fun obviously
 * [s1415 the k-th lexicographical string of all happy strings of length n](solutions/s1415_the_k-th_lexicographical_string_of_all_happy_strings_of_length_n.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1424 diagonal traverse ii](solutions/s1424_diagonal_traverse_ii.go)
+* [s1436 destination city](solutions/s1436_destination_city.go)
 * [s1441 build an array with stack operations](solutions/s1441_build_an_array_with_stack_operations.go)
 * [s1443 minimum time to collect all apples in a tree](solutions/s1443_minimum_time_to_collect_all_apples_in_a_tree.go)
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
