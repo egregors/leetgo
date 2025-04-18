@@ -37,6 +37,7 @@ LeetCode in Go, just for fun obviously
 * [s0034 find first and last position of element in sorted array](solutions/s0034_find_first_and_last_position_of_element_in_sorted_array.go)
 * [s0035 search insert position](solutions/s0035_search_insert_position.go)
 * [s0036 valid sudoku](solutions/s0036_valid_sudoku.go)
+* [s0038 count and say](solutions/s0038_count_and_say.go)
 * [s0039 combination sum](solutions/s0039_combination_sum.go)
 * [s0040 combination sum ii](solutions/s0040_combination_sum_ii.go)
 * [s0043 multiply strings](solutions/s0043_multiply_strings.go)
