@@ -256,6 +256,7 @@ LeetCode in Go, just for fun obviously
 * [s0647 palindromic substrings](solutions/s0647_palindromic_substrings.go)
 * [s0652 find duplicate subtrees](solutions/s0652_find_duplicate_subtrees.go)
 * [s0653 two sum iv - input is a bst](solutions/s0653_two_sum_iv_-_input_is_a_bst.go)
+* [s0657 robot return to origin](solutions/s0657_robot_return_to_origin.go)
 * [s0665 non decreasing array](solutions/s0665_non_decreasing_array.go)
 * [s0668 kth smallest number in multiplication table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
 * [s0682 baseball game](solutions/s0682_baseball_game.go)
