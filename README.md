@@ -260,6 +260,7 @@ LeetCode in Go, just for fun obviously
 * [s0665 non decreasing array](solutions/s0665_non_decreasing_array.go)
 * [s0668 kth smallest number in multiplication table](solutions/s0668_kth_smallest_number_in_multiplication_table.go)
 * [s0674 longest continuous increasing subsequence](solutions/s0674_longest_continuous_increasing_subsequence.go)
+* [s0680 valid palindrome ii](solutions/s0680_valid_palindrome_ii.go)
 * [s0682 baseball game](solutions/s0682_baseball_game.go)
 * [s0692 top k frequent words](solutions/s0692_top_k_frequent_words.go)
 * [s0695 max area of island](solutions/s0695_max_area_of_island.go)
