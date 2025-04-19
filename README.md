@@ -298,6 +298,7 @@ LeetCode in Go, just for fun obviously
 * [s0875 koko eating bananas](solutions/s0875_koko_eating_bananas.go)
 * [s0876 middle of the linked list](solutions/s0876_middle_of_the_linked_list.go)
 * [s0890 find and replace pattern](solutions/s0890_find_and_replace_pattern.go)
+* [s0896 monotonic array](solutions/s0896_monotonic_array.go)
 * [s0897 increasing order search tree](solutions/s0897_increasing_order_search_tree.go)
 * [s0899 orderly queue](solutions/s0899_orderly_queue.go)
 * [s0901 online stock span](solutions/s0901_online_stock_span.go)
