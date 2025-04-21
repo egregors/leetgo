@@ -160,6 +160,7 @@ LeetCode in Go, just for fun obviously
 * [s0238 product of array except self](solutions/s0238_product_of_array_except_self.go)
 * [s0240 search a 2d matrix ii](solutions/s0240_search_a_2d_matrix_ii.go)
 * [s0242 valid anagram](solutions/s0242_valid_anagram.go)
+* [s0253 meeting rooms ii](solutions/s0253_meeting_rooms_ii.go)
 * [s0256 paint house](solutions/s0256_paint_house.go)
 * [s0258 add digits](solutions/s0258_add_digits.go)
 * [s0263 ugly number](solutions/s0263_ugly_number.go)
