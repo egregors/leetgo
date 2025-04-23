@@ -371,6 +371,7 @@ LeetCode in Go, just for fun obviously
 * [s1379 find a corresponding node of a binary tree in a clone of that tree](solutions/s1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree.go)
 * [s1394 find lucky integer in an array](solutions/s1394_find_lucky_integer_in_an_array.go)
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
+* [s1399 count largest group](solutions/s1399_count_largest_group.go)
 * [s1402 reducing dishes](solutions/s1402_reducing_dishes.go)
 * [s1415 the k-th lexicographical string of all happy strings of length n](solutions/s1415_the_k-th_lexicographical_string_of_all_happy_strings_of_length_n.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
