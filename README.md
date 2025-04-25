@@ -489,6 +489,7 @@ LeetCode in Go, just for fun obviously
 * [s2780 minimum index of a valid split](solutions/s2780_minimum_index_of_a_valid_split.go)
 * [s2799 count complete subarrays in an array](solutions/s2799_count_complete_subarrays_in_an_array.go)
 * [s2843 count symmetric integers](solutions/s2843_count_symmetric_integers.go)
+* [s2845 count of interesting subarrays](solutions/s2845_count_of_interesting_subarrays.go)
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2873 maximum value of an ordered triplet i](solutions/s2873_maximum_value_of_an_ordered_triplet_i.go)
 * [s2874 maximum value of an ordered triplet ii](solutions/s2874_maximum_value_of_an_ordered_triplet_ii.go)
