@@ -485,6 +485,7 @@ LeetCode in Go, just for fun obviously
 * [s2560 house robber iv](solutions/s2560_house_robber_iv.go)
 * [s2570 merge two 2d arrays by summing values](solutions/s2570_merge_two_2d_arrays_by_summing_values.go)
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
+* [s2657 find the prefix common array of two arrays](solutions/s2657_find_the_prefix_common_array_of_two_arrays.go)
 * [s2685 count the number of complete components](solutions/s2685_count_the_number_of_complete_components.go)
 * [s2780 minimum index of a valid split](solutions/s2780_minimum_index_of_a_valid_split.go)
 * [s2799 count complete subarrays in an array](solutions/s2799_count_complete_subarrays_in_an_array.go)
