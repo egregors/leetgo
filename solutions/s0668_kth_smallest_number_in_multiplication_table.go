@@ -9,13 +9,6 @@
 
 package solutions
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
 func f(val, m, n int) int {
 	res := 0
 	for i := 1; i <= m; i++ {
