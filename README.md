@@ -497,6 +497,7 @@ LeetCode in Go, just for fun obviously
 * [s2873 maximum value of an ordered triplet i](solutions/s2873_maximum_value_of_an_ordered_triplet_i.go)
 * [s2874 maximum value of an ordered triplet ii](solutions/s2874_maximum_value_of_an_ordered_triplet_ii.go)
 * [s2942 find words containing character](solutions/s2942_find_words_containing_character.go)
+* [s2962 count subarrays where max element appears at least k times](solutions/s2962_count_subarrays_where_max_element_appears_at_least_k_times.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
 * [s2999 count the number of powerful integers](solutions/s2999_count_the_number_of_powerful_integers.go)
 * [s3105 longest strictly increasing or strictly decreasing subarray](solutions/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray.go)
