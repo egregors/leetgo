@@ -332,6 +332,7 @@ LeetCode in Go, just for fun obviously
 * [s0989 add to array-form of integer](solutions/s0989_add_to_array-form_of_integer.go)
 * [s0994 rotting oranges](solutions/s0994_rotting_oranges.go)
 * [s0997 find the town judge](solutions/s0997_find_the_town_judge.go)
+* [s1004 max consecutive ones iii](solutions/s1004_max_consecutive_ones_iii.go)
 * [s1011 capacity to ship packages within d days](solutions/s1011_capacity_to_ship_packages_within_d_days.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046 last stone weight](solutions/s1046_last_stone_weight.go)
