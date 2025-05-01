@@ -394,6 +394,7 @@ LeetCode in Go, just for fun obviously
 * [s1480 running sum of 1d array](solutions/s1480_running_sum_of_1d_array.go)
 * [s1481 least number of unique integers after k removals](solutions/s1481_least_number_of_unique_integers_after_k_removals.go)
 * [s1491 average salary excluding the minimum and maximum salary](solutions/s1491_average_salary_excluding_the_minimum_and_maximum_salary.go)
+* [s1493 longest subarray of 1's after deleting one element](solutions/s1493_longest_subarray_of_1's_after_deleting_one_element.go)
 * [s1503 last moment before all ants fall out of a plank](solutions/s1503_last_moment_before_all_ants_fall_out_of_a_plank.go)
 * [s1519 number of nodes in the sub-tree with the same label](solutions/s1519_number_of_nodes_in_the_sub-tree_with_the_same_label.go)
 * [s1523 count odd numbers in an interval range](solutions/s1523_count_odd_numbers_in_an_interval_range.go)
