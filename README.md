@@ -117,6 +117,7 @@ LeetCode in Go, just for fun obviously
 * [s0146 lru cache](solutions/s0146_lru_cache.go)
 * [s0148 sort list](solutions/s0148_sort_list.go)
 * [s0149 max points on a line](solutions/s0149_max_points_on_a_line.go)
+* [s0150 evaluate reverse polish notation](solutions/s0150_evaluate_reverse_polish_notation.go)
 * [s0151 reverse words in a string](solutions/s0151_reverse_words_in_a_string.go)
 * [s0153 find minimum in rotated sorted array](solutions/s0153_find_minimum_in_rotated_sorted_array.go)
 * [s0155 Min Stack](solutions/s0155_Min_Stack.go)
