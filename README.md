@@ -300,6 +300,7 @@ LeetCode in Go, just for fun obviously
 * [s0838 push dominoes](solutions/s0838_push_dominoes.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
+* [s0849 maximize distance to closest person](solutions/s0849_maximize_distance_to_closest_person.go)
 * [s0858 mirror reflection](solutions/s0858_mirror_reflection.go)
 * [s0867 transpose matrix](solutions/s0867_transpose_matrix.go)
 * [s0869 reordered power of 2](solutions/s0869_reordered_power_of_2.go)
