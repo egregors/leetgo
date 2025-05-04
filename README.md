@@ -352,6 +352,7 @@ LeetCode in Go, just for fun obviously
 * [s1091 shortest path in binary matrix](solutions/s1091_shortest_path_in_binary_matrix.go)
 * [s1108 defanging an ip address](solutions/s1108_defanging_an_ip_address.go)
 * [s1123 lowest common ancestor of deepest leaves](solutions/s1123_lowest_common_ancestor_of_deepest_leaves.go)
+* [s1128 number of equivalent domino pairs](solutions/s1128_number_of_equivalent_domino_pairs.go)
 * [s1129 shortest path with alternating colors](solutions/s1129_shortest_path_with_alternating_colors.go)
 * [s1137 n-th tribonacci number](solutions/s1137_n-th_tribonacci_number.go)
 * [s1162 as far from land as possible](solutions/s1162_as_far_from_land_as_possible.go)
