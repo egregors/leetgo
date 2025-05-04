@@ -502,6 +502,7 @@ LeetCode in Go, just for fun obviously
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
 * [s2657 find the prefix common array of two arrays](solutions/s2657_find_the_prefix_common_array_of_two_arrays.go)
 * [s2685 count the number of complete components](solutions/s2685_count_the_number_of_complete_components.go)
+* [s2743 count substrings without repeating character](solutions/s2743_count_substrings_without_repeating_character.go)
 * [s2780 minimum index of a valid split](solutions/s2780_minimum_index_of_a_valid_split.go)
 * [s2799 count complete subarrays in an array](solutions/s2799_count_complete_subarrays_in_an_array.go)
 * [s2843 count symmetric integers](solutions/s2843_count_symmetric_integers.go)
