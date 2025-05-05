@@ -366,6 +366,7 @@ LeetCode in Go, just for fun obviously
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1295 find numbers with even number of digits](solutions/s1295_find_numbers_with_even_number_of_digits.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
+* [s1304 find n unique integers sum up to zero](solutions/s1304_find_n_unique_integers_sum_up_to_zero.go)
 * [s1319 number of operations to make network connected](solutions/s1319_number_of_operations_to_make_network_connected.go)
 * [s1323 maximum 69 number](solutions/s1323_maximum_69_number.go)
 * [s1328 break a palindrome](solutions/s1328_break_a_palindrome.go)
