@@ -392,6 +392,7 @@ LeetCode in Go, just for fun obviously
 * [s1443 minimum time to collect all apples in a tree](solutions/s1443_minimum_time_to_collect_all_apples_in_a_tree.go)
 * [s1448 count good nodes in binary tree](solutions/s1448_count_good_nodes_in_binary_tree.go)
 * [s1461 check if a string contains all binary codes of size k](solutions/s1461_check_if_a_string_contains_all_binary_codes_of_size_k.go)
+* [s1464 maximum product of two elements in an array](solutions/s1464_maximum_product_of_two_elements_in_an_array.go)
 * [s1465 maximum area of a piece of cake after horizontal and vertical cuts](solutions/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts.go)
 * [s1466 reorder routes to make all paths lead to the city zero](solutions/s1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero.go)
 * [s1470 shuffle the array](solutions/s1470_shuffle_the_array.go)
