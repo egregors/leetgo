@@ -165,6 +165,7 @@ LeetCode in Go, just for fun obviously
 * [s0256 paint house](solutions/s0256_paint_house.go)
 * [s0258 add digits](solutions/s0258_add_digits.go)
 * [s0263 ugly number](solutions/s0263_ugly_number.go)
+* [s0266 palindrome permutation](solutions/s0266_palindrome_permutation.go)
 * [s0268 missing number](solutions/s0268_missing_number.go)
 * [s0274 h-index](solutions/s0274_h-index.go)
 * [s0278 first bad version](solutions/s0278_first_bad_version.go)
