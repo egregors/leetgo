@@ -496,6 +496,7 @@ LeetCode in Go, just for fun obviously
 * [s2523 closest prime numbers in range](solutions/s2523_closest_prime_numbers_in_range.go)
 * [s2529 maximum count of positive integer and negative integer](solutions/s2529_maximum_count_of_positive_integer_and_negative_integer.go)
 * [s2537 count the number of good subarrays](solutions/s2537_count_the_number_of_good_subarrays.go)
+* [s2544 alternating digit sum](solutions/s2544_alternating_digit_sum.go)
 * [s2551 put marbles in bags](solutions/s2551_put_marbles_in_bags.go)
 * [s2560 house robber iv](solutions/s2560_house_robber_iv.go)
 * [s2570 merge two 2d arrays by summing values](solutions/s2570_merge_two_2d_arrays_by_summing_values.go)
