@@ -448,6 +448,7 @@ LeetCode in Go, just for fun obviously
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
 * [s1877 minimize maximum pair sum in array](solutions/s1877_minimize_maximum_pair_sum_in_array.go)
 * [s1910 remove all occurrences of a substring](solutions/s1910_remove_all_occurrences_of_a_substring.go)
+* [s1920 build array from permutation](solutions/s1920_build_array_from_permutation.go)
 * [s1921 eliminate maximum number of monsters](solutions/s1921_eliminate_maximum_number_of_monsters.go)
 * [s1922 count good numbers](solutions/s1922_count_good_numbers.go)
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
