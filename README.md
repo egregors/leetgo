@@ -457,6 +457,7 @@ LeetCode in Go, just for fun obviously
 * [s1976 number of ways to arrive at destination](solutions/s1976_number_of_ways_to_arrive_at_destination.go)
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
 * [s2033 minimum operations to make a uni-value grid](solutions/s2033_minimum_operations_to_make_a_uni-value_grid.go)
+* [s2094 finding 3-digit even numbers](solutions/s2094_finding_3-digit_even_numbers.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
 * [s2115 find all possible recipes from given supplies](solutions/s2115_find_all_possible_recipes_from_given_supplies.go)
