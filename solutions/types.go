@@ -159,7 +159,7 @@ func (h *IntMaxHeap) Swap(i, j int)      { (*h)[i], (*h)[j] = (*h)[j], (*h)[i] }
 // Push adds element into heap
 func (h *IntMaxHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
 
-// Pop removes the most small element of the heap from the heap end returns this element
+// Pop removes the most large element of the heap from the heap end returns this element
 func (h *IntMaxHeap) Pop() interface{} {
 	x := (*h)[h.Len()-1]
 	*h = (*h)[:h.Len()-1]
