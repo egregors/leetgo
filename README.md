@@ -527,6 +527,7 @@ LeetCode in Go, just for fun obviously
 * [s2962 count subarrays where max element appears at least k times](solutions/s2962_count_subarrays_where_max_element_appears_at_least_k_times.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
 * [s2999 count the number of powerful integers](solutions/s2999_count_the_number_of_powerful_integers.go)
+* [s3024 type of triangle](solutions/s3024_type_of_triangle.go)
 * [s3105 longest strictly increasing or strictly decreasing subarray](solutions/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray.go)
 * [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
