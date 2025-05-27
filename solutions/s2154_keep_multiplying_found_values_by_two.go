@@ -6,9 +6,11 @@
 
 	You then do the following steps:
 
-		If original is found in nums, multiply it by two (i.e., set original = 2 * original).
+		If original is found in nums, multiply it by two (i.e., set original = 2 *
+			original).
 		Otherwise, stop the process.
-		Repeat this process with the new number as long as you keep finding the number.
+		Repeat this process with the new number as long as you keep finding the
+			number.
 
 	Return the final value of original.
 */

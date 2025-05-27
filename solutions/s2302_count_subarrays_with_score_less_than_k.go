@@ -5,7 +5,8 @@
 
 		For example, the score of [1, 2, 3, 4, 5] is (1 + 2 + 3 + 4 + 5) * 5 = 75.
 
-	Given a positive integer array nums and an integer k, return the number of non-empty subarrays of nums
+	Given a positive integer array nums and an integer k, return the number of
+		non-empty subarrays of nums
 	whose score is strictly less than k.
 
 

@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/palindrome-permutation/description/
 
-	Given a string s, return true if a permutation of the string could form a and false otherwise.
+	Given a string s, return true if a permutation of the string could form a and
+		false otherwise.
 */
 
 package solutions

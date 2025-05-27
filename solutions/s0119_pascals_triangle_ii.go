@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/pascals-triangle-ii/
 
-	Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+	Given an integer rowIndex, return the rowIndexth (0-indexed) row of the
+		Pascal's triangle.
 */
 
 package solutions

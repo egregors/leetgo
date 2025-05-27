@@ -5,7 +5,8 @@
 	0 <= i < j < nums.length and nums[i] > nums[j].
 
 	Given two integers n and k, return the number of different arrays consist of
-	numbers from 1 to n such that there are exactly k inverse pairs. Since the answer
+	numbers from 1 to n such that there are exactly k inverse pairs. Since the
+		answer
 	can be huge, return it modulo 109 + 7.
 */
 

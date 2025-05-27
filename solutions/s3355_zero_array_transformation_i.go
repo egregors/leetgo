@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/zero-array-transformation-i/
 
-		You are given an integer array nums of length n and a 2D array queries, where queries[i] = [li, ri].
+		You are given an integer array nums of length n and a 2D array queries, where
+			queries[i] = [li, ri].
 
 	For each queries[i]:
 
@@ -12,7 +13,8 @@
 
 	A Zero Array is an array where all elements are equal to 0.
 
-	Return true if it is possible to transform nums into a Zero Array after processing all the queries sequentially,
+	Return true if it is possible to transform nums into a Zero Array after
+		processing all the queries sequentially,
 	otherwise return false.
 */
 

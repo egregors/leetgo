@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/
 
-	You are given an array of integers nums. Return the length of the longest of nums which is either or .
+	You are given an array of integers nums. Return the length of the longest of
+		nums which is either or .
 */
 
 package solutions

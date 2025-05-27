@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/optimal-partition-of-string/
 
-	Given a string s, partition the string into one or more substrings such that the
+	Given a string s, partition the string into one or more substrings such that
+		the
 	characters in each substring are unique. That is, no letter appears in a single
 	substring more than once.
 

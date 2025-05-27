@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/search-a-2d-matrix-ii/
 
-	Write an efficient algorithm that searches for a target value in an m x n integer matrix.
+	Write an efficient algorithm that searches for a target value in an m x n
+		integer matrix.
 	The matrix has the following properties:
 
 		Integers in each row are sorted in ascending from left to right.

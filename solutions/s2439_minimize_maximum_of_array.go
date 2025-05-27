@@ -9,7 +9,8 @@
 		Decrease nums[i] by 1.
 		Increase nums[i - 1] by 1.
 
-	Return the minimum possible value of the maximum integer of nums after performing
+	Return the minimum possible value of the maximum integer of nums after
+		performing
 	any number of operations.
 */
 

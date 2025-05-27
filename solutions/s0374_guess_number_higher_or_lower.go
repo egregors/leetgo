@@ -3,9 +3,11 @@
 
 	I pick a number from 1 to n. You have to guess which number I picked.
 
-	Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
+	Every time you guess wrong, I will tell you whether the number I picked is
+		higher or lower than your guess.
 
-	You call a pre-defined API int guess(int num), which returns three possible results:
+	You call a pre-defined API int guess(int num), which returns three possible
+		results:
 
 		-1: Your guess is higher than the number I picked (i.e. num > pick).
 		1: Your guess is lower than the number I picked (i.e. num < pick).

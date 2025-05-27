@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
 
-	Given a binary string s and an integer k, return true if every binary code of length k
+	Given a binary string s and an integer k, return true if every binary code of
+		length k
 	is a substring of s. Otherwise, return false.
 */
 

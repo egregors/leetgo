@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/third-maximum-number/
 
-	Given an integer array nums, return the third distinct maximum number in this array.
+	Given an integer array nums, return the third distinct maximum number in this
+		array.
 	If the third maximum does not exist, return the maximum number.
 */
 

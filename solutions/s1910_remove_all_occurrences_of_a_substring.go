@@ -1,7 +1,8 @@
 /*
 	https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 
-	Given two strings s and part, perform the following operation on s until all occurrences of the substring
+	Given two strings s and part, perform the following operation on s until all
+		occurrences of the substring
 	part are removed:
 
 		Find the leftmost occurrence of the substring part and remove it from s.

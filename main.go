@@ -23,6 +23,10 @@ func main() {
 	NormalizeNames(false)
 	fmt.Printf("👌 formated \n")
 
+	fmt.Printf("💬 COMMENTS ... \n")
+	NormalizeComments(false)
+	fmt.Printf("👌 normalized \n")
+
 	fmt.Printf("📚 README  ... \n")
 	UpdateReadMe()
 	fmt.Printf("👌 updated \n")
@@ -138,4 +142,180 @@ func getOffsetOf(f io.ReadSeeker, search []byte) (int64, error) {
 	}
 
 	return int64(bytes.Index(data, search)), nil
+}
+
+// NormalizeComments formats comments in solution files to follow proper formatting rules:
+// - lines should not exceed 80 characters
+// - word breaks only at whitespace or other break characters
+// - entire comment block should be indented at least one tab from left edge
+func NormalizeComments(dry bool) {
+	err := filepath.WalkDir("./solutions", func(path string, d fs.DirEntry, _ error) error {
+		skip := map[string]bool{
+			"main_test.go": true,
+			"types.go":     true,
+			"utils.go":     true,
+		}
+
+		if !d.IsDir() && !skip[d.Name()] && strings.HasSuffix(d.Name(), ".go") && !strings.HasSuffix(d.Name(), "_test.go") {
+			err := normalizeFileComments(path, dry)
+			if err != nil {
+				log.Printf("Error processing %s: %v", path, err)
+			}
+		}
+
+		return nil
+	})
+	if err != nil {
+		log.Fatalf("comment normalization failed: %s", err)
+	}
+}
+
+func normalizeFileComments(filePath string, dry bool) error {
+	// Validate file path to prevent path traversal attacks
+	cleanPath := filepath.Clean(filePath)
+	if !strings.HasPrefix(cleanPath, "solutions/") && !strings.HasPrefix(cleanPath, "./solutions/") {
+		return fmt.Errorf("invalid file path: %s", filePath)
+	}
+
+	content, err := os.ReadFile(cleanPath) // #nosec G304 - path is validated above
+	if err != nil {
+		return err
+	}
+
+	lines := strings.Split(string(content), "\n")
+	if len(lines) < 2 {
+		return nil
+	}
+
+	// Find the comment block (starts with /* and ends with */)
+	startIdx := -1
+	endIdx := -1
+	for i, line := range lines {
+		if strings.Contains(line, "/*") {
+			startIdx = i
+		}
+		if strings.Contains(line, "*/") {
+			endIdx = i
+			break
+		}
+	}
+
+	if startIdx == -1 || endIdx == -1 || startIdx >= endIdx {
+		return nil // No comment block found
+	}
+
+	// Process each line of the comment block individually
+	commentLines := lines[startIdx : endIdx+1]
+	var formattedLines []string
+
+	for i, line := range commentLines {
+		if i == 0 {
+			// First line with /*
+			if idx := strings.Index(line, "/*"); idx != -1 {
+				prefix := line[:idx]
+				after := line[idx+2:]
+				if strings.TrimSpace(after) == "" {
+					formattedLines = append(formattedLines, prefix+"/*")
+				} else {
+					// Check if the line is too long and wrap if needed
+					wrapped := wrapCommentLine(prefix+"/*"+after, 80)
+					formattedLines = append(formattedLines, wrapped...)
+				}
+			}
+		} else if i == len(commentLines)-1 {
+			// Last line with */
+			if idx := strings.Index(line, "*/"); idx != -1 {
+				before := line[:idx]
+				suffix := line[idx:]
+				if strings.TrimSpace(before) == "" {
+					formattedLines = append(formattedLines, before+suffix)
+				} else {
+					// Check if the line is too long and wrap if needed
+					wrapped := wrapCommentLine(before+suffix, 80)
+					formattedLines = append(formattedLines, wrapped...)
+				}
+			}
+		} else {
+			// Middle lines - preserve structure but wrap long lines
+			if strings.TrimSpace(line) == "" {
+				// Preserve empty lines
+				formattedLines = append(formattedLines, line)
+			} else {
+				// Wrap long lines while preserving indentation
+				wrapped := wrapCommentLine(line, 80)
+				formattedLines = append(formattedLines, wrapped...)
+			}
+		}
+	}
+
+	if dry {
+		fmt.Printf("File: %s\n", filePath)
+		for _, line := range formattedLines {
+			fmt.Println(line)
+		}
+		fmt.Println(strings.Repeat("-", 80))
+		return nil
+	}
+
+	// Replace the comment block
+	newLines := make([]string, 0, len(lines))
+	newLines = append(newLines, lines[:startIdx]...)
+	newLines = append(newLines, formattedLines...)
+	newLines = append(newLines, lines[endIdx+1:]...)
+
+	newContent := strings.Join(newLines, "\n")
+	return os.WriteFile(filePath, []byte(newContent), 0o600)
+}
+
+// wrapCommentLine wraps a single comment line if it exceeds maxLength
+// while preserving the original indentation
+func wrapCommentLine(line string, maxLength int) []string {
+	if len(line) <= maxLength {
+		return []string{line}
+	}
+
+	// Extract leading whitespace/indentation
+	leadingSpace := ""
+	for i, r := range line {
+		if r != ' ' && r != '\t' {
+			leadingSpace = line[:i]
+			break
+		}
+	}
+
+	// Get the actual content without leading space
+	content := strings.TrimLeft(line, " \t")
+
+	// If it's still not too long, return as-is
+	if len(leadingSpace+content) <= maxLength {
+		return []string{leadingSpace + content}
+	}
+
+	var result []string
+	words := strings.Fields(content)
+	if len(words) == 0 {
+		return []string{line}
+	}
+
+	currentLine := leadingSpace + words[0]
+
+	for i := 1; i < len(words); i++ {
+		word := words[i]
+		testLine := currentLine + " " + word
+
+		if len(testLine) > maxLength {
+			// Current line is full, start a new one
+			result = append(result, currentLine)
+			currentLine = leadingSpace + "\t" + word
+		} else {
+			currentLine = testLine
+		}
+	}
+
+	// Add the last line
+	if currentLine != leadingSpace {
+		result = append(result, currentLine)
+	}
+
+	return result
 }
