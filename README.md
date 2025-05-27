@@ -198,6 +198,7 @@ LeetCode in Go, just for fun obviously
 * [s0352 data stream as disjoint intervals](solutions/s0352_data_stream_as_disjoint_intervals.go)
 * [s0354 russian doll envelopes](solutions/s0354_russian_doll_envelopes.go)
 * [s0356 line reflection](solutions/s0356_line_reflection.go)
+* [s0359 logger rate limiter](solutions/s0359_logger_rate_limiter.go)
 * [s0368 largest divisible subset](solutions/s0368_largest_divisible_subset.go)
 * [s0374 guess number higher or lower](solutions/s0374_guess_number_higher_or_lower.go)
 * [s0376 wiggle subsequence](solutions/s0376_wiggle_subsequence.go)
