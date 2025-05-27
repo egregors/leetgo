@@ -526,6 +526,7 @@ LeetCode in Go, just for fun obviously
 * [s2849 determine if a cell is reachable at a given time](solutions/s2849_determine_if_a_cell_is_reachable_at_a_given_time.go)
 * [s2873 maximum value of an ordered triplet i](solutions/s2873_maximum_value_of_an_ordered_triplet_i.go)
 * [s2874 maximum value of an ordered triplet ii](solutions/s2874_maximum_value_of_an_ordered_triplet_ii.go)
+* [s2894 divisible and non-divisible sums difference](solutions/s2894_divisible_and_non-divisible_sums_difference.go)
 * [s2900 longest unequal adjacent groups subsequence i](solutions/s2900_longest_unequal_adjacent_groups_subsequence_i.go)
 * [s2901 longest unequal adjacent groups subsequence ii](solutions/s2901_longest_unequal_adjacent_groups_subsequence_ii.go)
 * [s2918 minimum equal sum of two arrays after replacing zeros](solutions/s2918_minimum_equal_sum_of_two_arrays_after_replacing_zeros.go)
