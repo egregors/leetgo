@@ -532,6 +532,7 @@ LeetCode in Go, just for fun obviously
 * [s2900 longest unequal adjacent groups subsequence i](solutions/s2900_longest_unequal_adjacent_groups_subsequence_i.go)
 * [s2901 longest unequal adjacent groups subsequence ii](solutions/s2901_longest_unequal_adjacent_groups_subsequence_ii.go)
 * [s2918 minimum equal sum of two arrays after replacing zeros](solutions/s2918_minimum_equal_sum_of_two_arrays_after_replacing_zeros.go)
+* [s2929 distribute candies among children ii](solutions/s2929_distribute_candies_among_children_ii.go)
 * [s2942 find words containing character](solutions/s2942_find_words_containing_character.go)
 * [s2962 count subarrays where max element appears at least k times](solutions/s2962_count_subarrays_where_max_element_appears_at_least_k_times.go)
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
