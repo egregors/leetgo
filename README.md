@@ -377,6 +377,7 @@ LeetCode in Go, just for fun obviously
 * [s1261 find elements in a contaminated binary tree](solutions/s1261_find_elements_in_a_contaminated_binary_tree.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1295 find numbers with even number of digits](solutions/s1295_find_numbers_with_even_number_of_digits.go)
+* [s1298 maximum candies you can get from boxes](solutions/s1298_maximum_candies_you_can_get_from_boxes.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
 * [s1304 find n unique integers sum up to zero](solutions/s1304_find_n_unique_integers_sum_up_to_zero.go)
 * [s1319 number of operations to make network connected](solutions/s1319_number_of_operations_to_make_network_connected.go)
