@@ -395,6 +395,7 @@ LeetCode in Go, just for fun obviously
 * [s1396 design underground system](solutions/s1396_design_underground_system.go)
 * [s1399 count largest group](solutions/s1399_count_largest_group.go)
 * [s1402 reducing dishes](solutions/s1402_reducing_dishes.go)
+* [s1408 string matching in an array](solutions/s1408_string_matching_in_an_array.go)
 * [s1415 the k-th lexicographical string of all happy strings of length n](solutions/s1415_the_k-th_lexicographical_string_of_all_happy_strings_of_length_n.go)
 * [s1423 maximum points you can obtain from cards](solutions/s1423_maximum_points_you_can_obtain_from_cards.go)
 * [s1424 diagonal traverse ii](solutions/s1424_diagonal_traverse_ii.go)
