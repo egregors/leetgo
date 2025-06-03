@@ -304,6 +304,7 @@ LeetCode in Go, just for fun obviously
 * [s0814 binary tree pruning](solutions/s0814_binary_tree_pruning.go)
 * [s0820 short encoding of words](solutions/s0820_short_encoding_of_words.go)
 * [s0823 binary trees with factors](solutions/s0823_binary_trees_with_factors.go)
+* [s0824 goat latin](solutions/s0824_goat_latin.go)
 * [s0838 push dominoes](solutions/s0838_push_dominoes.go)
 * [s0841 keys and rooms](solutions/s0841_keys_and_rooms.go)
 * [s0844 backspace string compare](solutions/s0844_backspace_string_compare.go)
