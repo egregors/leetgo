@@ -508,6 +508,7 @@ LeetCode in Go, just for fun obviously
 * [s2405 optimal partition of string](solutions/s2405_optimal_partition_of_string.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
 * [s2433 find the original array of prefix xor](solutions/s2433_find_the_original_array_of_prefix_xor.go)
+* [s2434 using a robot to print the lexicographically smallest string](solutions/s2434_using_a_robot_to_print_the_lexicographically_smallest_string.go)
 * [s2439 minimize maximum of array](solutions/s2439_minimize_maximum_of_array.go)
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
 * [s2477 minimum fuel cost to report to the capital](solutions/s2477_minimum_fuel_cost_to_report_to_the_capital.go)
