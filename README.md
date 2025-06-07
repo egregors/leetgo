@@ -546,6 +546,7 @@ LeetCode in Go, just for fun obviously
 * [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
 * [s3151 special array i](solutions/s3151_special_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
+* [s3170 lexicographically minimum string after removing stars](solutions/s3170_lexicographically_minimum_string_after_removing_stars.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
 * [s3335 total characters in string after transformations i](solutions/s3335_total_characters_in_string_after_transformations_i.go)
