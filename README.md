@@ -207,6 +207,7 @@ LeetCode in Go, just for fun obviously
 * [s0380 insert delete getrandom o(1)](solutions/s0380_insert_delete_getrandom_o(1).go)
 * [s0382 linked list random node](solutions/s0382_linked_list_random_node.go)
 * [s0383 ransom note](solutions/s0383_ransom_note.go)
+* [s0386 lexicographical numbers](solutions/s0386_lexicographical_numbers.go)
 * [s0387 first unique character in a string](solutions/s0387_first_unique_character_in_a_string.go)
 * [s0389 find the difference](solutions/s0389_find_the_difference.go)
 * [s0392 is subsequence](solutions/s0392_is_subsequence.go)
