@@ -225,6 +225,7 @@ LeetCode in Go, just for fun obviously
 * [s0433 minimum genetic mutation](solutions/s0433_minimum_genetic_mutation.go)
 * [s0435 non-overlapping intervals](solutions/s0435_non-overlapping_intervals.go)
 * [s0438 find all anagrams in a string](solutions/s0438_find_all_anagrams_in_a_string.go)
+* [s0440 k-th smallest in lexicographical order](solutions/s0440_k-th_smallest_in_lexicographical_order.go)
 * [s0443 string compression](solutions/s0443_string_compression.go)
 * [s0450 delete node in a bst](solutions/s0450_delete_node_in_a_bst.go)
 * [s0451 sort characters by frequency](solutions/s0451_sort_characters_by_frequency.go)
