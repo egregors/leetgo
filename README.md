@@ -563,3 +563,5 @@ LeetCode in Go, just for fun obviously
 * [s3394 check if grid can be cut into sections](solutions/s3394_check_if_grid_can_be_cut_into_sections.go)
 * [s3396 minimum number of operations to make elements in array distinct](solutions/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct.go)
 * [s3403 find the lexicographically largest string from the box i](solutions/s3403_find_the_lexicographically_largest_string_from_the_box_i.go)
+* [s3442 maximum difference between even and odd frequency i](solutions/s3442_maximum_difference_between_even_and_odd_frequency_i)
+* [s3442 maximum difference between even and odd frequency i test](solutions/s3442_maximum_difference_between_even_and_odd_frequency_i_test)
