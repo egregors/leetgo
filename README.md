@@ -509,6 +509,7 @@ LeetCode in Go, just for fun obviously
 * [s2401 longest nice subarray](solutions/s2401_longest_nice_subarray.go)
 * [s2405 optimal partition of string](solutions/s2405_optimal_partition_of_string.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
+* [s2423 remove letter to equalize frequency](solutions/s2423_remove_letter_to_equalize_frequency.go)
 * [s2433 find the original array of prefix xor](solutions/s2433_find_the_original_array_of_prefix_xor.go)
 * [s2434 using a robot to print the lexicographically smallest string](solutions/s2434_using_a_robot_to_print_the_lexicographically_smallest_string.go)
 * [s2439 minimize maximum of array](solutions/s2439_minimize_maximum_of_array.go)
@@ -563,5 +564,3 @@ LeetCode in Go, just for fun obviously
 * [s3394 check if grid can be cut into sections](solutions/s3394_check_if_grid_can_be_cut_into_sections.go)
 * [s3396 minimum number of operations to make elements in array distinct](solutions/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct.go)
 * [s3403 find the lexicographically largest string from the box i](solutions/s3403_find_the_lexicographically_largest_string_from_the_box_i.go)
-* [s3442 maximum difference between even and odd frequency i](solutions/s3442_maximum_difference_between_even_and_odd_frequency_i)
-* [s3442 maximum difference between even and odd frequency i test](solutions/s3442_maximum_difference_between_even_and_odd_frequency_i_test)
