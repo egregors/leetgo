@@ -523,6 +523,7 @@ LeetCode in Go, just for fun obviously
 * [s2544 alternating digit sum](solutions/s2544_alternating_digit_sum.go)
 * [s2551 put marbles in bags](solutions/s2551_put_marbles_in_bags.go)
 * [s2560 house robber iv](solutions/s2560_house_robber_iv.go)
+* [s2566 maximum difference by remapping a digit](solutions/s2566_maximum_difference_by_remapping_a_digit.go)
 * [s2570 merge two 2d arrays by summing values](solutions/s2570_merge_two_2d_arrays_by_summing_values.go)
 * [s2594 minimum time to repair cars](solutions/s2594_minimum_time_to_repair_cars.go)
 * [s2657 find the prefix common array of two arrays](solutions/s2657_find_the_prefix_common_array_of_two_arrays.go)
