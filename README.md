@@ -470,6 +470,7 @@ LeetCode in Go, just for fun obviously
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
 * [s1976 number of ways to arrive at destination](solutions/s1976_number_of_ways_to_arrive_at_destination.go)
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
+* [s2016 maximum difference between increasing elements](solutions/s2016_maximum_difference_between_increasing_elements.go)
 * [s2033 minimum operations to make a uni-value grid](solutions/s2033_minimum_operations_to_make_a_uni-value_grid.go)
 * [s2094 finding 3-digit even numbers](solutions/s2094_finding_3-digit_even_numbers.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
