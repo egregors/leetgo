@@ -124,6 +124,7 @@ LeetCode in Go, just for fun obviously
 * [s0155 Min Stack](solutions/s0155_Min_Stack.go)
 * [s0160 intersection of two linked lists](solutions/s0160_intersection_of_two_linked_lists.go)
 * [s0162 find peak element](solutions/s0162_find_peak_element.go)
+* [s0163 missing ranges](solutions/s0163_missing_ranges.go)
 * [s0167 two sum ii - input array is sorted](solutions/s0167_two_sum_ii_-_input_array_is_sorted.go)
 * [s0169 majority element](solutions/s0169_majority_element.go)
 * [s0171 excel sheet column number](solutions/s0171_excel_sheet_column_number.go)
