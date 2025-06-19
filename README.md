@@ -497,6 +497,7 @@ LeetCode in Go, just for fun obviously
 * [s2265 count nodes equal to average of subtree](solutions/s2265_count_nodes_equal_to_average_of_subtree.go)
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)
 * [s2293 min max game](solutions/s2293_min_max_game.go)
+* [s2294 partition array such that maximum difference is k](solutions/s2294_partition_array_such_that_maximum_difference_is_k.go)
 * [s2302 count subarrays with score less than k](solutions/s2302_count_subarrays_with_score_less_than_k.go)
 * [s2306 naming a company](solutions/s2306_naming_a_company.go)
 * [s2316 count unreachable pairs of nodes in an undirected graph](solutions/s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph.go)
