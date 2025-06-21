@@ -554,6 +554,7 @@ LeetCode in Go, just for fun obviously
 * [s2966 divide array into arrays with max difference](solutions/s2966_divide_array_into_arrays_with_max_difference.go)
 * [s2999 count the number of powerful integers](solutions/s2999_count_the_number_of_powerful_integers.go)
 * [s3024 type of triangle](solutions/s3024_type_of_triangle.go)
+* [s3085 minimum deletions to make string k-special](solutions/s3085_minimum_deletions_to_make_string_k-special.go)
 * [s3105 longest strictly increasing or strictly decreasing subarray](solutions/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray.go)
 * [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
 * [s3151 special array i](solutions/s3151_special_array_i.go)
