@@ -8,6 +8,7 @@ import (
 	"io/fs"
 	"log"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -27,9 +28,35 @@ func main() {
 	NormalizeComments(false)
 	fmt.Printf("👌 normalized \n")
 
+	fmt.Printf("✅ NEW SOLUTIONS ... \n")
+	AddToGit()
+	fmt.Printf("👌 git added \n")
+
 	fmt.Printf("📚 README  ... \n")
 	UpdateReadMe()
 	fmt.Printf("👌 updated \n")
+}
+
+func AddToGit() {
+	cmd := "git add ./solutions"
+	out, err := execCommand(cmd)
+	if err != nil {
+		log.Fatalf("git add failed: %s, output: %s", err, out)
+	}
+
+	cmd = "git add ./README.md"
+	out, err = execCommand(cmd)
+	if err != nil {
+		log.Fatalf("git add README failed: %s, output: %s", err, out)
+	}
+}
+
+func execCommand(cmd string) (string, error) {
+	out, err := exec.Command("bash", "-c", cmd).CombinedOutput()
+	if err != nil {
+		return "", fmt.Errorf("command failed: %s, output: %s", err, out)
+	}
+	return strings.TrimSpace(string(out)), nil
 }
 
 // NormalizeNames renames solutions files to match the pattern s0001_problem_name.go
