@@ -478,6 +478,7 @@ LeetCode in Go, just for fun obviously
 * [s2033 minimum operations to make a uni-value grid](solutions/s2033_minimum_operations_to_make_a_uni-value_grid.go)
 * [s2094 finding 3-digit even numbers](solutions/s2094_finding_3-digit_even_numbers.go)
 * [s2095 delete the middle node of a linked list](solutions/s2095_delete_the_middle_node_of_a_linked_list.go)
+* [s2099 find subsequence of length k with the largest sum](solutions/s2099_find_subsequence_of_length_k_with_the_largest_sum.go)
 * [s2114 maximum number of words found in sentences](solutions/s2114_maximum_number_of_words_found_in_sentences.go)
 * [s2115 find all possible recipes from given supplies](solutions/s2115_find_all_possible_recipes_from_given_supplies.go)
 * [s2124 check if all as appears before all bs](solutions/s2124_check_if_all_as_appears_before_all_bs.go)
