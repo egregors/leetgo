@@ -215,6 +215,7 @@ LeetCode in Go, just for fun obviously
 * [s0392 is subsequence](solutions/s0392_is_subsequence.go)
 * [s0404 sum of left leaves](solutions/s0404_sum_of_left_leaves.go)
 * [s0406 queue reconstruction by height](solutions/s0406_queue_reconstruction_by_height.go)
+* [s0408 valid word abbreviation](solutions/s0408_valid_word_abbreviation.go)
 * [s0409 longest palindrome](solutions/s0409_longest_palindrome.go)
 * [s0412 fizz buzz](solutions/s0412_fizz_buzz.go)
 * [s0413 arithmetic slices](solutions/s0413_arithmetic_slices.go)
