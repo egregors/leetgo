@@ -263,6 +263,7 @@ LeetCode in Go, just for fun obviously
 * [s0576 out of boundary paths](solutions/s0576_out_of_boundary_paths.go)
 * [s0581 shortest unsorted continuous subarray](solutions/s0581_shortest_unsorted_continuous_subarray.go)
 * [s0583 delete operation for two strings](solutions/s0583_delete_operation_for_two_strings.go)
+* [s0594 longest harmonious subsequence](solutions/s0594_longest_harmonious_subsequence.go)
 * [s0605 can place flowers](solutions/s0605_can_place_flowers.go)
 * [s0617 merge two binary trees](solutions/s0617_merge_two_binary_trees.go)
 * [s0622 design circular queue](solutions/s0622_design_circular_queue.go)
