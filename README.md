@@ -570,6 +570,7 @@ LeetCode in Go, just for fun obviously
 * [s3170 lexicographically minimum string after removing stars](solutions/s3170_lexicographically_minimum_string_after_removing_stars.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
+* [s3304 find the k-th character in string game i](solutions/s3304_find_the_k-th_character_in_string_game_i.go)
 * [s3330 find the original typed string i](solutions/s3330_find_the_original_typed_string_i.go)
 * [s3335 total characters in string after transformations i](solutions/s3335_total_characters_in_string_after_transformations_i.go)
 * [s3341 find minimum time to reach last room i](solutions/s3341_find_minimum_time_to_reach_last_room_i.go)
