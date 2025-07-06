@@ -469,6 +469,7 @@ LeetCode in Go, just for fun obviously
 * [s1845 seat reservation manager](solutions/s1845_seat_reservation_manager.go)
 * [s1848 minimum distance to the target element](solutions/s1848_minimum_distance_to_the_target_element.go)
 * [s1863 sum of all subset xor totals](solutions/s1863_sum_of_all_subset_xor_totals.go)
+* [s1865 finding pairs with a certain sum](solutions/s1865_finding_pairs_with_a_certain_sum.go)
 * [s1876 substrings of size three with distinct characters](solutions/s1876_substrings_of_size_three_with_distinct_characters.go)
 * [s1877 minimize maximum pair sum in array](solutions/s1877_minimize_maximum_pair_sum_in_array.go)
 * [s1910 remove all occurrences of a substring](solutions/s1910_remove_all_occurrences_of_a_substring.go)
