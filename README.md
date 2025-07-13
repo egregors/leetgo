@@ -523,6 +523,7 @@ LeetCode in Go, just for fun obviously
 * [s2391 minimum amount of time to collect garbage](solutions/s2391_minimum_amount_of_time_to_collect_garbage.go)
 * [s2401 longest nice subarray](solutions/s2401_longest_nice_subarray.go)
 * [s2405 optimal partition of string](solutions/s2405_optimal_partition_of_string.go)
+* [s2410 maximum matching of players with trainers](solutions/s2410_maximum_matching_of_players_with_trainers.go)
 * [s2421 number of good paths](solutions/s2421_number_of_good_paths.go)
 * [s2423 remove letter to equalize frequency](solutions/s2423_remove_letter_to_equalize_frequency.go)
 * [s2433 find the original array of prefix xor](solutions/s2433_find_the_original_array_of_prefix_xor.go)
