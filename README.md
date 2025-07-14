@@ -383,6 +383,7 @@ LeetCode in Go, just for fun obviously
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1261 find elements in a contaminated binary tree](solutions/s1261_find_elements_in_a_contaminated_binary_tree.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
+* [s1290 convert binary number in a linked list to integer](solutions/s1290_convert_binary_number_in_a_linked_list_to_integer.go)
 * [s1295 find numbers with even number of digits](solutions/s1295_find_numbers_with_even_number_of_digits.go)
 * [s1298 maximum candies you can get from boxes](solutions/s1298_maximum_candies_you_can_get_from_boxes.go)
 * [s1302 deepest leaves sum](solutions/s1302_deepest_leaves_sum.go)
