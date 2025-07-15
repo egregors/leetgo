@@ -568,6 +568,7 @@ LeetCode in Go, just for fun obviously
 * [s3085 minimum deletions to make string k-special](solutions/s3085_minimum_deletions_to_make_string_k-special.go)
 * [s3105 longest strictly increasing or strictly decreasing subarray](solutions/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray.go)
 * [s3131 find the integer added to array i](solutions/s3131_find_the_integer_added_to_array_i.go)
+* [s3136 valid word](solutions/s3136_valid_word.go)
 * [s3151 special array i](solutions/s3151_special_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
 * [s3170 lexicographically minimum string after removing stars](solutions/s3170_lexicographically_minimum_string_after_removing_stars.go)
