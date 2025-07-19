@@ -515,6 +515,7 @@ LeetCode in Go, just for fun obviously
 * [s2316 count unreachable pairs of nodes in an undirected graph](solutions/s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph.go)
 * [s2336 smallest number in infinite set](solutions/s2336_smallest_number_in_infinite_set.go)
 * [s2348 number of zero-filled subarrays](solutions/s2348_number_of_zero-filled_subarrays.go)
+* [s2357 make array zero by subtracting equal amounts](solutions/s2357_make_array_zero_by_subtracting_equal_amounts.go)
 * [s2359 find closest node to given two nodes](solutions/s2359_find_closest_node_to_given_two_nodes.go)
 * [s2360 longest cycle in a graph](solutions/s2360_longest_cycle_in_a_graph.go)
 * [s2375 construct smallest number from di string](solutions/s2375_construct_smallest_number_from_di_string.go)
