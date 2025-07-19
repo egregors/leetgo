@@ -379,6 +379,7 @@ LeetCode in Go, just for fun obviously
 * [s1207 unique number of occurrences](solutions/s1207_unique_number_of_occurrences.go)
 * [s1209 remove all adjacent duplicates in string ii](solutions/s1209_remove_all_adjacent_duplicates_in_string_ii.go)
 * [s1220 count vowels permutation](solutions/s1220_count_vowels_permutation.go)
+* [s1233 remove sub-folders from the filesystem](solutions/s1233_remove_sub-folders_from_the_filesystem.go)
 * [s1239 maximum length of a concatenated string with unique characters](solutions/s1239_maximum_length_of_a_concatenated_string_with_unique_characters.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1261 find elements in a contaminated binary tree](solutions/s1261_find_elements_in_a_contaminated_binary_tree.go)
