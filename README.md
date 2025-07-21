@@ -575,6 +575,7 @@ LeetCode in Go, just for fun obviously
 * [s3151 special array i](solutions/s3151_special_array_i.go)
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
 * [s3170 lexicographically minimum string after removing stars](solutions/s3170_lexicographically_minimum_string_after_removing_stars.go)
+* [s3174 clear digits](solutions/s3174_clear_digits.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3201 find the maximum length of valid subsequence i](solutions/s3201_find_the_maximum_length_of_valid_subsequence_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
