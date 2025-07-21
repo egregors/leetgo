@@ -479,6 +479,7 @@ LeetCode in Go, just for fun obviously
 * [s1921 eliminate maximum number of monsters](solutions/s1921_eliminate_maximum_number_of_monsters.go)
 * [s1922 count good numbers](solutions/s1922_count_good_numbers.go)
 * [s1926 nearest exit from entrance in maze](solutions/s1926_nearest_exit_from_entrance_in_maze.go)
+* [s1957 delete characters to make fancy string](solutions/s1957_delete_characters_to_make_fancy_string.go)
 * [s1976 number of ways to arrive at destination](solutions/s1976_number_of_ways_to_arrive_at_destination.go)
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
 * [s2016 maximum difference between increasing elements](solutions/s2016_maximum_difference_between_increasing_elements.go)
