@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_maximumUniqueSubarray(t *testing.T) {
+func Test_maximumUniqueSubarray1695(t *testing.T) {
 	type args struct {
 		nums []int
 	}
@@ -16,19 +16,18 @@ func Test_maximumUniqueSubarray(t *testing.T) {
 		want int
 	}{
 		{
-			"Test 0",
-			args{nums: []int{4, 2, 4, 5, 6}},
-			17,
-		},
-		{
-			"Test 1",
-			args{nums: []int{5, 2, 1, 2, 5, 2, 1, 2, 5}},
-			8,
+			name: "Example 1",
+			args: args{nums: []int{4, 2, 4, 5, 6}},
+			want: 17,
+		}, {
+			name: "Example 2",
+			args: args{nums: []int{5, 2, 1, 2, 5, 2, 1, 2, 5}},
+			want: 8,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			assert.Equalf(t, tt.want, maximumUniqueSubarray(tt.args.nums), "maximumUniqueSubarray(%v)", tt.args.nums)
+			assert.Equalf(t, tt.want, maximumUniqueSubarray1695(tt.args.nums), "maximumUniqueSubarray1695(%v)", tt.args.nums)
 		})
 	}
 }
