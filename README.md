@@ -595,3 +595,4 @@ LeetCode in Go, just for fun obviously
 * [s3403 find the lexicographically largest string from the box i](solutions/s3403_find_the_lexicographically_largest_string_from_the_box_i.go)
 * [s3423 maximum difference between adjacent elements in a circular array](solutions/s3423_maximum_difference_between_adjacent_elements_in_a_circular_array.go)
 * [s3442 maximum difference between even and odd frequency i](solutions/s3442_maximum_difference_between_even_and_odd_frequency_i.go)
+* [s3487 maximum unique subarray sum after deletion](solutions/s3487_maximum_unique_subarray_sum_after_deletion.go)
