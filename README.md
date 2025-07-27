@@ -500,6 +500,7 @@ LeetCode in Go, just for fun obviously
 * [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
 * [s2200 find all k-distant indices in an array](solutions/s2200_find_all_k-distant_indices_in_an_array.go)
 * [s2206 divide array into equal pairs](solutions/s2206_divide_array_into_equal_pairs.go)
+* [s2210 count hills and valleys in an array](solutions/s2210_count_hills_and_valleys_in_an_array.go)
 * [s2215 find the difference of two arrays](solutions/s2215_find_the_difference_of_two_arrays.go)
 * [s2225 find players with zero or one losses](solutions/s2225_find_players_with_zero_or_one_losses.go)
 * [s2226 maximum candies allocated to k children](solutions/s2226_maximum_candies_allocated_to_k_children.go)
