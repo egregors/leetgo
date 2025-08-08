@@ -482,6 +482,7 @@ LeetCode in Go, just for fun obviously
 * [s1957 delete characters to make fancy string](solutions/s1957_delete_characters_to_make_fancy_string.go)
 * [s1976 number of ways to arrive at destination](solutions/s1976_number_of_ways_to_arrive_at_destination.go)
 * [s1980 find unique binary string](solutions/s1980_find_unique_binary_string.go)
+* [s1991 find the middle index in array](solutions/s1991_find_the_middle_index_in_array.go)
 * [s2016 maximum difference between increasing elements](solutions/s2016_maximum_difference_between_increasing_elements.go)
 * [s2033 minimum operations to make a uni-value grid](solutions/s2033_minimum_operations_to_make_a_uni-value_grid.go)
 * [s2094 finding 3-digit even numbers](solutions/s2094_finding_3-digit_even_numbers.go)
