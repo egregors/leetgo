@@ -534,6 +534,7 @@ LeetCode in Go, just for fun obviously
 * [s2423 remove letter to equalize frequency](solutions/s2423_remove_letter_to_equalize_frequency.go)
 * [s2433 find the original array of prefix xor](solutions/s2433_find_the_original_array_of_prefix_xor.go)
 * [s2434 using a robot to print the lexicographically smallest string](solutions/s2434_using_a_robot_to_print_the_lexicographically_smallest_string.go)
+* [s2438 range product queries of powers](solutions/s2438_range_product_queries_of_powers.go)
 * [s2439 minimize maximum of array](solutions/s2439_minimize_maximum_of_array.go)
 * [s2444 count subarrays with fixed bounds](solutions/s2444_count_subarrays_with_fixed_bounds.go)
 * [s2460 apply operations to an array](solutions/s2460_apply_operations_to_an_array.go)
