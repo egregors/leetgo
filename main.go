@@ -49,6 +49,15 @@ func AddToGit() {
 	if err != nil {
 		log.Fatalf("git add README failed: %s, output: %s", err, out)
 	}
+
+	// get change list
+	cmd = "git status --porcelain"
+
+	cmd = "git commit -m 'Update solutions and README'"
+	out, err = execCommand(cmd)
+	if err != nil {
+		log.Fatalf("git commit failed: %s, output: %s", err, out)
+	}
 }
 
 func execCommand(cmd string) (string, error) {
