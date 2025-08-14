@@ -52,11 +52,29 @@ func AddToGit() {
 
 	// get change list
 	cmd = "git status --porcelain"
+	out, err = execCommand(cmd)
+	if err != nil {
+		log.Fatalf("git status failed: %s, output: %s", err, out)
+	}
+	if out == "" {
+		fmt.Println("No changes to commit.")
+		return
+	}
 
-	cmd = "git commit -m 'Update solutions and README'"
+	changedFiles := strings.Split(out, "\n")
+	cmd = fmt.Sprintf(
+		"git commit -m \"Update solutions and README: %s\"\n",
+		strings.Join(changedFiles, ", "),
+	)
 	out, err = execCommand(cmd)
 	if err != nil {
 		log.Fatalf("git commit failed: %s, output: %s", err, out)
+	}
+
+	cmd = "git push"
+	out, err = execCommand(cmd)
+	if err != nil {
+		log.Fatalf("git push failed: %s, output: %s", err, out)
 	}
 }
 
