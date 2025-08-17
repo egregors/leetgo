@@ -28,13 +28,13 @@ func main() {
 	NormalizeComments(false)
 	fmt.Printf("👌 normalized \n")
 
-	fmt.Printf("✅ NEW SOLUTIONS ... \n")
-	AddToGit()
-	fmt.Printf("👌 git added \n")
-
 	fmt.Printf("📚 README  ... \n")
 	UpdateReadMe()
 	fmt.Printf("👌 updated \n")
+
+	fmt.Printf("✅ NEW SOLUTIONS ... \n")
+	AddToGit()
+	fmt.Printf("👌 git added \n")
 }
 
 func AddToGit() {
