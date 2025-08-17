@@ -594,6 +594,7 @@ LeetCode in Go, just for fun obviously
 * [s3372 maximize the number of target nodes after connecting trees i](solutions/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i.go)
 * [s3373 maximize the number of target nodes after connecting trees ii](solutions/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii.go)
 * [s3375 minimum operations to make array values equal to k](solutions/s3375_minimum_operations_to_make_array_values_equal_to_k.go)
+* [s3379 transformed array](solutions/s3379_transformed_array.go)
 * [s3392 count subarrays of length three with a condition](solutions/s3392_count_subarrays_of_length_three_with_a_condition.go)
 * [s3394 check if grid can be cut into sections](solutions/s3394_check_if_grid_can_be_cut_into_sections.go)
 * [s3396 minimum number of operations to make elements in array distinct](solutions/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct.go)
