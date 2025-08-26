@@ -573,6 +573,7 @@ LeetCode in Go, just for fun obviously
 * [s2965 find missing and repeated values](solutions/s2965_find_missing_and_repeated_values.go)
 * [s2966 divide array into arrays with max difference](solutions/s2966_divide_array_into_arrays_with_max_difference.go)
 * [s2999 count the number of powerful integers](solutions/s2999_count_the_number_of_powerful_integers.go)
+* [s3000 maximum area of longest diagonal rectangle](solutions/s3000_maximum_area_of_longest_diagonal_rectangle.go)
 * [s3024 type of triangle](solutions/s3024_type_of_triangle.go)
 * [s3085 minimum deletions to make string k-special](solutions/s3085_minimum_deletions_to_make_string_k-special.go)
 * [s3105 longest strictly increasing or strictly decreasing subarray](solutions/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray.go)
