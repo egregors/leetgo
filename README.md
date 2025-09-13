@@ -607,4 +607,5 @@ LeetCode in Go, just for fun obviously
 * [s3477 fruits into baskets ii](solutions/s3477_fruits_into_baskets_ii.go)
 * [s3487 maximum unique subarray sum after deletion](solutions/s3487_maximum_unique_subarray_sum_after_deletion.go)
 * [s3516 find closest person](solutions/s3516_find_closest_person.go)
+* [s3541 find most frequent vowel and consonant](solutions/s3541_find_most_frequent_vowel_and_consonant.go)
 * [s3545 minimum deletions for at most k distinct characters](solutions/s3545_minimum_deletions_for_at_most_k_distinct_characters.go)
