@@ -504,6 +504,7 @@ LeetCode in Go, just for fun obviously
 * [s2206 divide array into equal pairs](solutions/s2206_divide_array_into_equal_pairs.go)
 * [s2210 count hills and valleys in an array](solutions/s2210_count_hills_and_valleys_in_an_array.go)
 * [s2215 find the difference of two arrays](solutions/s2215_find_the_difference_of_two_arrays.go)
+* [s2221 find triangular sum of an array](solutions/s2221_find_triangular_sum_of_an_array.go)
 * [s2225 find players with zero or one losses](solutions/s2225_find_players_with_zero_or_one_losses.go)
 * [s2226 maximum candies allocated to k children](solutions/s2226_maximum_candies_allocated_to_k_children.go)
 * [s2235 add two integers](solutions/s2235_add_two_integers.go)
