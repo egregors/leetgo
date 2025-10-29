@@ -600,6 +600,7 @@ LeetCode in Go, just for fun obviously
 * [s3342 find minimum time to reach last room ii](solutions/s3342_find_minimum_time_to_reach_last_room_ii.go)
 * [s3355 zero array transformation i](solutions/s3355_zero_array_transformation_i.go)
 * [s3356 zero array transformation ii](solutions/s3356_zero_array_transformation_ii.go)
+* [s3370 smallest number with all set bits](solutions/s3370_smallest_number_with_all_set_bits.go)
 * [s3372 maximize the number of target nodes after connecting trees i](solutions/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i.go)
 * [s3373 maximize the number of target nodes after connecting trees ii](solutions/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii.go)
 * [s3375 minimum operations to make array values equal to k](solutions/s3375_minimum_operations_to_make_array_values_equal_to_k.go)
