@@ -593,6 +593,7 @@ LeetCode in Go, just for fun obviously
 * [s3195 find the minimum area to cover all ones i](solutions/s3195_find_the_minimum_area_to_cover_all_ones_i.go)
 * [s3201 find the maximum length of valid subsequence i](solutions/s3201_find_the_maximum_length_of_valid_subsequence_i.go)
 * [s3208 alternating groups ii](solutions/s3208_alternating_groups_ii.go)
+* [s3289 the two sneaky numbers of digitville](solutions/s3289_the_two_sneaky_numbers_of_digitville.go)
 * [s3304 find the k-th character in string game i](solutions/s3304_find_the_k-th_character_in_string_game_i.go)
 * [s3330 find the original typed string i](solutions/s3330_find_the_original_typed_string_i.go)
 * [s3335 total characters in string after transformations i](solutions/s3335_total_characters_in_string_after_transformations_i.go)
