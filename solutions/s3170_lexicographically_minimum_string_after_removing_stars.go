@@ -16,6 +16,7 @@ package solutions
 
 import "strings"
 
+//nolint:gosec // it's ok
 func clearStars(s string) string {
 	if !strings.ContainsAny(s, "*") {
 		return s

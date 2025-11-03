@@ -515,6 +515,7 @@ LeetCode in Go, just for fun obviously
 * [s2244 minimum rounds to complete all tasks](solutions/s2244_minimum_rounds_to_complete_all_tasks.go)
 * [s2246 longest path with different adjacent characters](solutions/s2246_longest_path_with_different_adjacent_characters.go)
 * [s2256 minimum average difference](solutions/s2256_minimum_average_difference.go)
+* [s2257 count unguarded cells in the grid](solutions/s2257_count_unguarded_cells_in_the_grid.go)
 * [s2264 largest 3-same-digit number in string](solutions/s2264_largest_3-same-digit_number_in_string.go)
 * [s2265 count nodes equal to average of subtree](solutions/s2265_count_nodes_equal_to_average_of_subtree.go)
 * [s2279 Maximum Bags With Full Capacity of Rocks](solutions/s2279_Maximum_Bags_With_Full_Capacity_of_Rocks.go)

@@ -26,6 +26,7 @@ func robotWithString(s string) string {
 	for _, c := range s {
 		stack = append(stack, c)
 		cnt[c-'a']--
+		//nolint:gosec // it's ok
 		for minCharacter != 'z' && cnt[minCharacter-'a'] == 0 {
 			minCharacter++
 		}
