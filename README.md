@@ -500,6 +500,7 @@ LeetCode in Go, just for fun obviously
 * [s2138 divide a string into groups of size k](solutions/s2138_divide_a_string_into_groups_of_size_k.go)
 * [s2140 solving questions with brainpower](solutions/s2140_solving_questions_with_brainpower.go)
 * [s2154 keep multiplying found values by two](solutions/s2154_keep_multiplying_found_values_by_two.go)
+* [s2169 count operations to obtain zero](solutions/s2169_count_operations_to_obtain_zero.go)
 * [s2176 count equal and divisible pairs in an array](solutions/s2176_count_equal_and_divisible_pairs_in_an_array.go)
 * [s2185 counting words with a given prefix](solutions/s2185_counting_words_with_a_given_prefix.go)
 * [s2187 minimum time to complete trips](solutions/s2187_minimum_time_to_complete_trips.go)
