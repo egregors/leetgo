@@ -591,6 +591,7 @@ LeetCode in Go, just for fun obviously
 * [s3169 count days without meetings](solutions/s3169_count_days_without_meetings.go)
 * [s3170 lexicographically minimum string after removing stars](solutions/s3170_lexicographically_minimum_string_after_removing_stars.go)
 * [s3174 clear digits](solutions/s3174_clear_digits.go)
+* [s3190 find minimum operations to make all elements divisible by three](solutions/s3190_find_minimum_operations_to_make_all_elements_divisible_by_three.go)
 * [s3191 minimum operations to make binary array elements equal to one i](solutions/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i.go)
 * [s3195 find the minimum area to cover all ones i](solutions/s3195_find_the_minimum_area_to_cover_all_ones_i.go)
 * [s3201 find the maximum length of valid subsequence i](solutions/s3201_find_the_maximum_length_of_valid_subsequence_i.go)
