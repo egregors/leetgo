@@ -383,6 +383,7 @@ LeetCode in Go, just for fun obviously
 * [s1239 maximum length of a concatenated string with unique characters](solutions/s1239_maximum_length_of_a_concatenated_string_with_unique_characters.go)
 * [s1249 minimum remove to make valid parentheses](solutions/s1249_minimum_remove_to_make_valid_parentheses.go)
 * [s1261 find elements in a contaminated binary tree](solutions/s1261_find_elements_in_a_contaminated_binary_tree.go)
+* [s1262 greatest sum divisible by three](solutions/s1262_greatest_sum_divisible_by_three.go)
 * [s1268 search suggestions system](solutions/s1268_search_suggestions_system.go)
 * [s1290 convert binary number in a linked list to integer](solutions/s1290_convert_binary_number_in_a_linked_list_to_integer.go)
 * [s1295 find numbers with even number of digits](solutions/s1295_find_numbers_with_even_number_of_digits.go)
