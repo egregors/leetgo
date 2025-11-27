@@ -355,6 +355,7 @@ LeetCode in Go, just for fun obviously
 * [s1004 max consecutive ones iii](solutions/s1004_max_consecutive_ones_iii.go)
 * [s1007 minimum domino rotations for equal row](solutions/s1007_minimum_domino_rotations_for_equal_row.go)
 * [s1011 capacity to ship packages within d days](solutions/s1011_capacity_to_ship_packages_within_d_days.go)
+* [s1015 smallest integer divisible by k](solutions/s1015_smallest_integer_divisible_by_k.go)
 * [s1022 sum of root to leaf binary numbers](solutions/s1022_sum_of_root_to_leaf_binary_numbers.go)
 * [s1046 last stone weight](solutions/s1046_last_stone_weight.go)
 * [s1047 remove all adjacent duplicates in string](solutions/s1047_remove_all_adjacent_duplicates_in_string.go)
